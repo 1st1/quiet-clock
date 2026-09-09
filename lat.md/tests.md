@@ -34,6 +34,6 @@ Verify that the system-background option is not labeled or previewed as true tra
 
 Manual verification adds both widget sizes, observes minute changes and sleep/wake, checks light/dark appearance, and confirms that quitting the companion does not remove the widget.
 
-Follow [README.md](../README.md) to install and perform these checks. WidgetKit may defer timeline delivery, so the implementation cannot guarantee exact update timing.
+Follow [[setup#Setup]] to install and perform these checks. WidgetKit may defer timeline delivery, so the implementation cannot guarantee exact update timing.
 
 Plugin registration alone is insufficient: verify that the gallery displays the widget, or that the macOS widget host successfully receives its descriptor and renders its preview. A registered extension can still fail during startup.
