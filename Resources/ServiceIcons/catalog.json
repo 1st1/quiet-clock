@@ -1,0 +1,13166 @@
+[
+  {
+    "id": "dotenv",
+    "name": ".ENV"
+  },
+  {
+    "id": "dotnet",
+    "name": ".NET"
+  },
+  {
+    "id": "e",
+    "name": "/e/"
+  },
+  {
+    "id": "1and1",
+    "name": "1&1"
+  },
+  {
+    "id": "1dot1dot1dot1",
+    "name": "1.1.1.1"
+  },
+  {
+    "id": "1001tracklists",
+    "name": "1001Tracklists"
+  },
+  {
+    "id": "1panel",
+    "name": "1Panel"
+  },
+  {
+    "id": "1password",
+    "name": "1Password"
+  },
+  {
+    "id": "2fas",
+    "name": "2FAS"
+  },
+  {
+    "id": "2k",
+    "name": "2K"
+  },
+  {
+    "id": "30secondsofcode",
+    "name": "30 seconds of code"
+  },
+  {
+    "id": "365datascience",
+    "name": "365 Data Science"
+  },
+  {
+    "id": "3m",
+    "name": "3M"
+  },
+  {
+    "id": "42",
+    "name": "42"
+  },
+  {
+    "id": "4chan",
+    "name": "4chan"
+  },
+  {
+    "id": "4d",
+    "name": "4D"
+  },
+  {
+    "id": "500px",
+    "name": "500px"
+  },
+  {
+    "id": "7zip",
+    "name": "7Zip"
+  },
+  {
+    "id": "99designs",
+    "name": "99designs"
+  },
+  {
+    "id": "9gag",
+    "name": "9GAG"
+  },
+  {
+    "id": "aframe",
+    "name": "A-Frame"
+  },
+  {
+    "id": "abdownloadmanager",
+    "name": "AB Download Manager"
+  },
+  {
+    "id": "abb",
+    "name": "ABB"
+  },
+  {
+    "id": "abbott",
+    "name": "Abbott"
+  },
+  {
+    "id": "abbvie",
+    "name": "Abbvie"
+  },
+  {
+    "id": "aboutdotme",
+    "name": "About.me"
+  },
+  {
+    "id": "abstract",
+    "name": "Abstract"
+  },
+  {
+    "id": "abusedotch",
+    "name": "abuse.ch"
+  },
+  {
+    "id": "academia",
+    "name": "Academia"
+  },
+  {
+    "id": "accenture",
+    "name": "Accenture"
+  },
+  {
+    "id": "accusoft",
+    "name": "Accusoft"
+  },
+  {
+    "id": "accuweather",
+    "name": "AccuWeather"
+  },
+  {
+    "id": "acer",
+    "name": "Acer"
+  },
+  {
+    "id": "acm",
+    "name": "ACM"
+  },
+  {
+    "id": "actigraph",
+    "name": "ActiGraph"
+  },
+  {
+    "id": "activision",
+    "name": "Activision"
+  },
+  {
+    "id": "activitypub",
+    "name": "ActivityPub"
+  },
+  {
+    "id": "actix",
+    "name": "Actix"
+  },
+  {
+    "id": "actualbudget",
+    "name": "Actual Budget"
+  },
+  {
+    "id": "acura",
+    "name": "Acura"
+  },
+  {
+    "id": "adafruit",
+    "name": "Adafruit"
+  },
+  {
+    "id": "adblock",
+    "name": "AdBlock"
+  },
+  {
+    "id": "adblockplus",
+    "name": "Adblock Plus"
+  },
+  {
+    "id": "addydotio",
+    "name": "addy.io"
+  },
+  {
+    "id": "adguard",
+    "name": "AdGuard"
+  },
+  {
+    "id": "adidas",
+    "name": "Adidas"
+  },
+  {
+    "id": "adminer",
+    "name": "Adminer"
+  },
+  {
+    "id": "adonisjs",
+    "name": "AdonisJS"
+  },
+  {
+    "id": "adp",
+    "name": "ADP"
+  },
+  {
+    "id": "adroll",
+    "name": "Adroll"
+  },
+  {
+    "id": "adventofcode",
+    "name": "Advent Of Code"
+  },
+  {
+    "id": "adyen",
+    "name": "Adyen"
+  },
+  {
+    "id": "aegisauthenticator",
+    "name": "Aegis Authenticator"
+  },
+  {
+    "id": "aerlingus",
+    "name": "Aer Lingus"
+  },
+  {
+    "id": "aeroflot",
+    "name": "Aeroflot"
+  },
+  {
+    "id": "aeromexico",
+    "name": "Aeroméxico"
+  },
+  {
+    "id": "aerospike",
+    "name": "Aerospike"
+  },
+  {
+    "id": "aew",
+    "name": "AEW"
+  },
+  {
+    "id": "afdian",
+    "name": "AFDIAN"
+  },
+  {
+    "id": "affine",
+    "name": "AFFiNE"
+  },
+  {
+    "id": "affinity",
+    "name": "Affinity"
+  },
+  {
+    "id": "affinitydesigner",
+    "name": "Affinity Designer"
+  },
+  {
+    "id": "affinityphoto",
+    "name": "Affinity Photo"
+  },
+  {
+    "id": "affinitypublisher",
+    "name": "Affinity Publisher"
+  },
+  {
+    "id": "afterpay",
+    "name": "Afterpay"
+  },
+  {
+    "id": "aftership",
+    "name": "AfterShip"
+  },
+  {
+    "id": "agora",
+    "name": "Agora"
+  },
+  {
+    "id": "aidungeon",
+    "name": "AI Dungeon"
+  },
+  {
+    "id": "aib",
+    "name": "AIB"
+  },
+  {
+    "id": "aiohttp",
+    "name": "AIOHTTP"
+  },
+  {
+    "id": "aiqfome",
+    "name": "Aiqfome"
+  },
+  {
+    "id": "aircanada",
+    "name": "Air Canada"
+  },
+  {
+    "id": "airchina",
+    "name": "Air China"
+  },
+  {
+    "id": "airfrance",
+    "name": "Air France"
+  },
+  {
+    "id": "airindia",
+    "name": "Air India"
+  },
+  {
+    "id": "airserbia",
+    "name": "Air Serbia"
+  },
+  {
+    "id": "airtransat",
+    "name": "Air Transat"
+  },
+  {
+    "id": "airasia",
+    "name": "AirAsia"
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb"
+  },
+  {
+    "id": "airbrake",
+    "name": "Airbrake"
+  },
+  {
+    "id": "airbus",
+    "name": "Airbus"
+  },
+  {
+    "id": "airbyte",
+    "name": "Airbyte"
+  },
+  {
+    "id": "aircall",
+    "name": "Aircall"
+  },
+  {
+    "id": "airplayaudio",
+    "name": "AirPlay Audio"
+  },
+  {
+    "id": "airplayvideo",
+    "name": "AirPlay Video"
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable"
+  },
+  {
+    "id": "airtel",
+    "name": "Airtel"
+  },
+  {
+    "id": "ajv",
+    "name": "Ajv"
+  },
+  {
+    "id": "akamai",
+    "name": "Akamai"
+  },
+  {
+    "id": "akasaair",
+    "name": "Akasa Air"
+  },
+  {
+    "id": "akaunting",
+    "name": "Akaunting"
+  },
+  {
+    "id": "akiflow",
+    "name": "Akiflow"
+  },
+  {
+    "id": "alacritty",
+    "name": "Alacritty"
+  },
+  {
+    "id": "alamy",
+    "name": "Alamy"
+  },
+  {
+    "id": "albertheijn",
+    "name": "Albert Heijn"
+  },
+  {
+    "id": "alby",
+    "name": "Alby"
+  },
+  {
+    "id": "alchemy",
+    "name": "Alchemy"
+  },
+  {
+    "id": "aldinord",
+    "name": "Aldi Nord"
+  },
+  {
+    "id": "aldisud",
+    "name": "Aldi Süd"
+  },
+  {
+    "id": "alfaromeo",
+    "name": "Alfa Romeo"
+  },
+  {
+    "id": "alfred",
+    "name": "Alfred"
+  },
+  {
+    "id": "algolia",
+    "name": "Algolia"
+  },
+  {
+    "id": "algorand",
+    "name": "Algorand"
+  },
+  {
+    "id": "alibabacloud",
+    "name": "Alibaba Cloud"
+  },
+  {
+    "id": "alibabadotcom",
+    "name": "Alibaba.com"
+  },
+  {
+    "id": "alienware",
+    "name": "Alienware"
+  },
+  {
+    "id": "aliexpress",
+    "name": "AliExpress"
+  },
+  {
+    "id": "alipay",
+    "name": "Alipay"
+  },
+  {
+    "id": "alist",
+    "name": "AList"
+  },
+  {
+    "id": "allegro",
+    "name": "Allegro"
+  },
+  {
+    "id": "alliedmodders",
+    "name": "AlliedModders"
+  },
+  {
+    "id": "allocine",
+    "name": "AlloCiné"
+  },
+  {
+    "id": "alltrails",
+    "name": "AllTrails"
+  },
+  {
+    "id": "almalinux",
+    "name": "AlmaLinux"
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine Linux"
+  },
+  {
+    "id": "alpinedotjs",
+    "name": "Alpine.js"
+  },
+  {
+    "id": "alternativeto",
+    "name": "AlternativeTo"
+  },
+  {
+    "id": "alteryx",
+    "name": "Alteryx"
+  },
+  {
+    "id": "altiumdesigner",
+    "name": "Altium Designer"
+  },
+  {
+    "id": "alwaysdata",
+    "name": "Alwaysdata"
+  },
+  {
+    "id": "alx",
+    "name": "ALX"
+  },
+  {
+    "id": "amd",
+    "name": "AMD"
+  },
+  {
+    "id": "ameba",
+    "name": "Ameba"
+  },
+  {
+    "id": "americanairlines",
+    "name": "American Airlines"
+  },
+  {
+    "id": "americanexpress",
+    "name": "American Express"
+  },
+  {
+    "id": "amg",
+    "name": "AMG"
+  },
+  {
+    "id": "amp",
+    "name": "AMP"
+  },
+  {
+    "id": "amul",
+    "name": "Amul"
+  },
+  {
+    "id": "ana",
+    "name": "ANA"
+  },
+  {
+    "id": "anaconda",
+    "name": "Anaconda"
+  },
+  {
+    "id": "analogue",
+    "name": "Analogue"
+  },
+  {
+    "id": "andela",
+    "name": "Andela"
+  },
+  {
+    "id": "android",
+    "name": "Android"
+  },
+  {
+    "id": "androidauto",
+    "name": "Android Auto"
+  },
+  {
+    "id": "androidstudio",
+    "name": "Android Studio"
+  },
+  {
+    "id": "angular",
+    "name": "Angular"
+  },
+  {
+    "id": "anilist",
+    "name": "AniList"
+  },
+  {
+    "id": "animalplanet",
+    "name": "Animal Planet"
+  },
+  {
+    "id": "ankermake",
+    "name": "AnkerMake"
+  },
+  {
+    "id": "anki",
+    "name": "Anki"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible"
+  },
+  {
+    "id": "answer",
+    "name": "Answer"
+  },
+  {
+    "id": "ansys",
+    "name": "Ansys"
+  },
+  {
+    "id": "antdesign",
+    "name": "Ant Design"
+  },
+  {
+    "id": "anta",
+    "name": "Anta"
+  },
+  {
+    "id": "antena3",
+    "name": "Antena 3"
+  },
+  {
+    "id": "antennapod",
+    "name": "AntennaPod"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic"
+  },
+  {
+    "id": "antv",
+    "name": "AntV"
+  },
+  {
+    "id": "anycubic",
+    "name": "Anycubic"
+  },
+  {
+    "id": "anydesk",
+    "name": "AnyDesk"
+  },
+  {
+    "id": "anytype",
+    "name": "Anytype"
+  },
+  {
+    "id": "apache",
+    "name": "Apache"
+  },
+  {
+    "id": "apacheairflow",
+    "name": "Apache Airflow"
+  },
+  {
+    "id": "apacheant",
+    "name": "Apache Ant"
+  },
+  {
+    "id": "apachecassandra",
+    "name": "Apache Cassandra"
+  },
+  {
+    "id": "apachecloudstack",
+    "name": "Apache CloudStack"
+  },
+  {
+    "id": "apachecordova",
+    "name": "Apache Cordova"
+  },
+  {
+    "id": "apachecouchdb",
+    "name": "Apache CouchDB"
+  },
+  {
+    "id": "apachedolphinscheduler",
+    "name": "Apache DolphinScheduler"
+  },
+  {
+    "id": "apachedruid",
+    "name": "Apache Druid"
+  },
+  {
+    "id": "apacheecharts",
+    "name": "Apache ECharts"
+  },
+  {
+    "id": "apacheflink",
+    "name": "Apache Flink"
+  },
+  {
+    "id": "apachefreemarker",
+    "name": "Apache FreeMarker"
+  },
+  {
+    "id": "apachegroovy",
+    "name": "Apache Groovy"
+  },
+  {
+    "id": "apacheguacamole",
+    "name": "Apache Guacamole"
+  },
+  {
+    "id": "apachehadoop",
+    "name": "Apache Hadoop"
+  },
+  {
+    "id": "apachehbase",
+    "name": "Apache HBase"
+  },
+  {
+    "id": "apachehive",
+    "name": "Apache Hive"
+  },
+  {
+    "id": "apachejmeter",
+    "name": "Apache JMeter"
+  },
+  {
+    "id": "apachekafka",
+    "name": "Apache Kafka"
+  },
+  {
+    "id": "apachekylin",
+    "name": "Apache Kylin"
+  },
+  {
+    "id": "apachelucene",
+    "name": "Apache Lucene"
+  },
+  {
+    "id": "apachemaven",
+    "name": "Apache Maven"
+  },
+  {
+    "id": "apachenetbeanside",
+    "name": "Apache NetBeans IDE"
+  },
+  {
+    "id": "apachenifi",
+    "name": "Apache NiFi"
+  },
+  {
+    "id": "apacheopenoffice",
+    "name": "Apache OpenOffice"
+  },
+  {
+    "id": "apacheparquet",
+    "name": "Apache Parquet"
+  },
+  {
+    "id": "apachepulsar",
+    "name": "Apache Pulsar"
+  },
+  {
+    "id": "apacherocketmq",
+    "name": "Apache RocketMQ"
+  },
+  {
+    "id": "apachesolr",
+    "name": "Apache Solr"
+  },
+  {
+    "id": "apachespark",
+    "name": "Apache Spark"
+  },
+  {
+    "id": "apachestorm",
+    "name": "Apache Storm"
+  },
+  {
+    "id": "apachesuperset",
+    "name": "Apache Superset"
+  },
+  {
+    "id": "apachetomcat",
+    "name": "Apache Tomcat"
+  },
+  {
+    "id": "aparat",
+    "name": "Aparat"
+  },
+  {
+    "id": "apifox",
+    "name": "Apifox"
+  },
+  {
+    "id": "apmterminals",
+    "name": "APM Terminals"
+  },
+  {
+    "id": "apollographql",
+    "name": "Apollo GraphQL"
+  },
+  {
+    "id": "apostrophe",
+    "name": "Apostrophe"
+  },
+  {
+    "id": "appstore",
+    "name": "App Store"
+  },
+  {
+    "id": "appgallery",
+    "name": "AppGallery"
+  },
+  {
+    "id": "appian",
+    "name": "Appian"
+  },
+  {
+    "id": "appium",
+    "name": "Appium"
+  },
+  {
+    "id": "apple",
+    "name": "Apple"
+  },
+  {
+    "id": "applearcade",
+    "name": "Apple Arcade"
+  },
+  {
+    "id": "applemusic",
+    "name": "Apple Music"
+  },
+  {
+    "id": "applenews",
+    "name": "Apple News"
+  },
+  {
+    "id": "applepay",
+    "name": "Apple Pay"
+  },
+  {
+    "id": "applepodcasts",
+    "name": "Apple Podcasts"
+  },
+  {
+    "id": "appletv",
+    "name": "Apple TV"
+  },
+  {
+    "id": "appsignal",
+    "name": "AppSignal"
+  },
+  {
+    "id": "appsmith",
+    "name": "Appsmith"
+  },
+  {
+    "id": "appveyor",
+    "name": "AppVeyor"
+  },
+  {
+    "id": "appwrite",
+    "name": "Appwrite"
+  },
+  {
+    "id": "aqua",
+    "name": "Aqua"
+  },
+  {
+    "id": "aral",
+    "name": "ARAL"
+  },
+  {
+    "id": "arangodb",
+    "name": "ArangoDB"
+  },
+  {
+    "id": "arc",
+    "name": "Arc"
+  },
+  {
+    "id": "arcgis",
+    "name": "ArcGIS"
+  },
+  {
+    "id": "archlinux",
+    "name": "Arch Linux"
+  },
+  {
+    "id": "archicad",
+    "name": "Archicad"
+  },
+  {
+    "id": "archiveofourown",
+    "name": "Archive of Our Own"
+  },
+  {
+    "id": "ardour",
+    "name": "Ardour"
+  },
+  {
+    "id": "arduino",
+    "name": "Arduino"
+  },
+  {
+    "id": "argo",
+    "name": "Argo"
+  },
+  {
+    "id": "argos",
+    "name": "Argos"
+  },
+  {
+    "id": "ariakit",
+    "name": "Ariakit"
+  },
+  {
+    "id": "arkecosystem",
+    "name": "ARK Ecosystem"
+  },
+  {
+    "id": "arlo",
+    "name": "Arlo"
+  },
+  {
+    "id": "arm",
+    "name": "Arm"
+  },
+  {
+    "id": "armkeil",
+    "name": "Arm Keil"
+  },
+  {
+    "id": "arstechnica",
+    "name": "Ars Technica"
+  },
+  {
+    "id": "artifacthub",
+    "name": "Artifact Hub"
+  },
+  {
+    "id": "artixlinux",
+    "name": "Artix Linux"
+  },
+  {
+    "id": "artstation",
+    "name": "ArtStation"
+  },
+  {
+    "id": "arxiv",
+    "name": "arXiv"
+  },
+  {
+    "id": "asahilinux",
+    "name": "Asahi Linux"
+  },
+  {
+    "id": "asana",
+    "name": "Asana"
+  },
+  {
+    "id": "asciidoctor",
+    "name": "Asciidoctor"
+  },
+  {
+    "id": "asciinema",
+    "name": "asciinema"
+  },
+  {
+    "id": "asda",
+    "name": "ASDA"
+  },
+  {
+    "id": "aseprite",
+    "name": "Aseprite"
+  },
+  {
+    "id": "assemblyscript",
+    "name": "AssemblyScript"
+  },
+  {
+    "id": "asterisk",
+    "name": "Asterisk"
+  },
+  {
+    "id": "astonmartin",
+    "name": "Aston Martin"
+  },
+  {
+    "id": "astra",
+    "name": "Astra"
+  },
+  {
+    "id": "astral",
+    "name": "Astral"
+  },
+  {
+    "id": "astro",
+    "name": "Astro"
+  },
+  {
+    "id": "asus",
+    "name": "ASUS"
+  },
+  {
+    "id": "atandt",
+    "name": "AT&T"
+  },
+  {
+    "id": "atari",
+    "name": "Atari"
+  },
+  {
+    "id": "atlasos",
+    "name": "AtlasOS"
+  },
+  {
+    "id": "atlassian",
+    "name": "Atlassian"
+  },
+  {
+    "id": "auchan",
+    "name": "Auchan"
+  },
+  {
+    "id": "audacity",
+    "name": "Audacity"
+  },
+  {
+    "id": "audi",
+    "name": "Audi"
+  },
+  {
+    "id": "audible",
+    "name": "Audible"
+  },
+  {
+    "id": "audiotechnica",
+    "name": "Audio-Technica"
+  },
+  {
+    "id": "audiobookshelf",
+    "name": "Audiobookshelf"
+  },
+  {
+    "id": "audioboom",
+    "name": "Audioboom"
+  },
+  {
+    "id": "audiomack",
+    "name": "Audiomack"
+  },
+  {
+    "id": "aurelia",
+    "name": "Aurelia"
+  },
+  {
+    "id": "auth0",
+    "name": "Auth0"
+  },
+  {
+    "id": "authelia",
+    "name": "Authelia"
+  },
+  {
+    "id": "authentik",
+    "name": "Authentik"
+  },
+  {
+    "id": "authy",
+    "name": "Authy"
+  },
+  {
+    "id": "autocad",
+    "name": "AutoCAD"
+  },
+  {
+    "id": "autocannon",
+    "name": "AutoCannon"
+  },
+  {
+    "id": "autodesk",
+    "name": "Autodesk"
+  },
+  {
+    "id": "autodeskmaya",
+    "name": "Autodesk Maya"
+  },
+  {
+    "id": "autodeskrevit",
+    "name": "Autodesk Revit"
+  },
+  {
+    "id": "autohotkey",
+    "name": "AutoHotkey"
+  },
+  {
+    "id": "autoit",
+    "name": "AutoIt"
+  },
+  {
+    "id": "automattic",
+    "name": "Automattic"
+  },
+  {
+    "id": "autoprefixer",
+    "name": "Autoprefixer"
+  },
+  {
+    "id": "autozone",
+    "name": "AutoZone"
+  },
+  {
+    "id": "avajs",
+    "name": "avajs"
+  },
+  {
+    "id": "avast",
+    "name": "Avast"
+  },
+  {
+    "id": "avianca",
+    "name": "avianca"
+  },
+  {
+    "id": "avira",
+    "name": "Avira"
+  },
+  {
+    "id": "awesomelists",
+    "name": "Awesome Lists"
+  },
+  {
+    "id": "awesomewm",
+    "name": "awesomeWM"
+  },
+  {
+    "id": "awwwards",
+    "name": "Awwwards"
+  },
+  {
+    "id": "axios",
+    "name": "Axios"
+  },
+  {
+    "id": "axisbank",
+    "name": "Axis Bank"
+  },
+  {
+    "id": "bandrautomation",
+    "name": "B&R Automation"
+  },
+  {
+    "id": "babel",
+    "name": "Babel"
+  },
+  {
+    "id": "babelio",
+    "name": "Babelio"
+  },
+  {
+    "id": "babylondotjs",
+    "name": "Babylon.js"
+  },
+  {
+    "id": "backblaze",
+    "name": "Backblaze"
+  },
+  {
+    "id": "backbone",
+    "name": "Backbone"
+  },
+  {
+    "id": "backbonedotjs",
+    "name": "Backbone.js"
+  },
+  {
+    "id": "backendless",
+    "name": "Backendless"
+  },
+  {
+    "id": "backstage",
+    "name": "Backstage"
+  },
+  {
+    "id": "backstage_casting",
+    "name": "Backstage"
+  },
+  {
+    "id": "badoo",
+    "name": "Badoo"
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu"
+  },
+  {
+    "id": "bakalari",
+    "name": "Bakaláři"
+  },
+  {
+    "id": "bamboo",
+    "name": "Bamboo"
+  },
+  {
+    "id": "bambulab",
+    "name": "Bambu Lab"
+  },
+  {
+    "id": "bandcamp",
+    "name": "Bandcamp"
+  },
+  {
+    "id": "bandlab",
+    "name": "BandLab"
+  },
+  {
+    "id": "bandsintown",
+    "name": "Bandsintown"
+  },
+  {
+    "id": "bankofamerica",
+    "name": "Bank of America"
+  },
+  {
+    "id": "barclays",
+    "name": "Barclays"
+  },
+  {
+    "id": "baremetrics",
+    "name": "Baremetrics"
+  },
+  {
+    "id": "barmenia",
+    "name": "Barmenia"
+  },
+  {
+    "id": "basecamp",
+    "name": "Basecamp"
+  },
+  {
+    "id": "baserow",
+    "name": "Baserow"
+  },
+  {
+    "id": "basicattentiontoken",
+    "name": "Basic Attention Token"
+  },
+  {
+    "id": "bastyon",
+    "name": "Bastyon"
+  },
+  {
+    "id": "bat",
+    "name": "bat"
+  },
+  {
+    "id": "bata",
+    "name": "Bata"
+  },
+  {
+    "id": "battledotnet",
+    "name": "Battle.net"
+  },
+  {
+    "id": "bazel",
+    "name": "Bazel"
+  },
+  {
+    "id": "beatport",
+    "name": "Beatport"
+  },
+  {
+    "id": "beats",
+    "name": "Beats"
+  },
+  {
+    "id": "beatsbydre",
+    "name": "Beats by Dre"
+  },
+  {
+    "id": "beatstars",
+    "name": "BeatStars"
+  },
+  {
+    "id": "beekeeperstudio",
+    "name": "Beekeeper Studio"
+  },
+  {
+    "id": "behance",
+    "name": "Behance"
+  },
+  {
+    "id": "beijingsubway",
+    "name": "Beijing Subway"
+  },
+  {
+    "id": "bem",
+    "name": "BEM"
+  },
+  {
+    "id": "bentley",
+    "name": "Bentley"
+  },
+  {
+    "id": "bento",
+    "name": "Bento"
+  },
+  {
+    "id": "bentobox",
+    "name": "BentoBox"
+  },
+  {
+    "id": "bentoml",
+    "name": "BentoML"
+  },
+  {
+    "id": "bereal",
+    "name": "BeReal"
+  },
+  {
+    "id": "betfair",
+    "name": "Betfair"
+  },
+  {
+    "id": "betterstack",
+    "name": "Better Stack"
+  },
+  {
+    "id": "betterdiscord",
+    "name": "BetterDiscord"
+  },
+  {
+    "id": "bevy",
+    "name": "Bevy"
+  },
+  {
+    "id": "bigcartel",
+    "name": "Big Cartel"
+  },
+  {
+    "id": "bigbasket",
+    "name": "bigbasket"
+  },
+  {
+    "id": "bigbluebutton",
+    "name": "BigBlueButton"
+  },
+  {
+    "id": "bigcommerce",
+    "name": "BigCommerce"
+  },
+  {
+    "id": "bilibili",
+    "name": "Bilibili"
+  },
+  {
+    "id": "billboard",
+    "name": "Billboard"
+  },
+  {
+    "id": "bim",
+    "name": "BIM"
+  },
+  {
+    "id": "binance",
+    "name": "Binance"
+  },
+  {
+    "id": "biolink",
+    "name": "Bio Link"
+  },
+  {
+    "id": "biome",
+    "name": "Biome"
+  },
+  {
+    "id": "bisecthosting",
+    "name": "BisectHosting"
+  },
+  {
+    "id": "bit",
+    "name": "Bit"
+  },
+  {
+    "id": "bitbucket",
+    "name": "Bitbucket"
+  },
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin"
+  },
+  {
+    "id": "bitcoincash",
+    "name": "Bitcoin Cash"
+  },
+  {
+    "id": "bitcoinsv",
+    "name": "Bitcoin SV"
+  },
+  {
+    "id": "bitcomet",
+    "name": "BitComet"
+  },
+  {
+    "id": "bitdefender",
+    "name": "Bitdefender"
+  },
+  {
+    "id": "bitly",
+    "name": "Bitly"
+  },
+  {
+    "id": "bitrise",
+    "name": "Bitrise"
+  },
+  {
+    "id": "bittorrent",
+    "name": "BitTorrent"
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden"
+  },
+  {
+    "id": "bitwig",
+    "name": "Bitwig"
+  },
+  {
+    "id": "blackberry",
+    "name": "Blackberry"
+  },
+  {
+    "id": "blackmagicdesign",
+    "name": "Blackmagic Design"
+  },
+  {
+    "id": "blazemeter",
+    "name": "Blazemeter"
+  },
+  {
+    "id": "blazor",
+    "name": "Blazor"
+  },
+  {
+    "id": "blender",
+    "name": "Blender"
+  },
+  {
+    "id": "blibli",
+    "name": "Blibli"
+  },
+  {
+    "id": "blockbench",
+    "name": "Blockbench"
+  },
+  {
+    "id": "blockchaindotcom",
+    "name": "Blockchain.com"
+  },
+  {
+    "id": "blogger",
+    "name": "Blogger"
+  },
+  {
+    "id": "bloglovin",
+    "name": "Bloglovin"
+  },
+  {
+    "id": "blueprint",
+    "name": "Blueprint"
+  },
+  {
+    "id": "bluesky",
+    "name": "Bluesky"
+  },
+  {
+    "id": "bluesound",
+    "name": "Bluesound"
+  },
+  {
+    "id": "bluetooth",
+    "name": "Bluetooth"
+  },
+  {
+    "id": "bmcsoftware",
+    "name": "BMC Software"
+  },
+  {
+    "id": "bmw",
+    "name": "BMW"
+  },
+  {
+    "id": "bnbchain",
+    "name": "BNB Chain"
+  },
+  {
+    "id": "boardgamegeek",
+    "name": "BoardGameGeek"
+  },
+  {
+    "id": "boat",
+    "name": "boAt"
+  },
+  {
+    "id": "boehringeringelheim",
+    "name": "Boehringer Ingelheim"
+  },
+  {
+    "id": "boeing",
+    "name": "Boeing"
+  },
+  {
+    "id": "bohemiainteractive",
+    "name": "Bohemia Interactive"
+  },
+  {
+    "id": "bombardier",
+    "name": "Bombardier"
+  },
+  {
+    "id": "bookalope",
+    "name": "Bookalope"
+  },
+  {
+    "id": "bookbub",
+    "name": "BookBub"
+  },
+  {
+    "id": "bookmeter",
+    "name": "Bookmeter"
+  },
+  {
+    "id": "bookmyshow",
+    "name": "BookMyShow"
+  },
+  {
+    "id": "bookstack",
+    "name": "BookStack"
+  },
+  {
+    "id": "boost",
+    "name": "Boost"
+  },
+  {
+    "id": "boosty",
+    "name": "Boosty"
+  },
+  {
+    "id": "boots",
+    "name": "Boots"
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap"
+  },
+  {
+    "id": "borgbackup",
+    "name": "BorgBackup"
+  },
+  {
+    "id": "bosch",
+    "name": "Bosch"
+  },
+  {
+    "id": "bose",
+    "name": "Bose"
+  },
+  {
+    "id": "botblecms",
+    "name": "Botble CMS"
+  },
+  {
+    "id": "boulanger",
+    "name": "boulanger"
+  },
+  {
+    "id": "bower",
+    "name": "Bower"
+  },
+  {
+    "id": "box",
+    "name": "Box"
+  },
+  {
+    "id": "boxysvg",
+    "name": "Boxy SVG"
+  },
+  {
+    "id": "braintree",
+    "name": "Braintree"
+  },
+  {
+    "id": "brandfetch",
+    "name": "Brandfetch"
+  },
+  {
+    "id": "brandfolder",
+    "name": "Brandfolder"
+  },
+  {
+    "id": "brave",
+    "name": "Brave"
+  },
+  {
+    "id": "breaker",
+    "name": "Breaker"
+  },
+  {
+    "id": "brenntag",
+    "name": "Brenntag"
+  },
+  {
+    "id": "brevo",
+    "name": "Brevo"
+  },
+  {
+    "id": "brex",
+    "name": "Brex"
+  },
+  {
+    "id": "bricks",
+    "name": "Bricks"
+  },
+  {
+    "id": "britishairways",
+    "name": "British Airways"
+  },
+  {
+    "id": "broadcom",
+    "name": "Broadcom"
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno"
+  },
+  {
+    "id": "bsd",
+    "name": "BSD"
+  },
+  {
+    "id": "bspwm",
+    "name": "bspwm"
+  },
+  {
+    "id": "bt",
+    "name": "BT"
+  },
+  {
+    "id": "buddy",
+    "name": "Buddy"
+  },
+  {
+    "id": "budibase",
+    "name": "Budibase"
+  },
+  {
+    "id": "buefy",
+    "name": "Buefy"
+  },
+  {
+    "id": "buffer",
+    "name": "Buffer"
+  },
+  {
+    "id": "bugatti",
+    "name": "Bugatti"
+  },
+  {
+    "id": "bugcrowd",
+    "name": "Bugcrowd"
+  },
+  {
+    "id": "buhl",
+    "name": "Buhl"
+  },
+  {
+    "id": "buildkite",
+    "name": "Buildkite"
+  },
+  {
+    "id": "builtbybit",
+    "name": "BuiltByBit"
+  },
+  {
+    "id": "bukalapak",
+    "name": "Bukalapak"
+  },
+  {
+    "id": "bulma",
+    "name": "Bulma"
+  },
+  {
+    "id": "bun",
+    "name": "Bun"
+  },
+  {
+    "id": "bungie",
+    "name": "Bungie"
+  },
+  {
+    "id": "bunq",
+    "name": "bunq"
+  },
+  {
+    "id": "burgerking",
+    "name": "Burger King"
+  },
+  {
+    "id": "burpsuite",
+    "name": "Burp Suite"
+  },
+  {
+    "id": "burton",
+    "name": "Burton"
+  },
+  {
+    "id": "buymeacoffee",
+    "name": "Buy Me A Coffee"
+  },
+  {
+    "id": "buysellads",
+    "name": "BuySellAds"
+  },
+  {
+    "id": "buzzfeed",
+    "name": "BuzzFeed"
+  },
+  {
+    "id": "bvg",
+    "name": "BVG"
+  },
+  {
+    "id": "byjus",
+    "name": "Byju's"
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance"
+  },
+  {
+    "id": "c",
+    "name": "C"
+  },
+  {
+    "id": "cplusplus",
+    "name": "C++"
+  },
+  {
+    "id": "cplusplusbuilder",
+    "name": "C++ Builder"
+  },
+  {
+    "id": "cachet",
+    "name": "Cachet"
+  },
+  {
+    "id": "caddy",
+    "name": "Caddy"
+  },
+  {
+    "id": "cadillac",
+    "name": "Cadillac"
+  },
+  {
+    "id": "cafepress",
+    "name": "CafePress"
+  },
+  {
+    "id": "cairographics",
+    "name": "Cairo Graphics"
+  },
+  {
+    "id": "cairometro",
+    "name": "Cairo Metro"
+  },
+  {
+    "id": "caixabank",
+    "name": "CaixaBank"
+  },
+  {
+    "id": "cakephp",
+    "name": "CakePHP"
+  },
+  {
+    "id": "caldotcom",
+    "name": "Cal.com"
+  },
+  {
+    "id": "calendly",
+    "name": "Calendly"
+  },
+  {
+    "id": "calibreweb",
+    "name": "Calibre-Web"
+  },
+  {
+    "id": "campaignmonitor",
+    "name": "Campaign Monitor"
+  },
+  {
+    "id": "camunda",
+    "name": "Camunda"
+  },
+  {
+    "id": "canonical",
+    "name": "Canonical"
+  },
+  {
+    "id": "canva",
+    "name": "Canva"
+  },
+  {
+    "id": "canvas",
+    "name": "Canvas"
+  },
+  {
+    "id": "capacitor",
+    "name": "Capacitor"
+  },
+  {
+    "id": "caprover",
+    "name": "CapRover"
+  },
+  {
+    "id": "carthrottle",
+    "name": "Car Throttle"
+  },
+  {
+    "id": "cardano",
+    "name": "Cardano"
+  },
+  {
+    "id": "carlsberggroup",
+    "name": "Carlsberg Group"
+  },
+  {
+    "id": "carrd",
+    "name": "Carrd"
+  },
+  {
+    "id": "carrefour",
+    "name": "Carrefour"
+  },
+  {
+    "id": "carto",
+    "name": "Carto"
+  },
+  {
+    "id": "cashapp",
+    "name": "Cash App"
+  },
+  {
+    "id": "castbox",
+    "name": "Castbox"
+  },
+  {
+    "id": "castorama",
+    "name": "Castorama"
+  },
+  {
+    "id": "castro",
+    "name": "Castro"
+  },
+  {
+    "id": "caterpillar",
+    "name": "Caterpillar"
+  },
+  {
+    "id": "cbc",
+    "name": "CBC"
+  },
+  {
+    "id": "cbs",
+    "name": "CBS"
+  },
+  {
+    "id": "ccc",
+    "name": "CCC"
+  },
+  {
+    "id": "ccleaner",
+    "name": "CCleaner"
+  },
+  {
+    "id": "cdprojekt",
+    "name": "CD Projekt"
+  },
+  {
+    "id": "ce",
+    "name": "CE"
+  },
+  {
+    "id": "celery",
+    "name": "Celery"
+  },
+  {
+    "id": "celestron",
+    "name": "Celestron"
+  },
+  {
+    "id": "centos",
+    "name": "CentOS"
+  },
+  {
+    "id": "ceph",
+    "name": "Ceph"
+  },
+  {
+    "id": "cesium",
+    "name": "Cesium"
+  },
+  {
+    "id": "chai",
+    "name": "Chai"
+  },
+  {
+    "id": "chainguard",
+    "name": "Chainguard"
+  },
+  {
+    "id": "chainlink",
+    "name": "Chainlink"
+  },
+  {
+    "id": "chakraui",
+    "name": "Chakra UI"
+  },
+  {
+    "id": "changedetection",
+    "name": "Change Detection"
+  },
+  {
+    "id": "channel4",
+    "name": "Channel 4"
+  },
+  {
+    "id": "charles",
+    "name": "Charles"
+  },
+  {
+    "id": "chartdotjs",
+    "name": "Chart.js"
+  },
+  {
+    "id": "chartmogul",
+    "name": "ChartMogul"
+  },
+  {
+    "id": "chase",
+    "name": "Chase"
+  },
+  {
+    "id": "chatbot",
+    "name": "ChatBot"
+  },
+  {
+    "id": "chatwoot",
+    "name": "Chatwoot"
+  },
+  {
+    "id": "checkio",
+    "name": "CheckiO"
+  },
+  {
+    "id": "checkmarx",
+    "name": "Checkmarx"
+  },
+  {
+    "id": "checkmk",
+    "name": "Checkmk"
+  },
+  {
+    "id": "chedraui",
+    "name": "Chedraui"
+  },
+  {
+    "id": "cheerio",
+    "name": "Cheerio"
+  },
+  {
+    "id": "chef",
+    "name": "Chef"
+  },
+  {
+    "id": "chemex",
+    "name": "Chemex"
+  },
+  {
+    "id": "chessdotcom",
+    "name": "Chess.com"
+  },
+  {
+    "id": "chevrolet",
+    "name": "Chevrolet"
+  },
+  {
+    "id": "chianetwork",
+    "name": "Chia Network"
+  },
+  {
+    "id": "chinaeasternairlines",
+    "name": "China Eastern Airlines"
+  },
+  {
+    "id": "chinasouthernairlines",
+    "name": "China Southern Airlines"
+  },
+  {
+    "id": "chocolatey",
+    "name": "Chocolatey"
+  },
+  {
+    "id": "chromatic",
+    "name": "Chromatic"
+  },
+  {
+    "id": "chromewebstore",
+    "name": "Chrome Web Store"
+  },
+  {
+    "id": "chrysler",
+    "name": "Chrysler"
+  },
+  {
+    "id": "chupachups",
+    "name": "Chupa Chups"
+  },
+  {
+    "id": "cilium",
+    "name": "Cilium"
+  },
+  {
+    "id": "cinema4d",
+    "name": "Cinema 4D"
+  },
+  {
+    "id": "cinnamon",
+    "name": "Cinnamon"
+  },
+  {
+    "id": "circle",
+    "name": "Circle"
+  },
+  {
+    "id": "circleci",
+    "name": "CircleCI"
+  },
+  {
+    "id": "circuitverse",
+    "name": "CircuitVerse"
+  },
+  {
+    "id": "cirrusci",
+    "name": "Cirrus CI"
+  },
+  {
+    "id": "cisco",
+    "name": "Cisco"
+  },
+  {
+    "id": "citrix",
+    "name": "Citrix"
+  },
+  {
+    "id": "citroen",
+    "name": "Citroën"
+  },
+  {
+    "id": "civicrm",
+    "name": "CiviCRM"
+  },
+  {
+    "id": "civo",
+    "name": "Civo"
+  },
+  {
+    "id": "clarifai",
+    "name": "Clarifai"
+  },
+  {
+    "id": "claris",
+    "name": "Claris"
+  },
+  {
+    "id": "clarivate",
+    "name": "Clarivate"
+  },
+  {
+    "id": "claude",
+    "name": "Claude"
+  },
+  {
+    "id": "clerk",
+    "name": "Clerk"
+  },
+  {
+    "id": "clevercloud",
+    "name": "Clever Cloud"
+  },
+  {
+    "id": "clickhouse",
+    "name": "ClickHouse"
+  },
+  {
+    "id": "clickup",
+    "name": "ClickUp"
+  },
+  {
+    "id": "clion",
+    "name": "CLion"
+  },
+  {
+    "id": "clockify",
+    "name": "Clockify"
+  },
+  {
+    "id": "clojure",
+    "name": "Clojure"
+  },
+  {
+    "id": "cloud66",
+    "name": "Cloud 66"
+  },
+  {
+    "id": "cloudfoundry",
+    "name": "Cloud Foundry"
+  },
+  {
+    "id": "cloudbees",
+    "name": "CloudBees"
+  },
+  {
+    "id": "cloudcannon",
+    "name": "CloudCannon"
+  },
+  {
+    "id": "cloudera",
+    "name": "Cloudera"
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare"
+  },
+  {
+    "id": "cloudflarepages",
+    "name": "Cloudflare Pages"
+  },
+  {
+    "id": "cloudflareworkers",
+    "name": "Cloudflare Workers"
+  },
+  {
+    "id": "cloudinary",
+    "name": "Cloudinary"
+  },
+  {
+    "id": "cloudron",
+    "name": "Cloudron"
+  },
+  {
+    "id": "cloudsmith",
+    "name": "Cloudsmith"
+  },
+  {
+    "id": "cloudways",
+    "name": "Cloudways"
+  },
+  {
+    "id": "clubforce",
+    "name": "Clubforce"
+  },
+  {
+    "id": "clubhouse",
+    "name": "Clubhouse"
+  },
+  {
+    "id": "clyp",
+    "name": "Clyp"
+  },
+  {
+    "id": "cmake",
+    "name": "CMake"
+  },
+  {
+    "id": "cncf",
+    "name": "CNCF"
+  },
+  {
+    "id": "cnes",
+    "name": "CNES"
+  },
+  {
+    "id": "cnet",
+    "name": "CNET"
+  },
+  {
+    "id": "cnn",
+    "name": "CNN"
+  },
+  {
+    "id": "coop",
+    "name": "Co-op"
+  },
+  {
+    "id": "cobalt",
+    "name": "cobalt"
+  },
+  {
+    "id": "cocacola",
+    "name": "Coca-Cola"
+  },
+  {
+    "id": "cockpit",
+    "name": "Cockpit"
+  },
+  {
+    "id": "cockroachlabs",
+    "name": "Cockroach Labs"
+  },
+  {
+    "id": "cocoapods",
+    "name": "CocoaPods"
+  },
+  {
+    "id": "cocos",
+    "name": "Cocos"
+  },
+  {
+    "id": "coda",
+    "name": "Coda"
+  },
+  {
+    "id": "codacy",
+    "name": "Codacy"
+  },
+  {
+    "id": "codeclimate",
+    "name": "Code Climate"
+  },
+  {
+    "id": "codeblocks",
+    "name": "Code::Blocks"
+  },
+  {
+    "id": "codeberg",
+    "name": "Codeberg"
+  },
+  {
+    "id": "codecademy",
+    "name": "Codecademy"
+  },
+  {
+    "id": "codeceptjs",
+    "name": "CodeceptJS"
+  },
+  {
+    "id": "codechef",
+    "name": "CodeChef"
+  },
+  {
+    "id": "codecov",
+    "name": "Codecov"
+  },
+  {
+    "id": "codecrafters",
+    "name": "CodeCrafters"
+  },
+  {
+    "id": "codefactor",
+    "name": "CodeFactor"
+  },
+  {
+    "id": "codeforces",
+    "name": "Codeforces"
+  },
+  {
+    "id": "codefresh",
+    "name": "Codefresh"
+  },
+  {
+    "id": "codeigniter",
+    "name": "CodeIgniter"
+  },
+  {
+    "id": "codemagic",
+    "name": "Codemagic"
+  },
+  {
+    "id": "codementor",
+    "name": "Codementor"
+  },
+  {
+    "id": "codemirror",
+    "name": "CodeMirror"
+  },
+  {
+    "id": "codenewbie",
+    "name": "CodeNewbie"
+  },
+  {
+    "id": "codepen",
+    "name": "CodePen"
+  },
+  {
+    "id": "codeproject",
+    "name": "CodeProject"
+  },
+  {
+    "id": "coder",
+    "name": "Coder"
+  },
+  {
+    "id": "coderabbit",
+    "name": "CodeRabbit"
+  },
+  {
+    "id": "codersrank",
+    "name": "CodersRank"
+  },
+  {
+    "id": "coderwall",
+    "name": "Coderwall"
+  },
+  {
+    "id": "codesandbox",
+    "name": "CodeSandbox"
+  },
+  {
+    "id": "codeship",
+    "name": "Codeship"
+  },
+  {
+    "id": "codesignal",
+    "name": "CodeSignal"
+  },
+  {
+    "id": "codestream",
+    "name": "CodeStream"
+  },
+  {
+    "id": "codewars",
+    "name": "Codewars"
+  },
+  {
+    "id": "codingninjas",
+    "name": "Coding Ninjas"
+  },
+  {
+    "id": "codingame",
+    "name": "CodinGame"
+  },
+  {
+    "id": "codio",
+    "name": "Codio"
+  },
+  {
+    "id": "coffeescript",
+    "name": "CoffeeScript"
+  },
+  {
+    "id": "coggle",
+    "name": "Coggle"
+  },
+  {
+    "id": "cognizant",
+    "name": "Cognizant"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase"
+  },
+  {
+    "id": "coinmarketcap",
+    "name": "CoinMarketCap"
+  },
+  {
+    "id": "collaboraonline",
+    "name": "Collabora Online"
+  },
+  {
+    "id": "comicfury",
+    "name": "ComicFury"
+  },
+  {
+    "id": "comma",
+    "name": "comma"
+  },
+  {
+    "id": "commerzbank",
+    "name": "Commerzbank"
+  },
+  {
+    "id": "commitlint",
+    "name": "commitlint"
+  },
+  {
+    "id": "commodore",
+    "name": "Commodore"
+  },
+  {
+    "id": "commonlisp",
+    "name": "Common Lisp"
+  },
+  {
+    "id": "commonworkflowlanguage",
+    "name": "Common Workflow Language"
+  },
+  {
+    "id": "compilerexplorer",
+    "name": "Compiler Explorer"
+  },
+  {
+    "id": "composer",
+    "name": "Composer"
+  },
+  {
+    "id": "comptia",
+    "name": "CompTIA"
+  },
+  {
+    "id": "comsol",
+    "name": "Comsol"
+  },
+  {
+    "id": "conan",
+    "name": "Conan"
+  },
+  {
+    "id": "concourse",
+    "name": "Concourse"
+  },
+  {
+    "id": "condaforge",
+    "name": "Conda-Forge"
+  },
+  {
+    "id": "conekta",
+    "name": "Conekta"
+  },
+  {
+    "id": "confluence",
+    "name": "Confluence"
+  },
+  {
+    "id": "construct3",
+    "name": "Construct 3"
+  },
+  {
+    "id": "consul",
+    "name": "Consul"
+  },
+  {
+    "id": "contabo",
+    "name": "Contabo"
+  },
+  {
+    "id": "contactlesspayment",
+    "name": "Contactless Payment"
+  },
+  {
+    "id": "containerd",
+    "name": "containerd"
+  },
+  {
+    "id": "contao",
+    "name": "Contao"
+  },
+  {
+    "id": "contentful",
+    "name": "Contentful"
+  },
+  {
+    "id": "contentstack",
+    "name": "Contentstack"
+  },
+  {
+    "id": "continente",
+    "name": "Continente"
+  },
+  {
+    "id": "contributorcovenant",
+    "name": "Contributor Covenant"
+  },
+  {
+    "id": "conventionalcommits",
+    "name": "Conventional Commits"
+  },
+  {
+    "id": "convertio",
+    "name": "Convertio"
+  },
+  {
+    "id": "cookiecutter",
+    "name": "Cookiecutter"
+  },
+  {
+    "id": "coolermaster",
+    "name": "Cooler Master"
+  },
+  {
+    "id": "copaairlines",
+    "name": "Copa Airlines"
+  },
+  {
+    "id": "coppel",
+    "name": "Coppel"
+  },
+  {
+    "id": "cora",
+    "name": "Cora"
+  },
+  {
+    "id": "coreldraw",
+    "name": "CorelDRAW"
+  },
+  {
+    "id": "coronaengine",
+    "name": "Corona Engine"
+  },
+  {
+    "id": "coronarenderer",
+    "name": "Corona Renderer"
+  },
+  {
+    "id": "corsair",
+    "name": "Corsair"
+  },
+  {
+    "id": "couchbase",
+    "name": "Couchbase"
+  },
+  {
+    "id": "counterstrike",
+    "name": "Counter-Strike"
+  },
+  {
+    "id": "countingworkspro",
+    "name": "CountingWorks PRO"
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera"
+  },
+  {
+    "id": "coveralls",
+    "name": "Coveralls"
+  },
+  {
+    "id": "coze",
+    "name": "Coze"
+  },
+  {
+    "id": "cpanel",
+    "name": "cPanel"
+  },
+  {
+    "id": "craftcms",
+    "name": "Craft CMS"
+  },
+  {
+    "id": "craftsman",
+    "name": "Craftsman"
+  },
+  {
+    "id": "cratedb",
+    "name": "CrateDB"
+  },
+  {
+    "id": "crayon",
+    "name": "Crayon"
+  },
+  {
+    "id": "creality",
+    "name": "Creality"
+  },
+  {
+    "id": "createreactapp",
+    "name": "Create React App"
+  },
+  {
+    "id": "creativecommons",
+    "name": "Creative Commons"
+  },
+  {
+    "id": "creativetechnology",
+    "name": "Creative Technology"
+  },
+  {
+    "id": "credly",
+    "name": "Credly"
+  },
+  {
+    "id": "crehana",
+    "name": "Crehana"
+  },
+  {
+    "id": "crewunited",
+    "name": "Crew United"
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI"
+  },
+  {
+    "id": "criticalrole",
+    "name": "Critical Role"
+  },
+  {
+    "id": "crowdin",
+    "name": "Crowdin"
+  },
+  {
+    "id": "crowdsource",
+    "name": "Crowdsource"
+  },
+  {
+    "id": "crunchbase",
+    "name": "Crunchbase"
+  },
+  {
+    "id": "crunchyroll",
+    "name": "Crunchyroll"
+  },
+  {
+    "id": "cryengine",
+    "name": "CRYENGINE"
+  },
+  {
+    "id": "cryptomator",
+    "name": "Cryptomator"
+  },
+  {
+    "id": "cryptpad",
+    "name": "CryptPad"
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal"
+  },
+  {
+    "id": "csdn",
+    "name": "CSDN"
+  },
+  {
+    "id": "css",
+    "name": "CSS"
+  },
+  {
+    "id": "cssdesignawards",
+    "name": "CSS Design Awards"
+  },
+  {
+    "id": "cssmodules",
+    "name": "CSS Modules"
+  },
+  {
+    "id": "csswizardry",
+    "name": "CSS Wizardry"
+  },
+  {
+    "id": "cts",
+    "name": "CTS"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber"
+  },
+  {
+    "id": "cultura",
+    "name": "Cultura"
+  },
+  {
+    "id": "curl",
+    "name": "curl"
+  },
+  {
+    "id": "curseforge",
+    "name": "CurseForge"
+  },
+  {
+    "id": "customink",
+    "name": "Custom Ink"
+  },
+  {
+    "id": "cyberdefenders",
+    "name": "CyberDefenders"
+  },
+  {
+    "id": "cycling74",
+    "name": "Cycling '74"
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress"
+  },
+  {
+    "id": "cytoscapedotjs",
+    "name": "Cytoscape.js"
+  },
+  {
+    "id": "d",
+    "name": "D"
+  },
+  {
+    "id": "dedge",
+    "name": "D-EDGE"
+  },
+  {
+    "id": "dwavesystems",
+    "name": "D-Wave Systems"
+  },
+  {
+    "id": "d3",
+    "name": "D3"
+  },
+  {
+    "id": "dacia",
+    "name": "Dacia"
+  },
+  {
+    "id": "daf",
+    "name": "DAF"
+  },
+  {
+    "id": "dailydotdev",
+    "name": "daily.dev"
+  },
+  {
+    "id": "dailymotion",
+    "name": "Dailymotion"
+  },
+  {
+    "id": "daisyui",
+    "name": "DaisyUI"
+  },
+  {
+    "id": "dapr",
+    "name": "Dapr"
+  },
+  {
+    "id": "darkreader",
+    "name": "Dark Reader"
+  },
+  {
+    "id": "dart",
+    "name": "Dart"
+  },
+  {
+    "id": "darty",
+    "name": "Darty"
+  },
+  {
+    "id": "daserste",
+    "name": "Das Erste"
+  },
+  {
+    "id": "dash",
+    "name": "Dash"
+  },
+  {
+    "id": "dashlane",
+    "name": "Dashlane"
+  },
+  {
+    "id": "dask",
+    "name": "Dask"
+  },
+  {
+    "id": "dassaultsystemes",
+    "name": "Dassault Systèmes"
+  },
+  {
+    "id": "datadotai",
+    "name": "data.ai"
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks"
+  },
+  {
+    "id": "datacamp",
+    "name": "DataCamp"
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog"
+  },
+  {
+    "id": "datagrip",
+    "name": "DataGrip"
+  },
+  {
+    "id": "dataiku",
+    "name": "Dataiku"
+  },
+  {
+    "id": "datastax",
+    "name": "DataStax"
+  },
+  {
+    "id": "datefns",
+    "name": "date-fns"
+  },
+  {
+    "id": "datev",
+    "name": "DATEV"
+  },
+  {
+    "id": "datocms",
+    "name": "DatoCMS"
+  },
+  {
+    "id": "datto",
+    "name": "Datto"
+  },
+  {
+    "id": "davinciresolve",
+    "name": "DaVinci Resolve"
+  },
+  {
+    "id": "dazhongdianping",
+    "name": "Dazhong Dianping"
+  },
+  {
+    "id": "dazn",
+    "name": "DAZN"
+  },
+  {
+    "id": "dbeaver",
+    "name": "DBeaver"
+  },
+  {
+    "id": "dblp",
+    "name": "dblp"
+  },
+  {
+    "id": "dbt",
+    "name": "dbt"
+  },
+  {
+    "id": "dcentertainment",
+    "name": "DC Entertainment"
+  },
+  {
+    "id": "delonghi",
+    "name": "De'Longhi"
+  },
+  {
+    "id": "debian",
+    "name": "Debian"
+  },
+  {
+    "id": "debridlink",
+    "name": "Debrid-Link"
+  },
+  {
+    "id": "decapcms",
+    "name": "Decap CMS"
+  },
+  {
+    "id": "decentraland",
+    "name": "Decentraland"
+  },
+  {
+    "id": "deepcool",
+    "name": "DeepCool"
+  },
+  {
+    "id": "deepgram",
+    "name": "Deepgram"
+  },
+  {
+    "id": "deepin",
+    "name": "deepin"
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL"
+  },
+  {
+    "id": "deepnote",
+    "name": "Deepnote"
+  },
+  {
+    "id": "deliveroo",
+    "name": "Deliveroo"
+  },
+  {
+    "id": "dell",
+    "name": "Dell"
+  },
+  {
+    "id": "delphi",
+    "name": "Delphi"
+  },
+  {
+    "id": "delta",
+    "name": "Delta"
+  },
+  {
+    "id": "deluge",
+    "name": "Deluge"
+  },
+  {
+    "id": "deno",
+    "name": "Deno"
+  },
+  {
+    "id": "denon",
+    "name": "Denon"
+  },
+  {
+    "id": "dependabot",
+    "name": "Dependabot"
+  },
+  {
+    "id": "depositphotos",
+    "name": "Depositphotos"
+  },
+  {
+    "id": "derspiegel",
+    "name": "Der Spiegel"
+  },
+  {
+    "id": "deutschebahn",
+    "name": "Deutsche Bahn"
+  },
+  {
+    "id": "deutschebank",
+    "name": "Deutsche Bank"
+  },
+  {
+    "id": "deutschepost",
+    "name": "Deutsche Post"
+  },
+  {
+    "id": "deutschetelekom",
+    "name": "Deutsche Telekom"
+  },
+  {
+    "id": "deutschewelle",
+    "name": "Deutsche Welle"
+  },
+  {
+    "id": "devdotto",
+    "name": "dev.to"
+  },
+  {
+    "id": "devbox",
+    "name": "Devbox"
+  },
+  {
+    "id": "devexpress",
+    "name": "DevExpress"
+  },
+  {
+    "id": "deviantart",
+    "name": "DeviantArt"
+  },
+  {
+    "id": "devpost",
+    "name": "Devpost"
+  },
+  {
+    "id": "devrant",
+    "name": "devRant"
+  },
+  {
+    "id": "dgraph",
+    "name": "Dgraph"
+  },
+  {
+    "id": "dhl",
+    "name": "DHL"
+  },
+  {
+    "id": "diagramsdotnet",
+    "name": "diagrams.net"
+  },
+  {
+    "id": "dialogflow",
+    "name": "Dialogflow"
+  },
+  {
+    "id": "diaspora",
+    "name": "Diaspora"
+  },
+  {
+    "id": "dictionarydotcom",
+    "name": "Dictionary.com"
+  },
+  {
+    "id": "digg",
+    "name": "Digg"
+  },
+  {
+    "id": "digikeyelectronics",
+    "name": "Digi-Key Electronics"
+  },
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean"
+  },
+  {
+    "id": "dinersclub",
+    "name": "Diners Club"
+  },
+  {
+    "id": "dior",
+    "name": "Dior"
+  },
+  {
+    "id": "directus",
+    "name": "Directus"
+  },
+  {
+    "id": "discogs",
+    "name": "Discogs"
+  },
+  {
+    "id": "discord",
+    "name": "Discord"
+  },
+  {
+    "id": "discourse",
+    "name": "Discourse"
+  },
+  {
+    "id": "discover",
+    "name": "Discover"
+  },
+  {
+    "id": "disqus",
+    "name": "Disqus"
+  },
+  {
+    "id": "disroot",
+    "name": "Disroot"
+  },
+  {
+    "id": "distrobox",
+    "name": "Distrobox"
+  },
+  {
+    "id": "distrokid",
+    "name": "Distrokid"
+  },
+  {
+    "id": "django",
+    "name": "Django"
+  },
+  {
+    "id": "dji",
+    "name": "DJI"
+  },
+  {
+    "id": "dlib",
+    "name": "Dlib"
+  },
+  {
+    "id": "dlna",
+    "name": "DLNA"
+  },
+  {
+    "id": "dm",
+    "name": "dm"
+  },
+  {
+    "id": "dmm",
+    "name": "DMM"
+  },
+  {
+    "id": "docker",
+    "name": "Docker"
+  },
+  {
+    "id": "docsdotrs",
+    "name": "Docs.rs"
+  },
+  {
+    "id": "docsify",
+    "name": "Docsify"
+  },
+  {
+    "id": "doctrine",
+    "name": "Doctrine"
+  },
+  {
+    "id": "docusaurus",
+    "name": "Docusaurus"
+  },
+  {
+    "id": "dogecoin",
+    "name": "Dogecoin"
+  },
+  {
+    "id": "doi",
+    "name": "DOI"
+  },
+  {
+    "id": "dolby",
+    "name": "Dolby"
+  },
+  {
+    "id": "doordash",
+    "name": "DoorDash"
+  },
+  {
+    "id": "dota2",
+    "name": "Dota 2"
+  },
+  {
+    "id": "douban",
+    "name": "Douban"
+  },
+  {
+    "id": "doubanread",
+    "name": "Douban Read"
+  },
+  {
+    "id": "dovecot",
+    "name": "Dovecot"
+  },
+  {
+    "id": "dovetail",
+    "name": "Dovetail"
+  },
+  {
+    "id": "downdetector",
+    "name": "Downdetector"
+  },
+  {
+    "id": "doxygen",
+    "name": "Doxygen"
+  },
+  {
+    "id": "dpd",
+    "name": "DPD"
+  },
+  {
+    "id": "dragonframe",
+    "name": "Dragonframe"
+  },
+  {
+    "id": "draugiemdotlv",
+    "name": "Draugiem.lv"
+  },
+  {
+    "id": "dreamstime",
+    "name": "Dreamstime"
+  },
+  {
+    "id": "dribbble",
+    "name": "Dribbble"
+  },
+  {
+    "id": "drizzle",
+    "name": "Drizzle"
+  },
+  {
+    "id": "drone",
+    "name": "Drone"
+  },
+  {
+    "id": "drooble",
+    "name": "Drooble"
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox"
+  },
+  {
+    "id": "drupal",
+    "name": "Drupal"
+  },
+  {
+    "id": "dsautomobiles",
+    "name": "DS Automobiles"
+  },
+  {
+    "id": "dts",
+    "name": "DTS"
+  },
+  {
+    "id": "dtube",
+    "name": "DTube"
+  },
+  {
+    "id": "ducati",
+    "name": "Ducati"
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB"
+  },
+  {
+    "id": "duckduckgo",
+    "name": "DuckDuckGo"
+  },
+  {
+    "id": "dungeonsanddragons",
+    "name": "Dungeons & Dragons"
+  },
+  {
+    "id": "dunked",
+    "name": "Dunked"
+  },
+  {
+    "id": "dunzo",
+    "name": "Dunzo"
+  },
+  {
+    "id": "duolingo",
+    "name": "Duolingo"
+  },
+  {
+    "id": "duplicati",
+    "name": "Duplicati"
+  },
+  {
+    "id": "dvc",
+    "name": "DVC"
+  },
+  {
+    "id": "dwm",
+    "name": "dwm"
+  },
+  {
+    "id": "dynatrace",
+    "name": "Dynatrace"
+  },
+  {
+    "id": "edotleclerc",
+    "name": "E.Leclerc"
+  },
+  {
+    "id": "e3",
+    "name": "E3"
+  },
+  {
+    "id": "ea",
+    "name": "EA"
+  },
+  {
+    "id": "eac",
+    "name": "EAC"
+  },
+  {
+    "id": "eagle",
+    "name": "Eagle"
+  },
+  {
+    "id": "easyeda",
+    "name": "EasyEDA"
+  },
+  {
+    "id": "easyjet",
+    "name": "easyJet"
+  },
+  {
+    "id": "ebay",
+    "name": "eBay"
+  },
+  {
+    "id": "ebox",
+    "name": "EBOX"
+  },
+  {
+    "id": "eclipseadoptium",
+    "name": "Eclipse Adoptium"
+  },
+  {
+    "id": "eclipseche",
+    "name": "Eclipse Che"
+  },
+  {
+    "id": "eclipseide",
+    "name": "Eclipse IDE"
+  },
+  {
+    "id": "eclipsejetty",
+    "name": "Eclipse Jetty"
+  },
+  {
+    "id": "eclipsemosquitto",
+    "name": "Eclipse Mosquitto"
+  },
+  {
+    "id": "eclipsevertdotx",
+    "name": "Eclipse Vert.x"
+  },
+  {
+    "id": "ecosia",
+    "name": "Ecosia"
+  },
+  {
+    "id": "ecovacs",
+    "name": "Ecovacs"
+  },
+  {
+    "id": "edeka",
+    "name": "EDEKA"
+  },
+  {
+    "id": "edgeimpulse",
+    "name": "Edge Impulse"
+  },
+  {
+    "id": "editorconfig",
+    "name": "EditorConfig"
+  },
+  {
+    "id": "educative",
+    "name": "Educative"
+  },
+  {
+    "id": "edx",
+    "name": "edX"
+  },
+  {
+    "id": "egghead",
+    "name": "egghead"
+  },
+  {
+    "id": "egnyte",
+    "name": "Egnyte"
+  },
+  {
+    "id": "eight",
+    "name": "Eight"
+  },
+  {
+    "id": "eightsleep",
+    "name": "Eight Sleep"
+  },
+  {
+    "id": "ejs",
+    "name": "EJS"
+  },
+  {
+    "id": "elastic",
+    "name": "Elastic"
+  },
+  {
+    "id": "elasticcloud",
+    "name": "Elastic Cloud"
+  },
+  {
+    "id": "elasticstack",
+    "name": "Elastic Stack"
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch"
+  },
+  {
+    "id": "elavon",
+    "name": "Elavon"
+  },
+  {
+    "id": "electron",
+    "name": "Electron"
+  },
+  {
+    "id": "electronfiddle",
+    "name": "Electron Fiddle"
+  },
+  {
+    "id": "electronbuilder",
+    "name": "electron-builder"
+  },
+  {
+    "id": "elegoo",
+    "name": "Elegoo"
+  },
+  {
+    "id": "element",
+    "name": "Element"
+  },
+  {
+    "id": "elementary",
+    "name": "elementary"
+  },
+  {
+    "id": "elementor",
+    "name": "Elementor"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs"
+  },
+  {
+    "id": "eleventy",
+    "name": "Eleventy"
+  },
+  {
+    "id": "elgato",
+    "name": "Elgato"
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir"
+  },
+  {
+    "id": "elm",
+    "name": "Elm"
+  },
+  {
+    "id": "elsevier",
+    "name": "Elsevier"
+  },
+  {
+    "id": "embarcadero",
+    "name": "Embarcadero"
+  },
+  {
+    "id": "embark",
+    "name": "Embark"
+  },
+  {
+    "id": "emberdotjs",
+    "name": "Ember.js"
+  },
+  {
+    "id": "emby",
+    "name": "Emby"
+  },
+  {
+    "id": "emirates",
+    "name": "Emirates"
+  },
+  {
+    "id": "emlakjet",
+    "name": "Emlakjet"
+  },
+  {
+    "id": "endeavouros",
+    "name": "EndeavourOS"
+  },
+  {
+    "id": "enpass",
+    "name": "Enpass"
+  },
+  {
+    "id": "enterprisedb",
+    "name": "EnterpriseDB"
+  },
+  {
+    "id": "envato",
+    "name": "Envato"
+  },
+  {
+    "id": "envoyproxy",
+    "name": "Envoy Proxy"
+  },
+  {
+    "id": "epel",
+    "name": "EPEL"
+  },
+  {
+    "id": "epicgames",
+    "name": "Epic Games"
+  },
+  {
+    "id": "epson",
+    "name": "Epson"
+  },
+  {
+    "id": "equinixmetal",
+    "name": "Equinix Metal"
+  },
+  {
+    "id": "eraser",
+    "name": "Eraser"
+  },
+  {
+    "id": "ericsson",
+    "name": "Ericsson"
+  },
+  {
+    "id": "erlang",
+    "name": "Erlang"
+  },
+  {
+    "id": "erpnext",
+    "name": "ERPNext"
+  },
+  {
+    "id": "esbuild",
+    "name": "esbuild"
+  },
+  {
+    "id": "esea",
+    "name": "ESEA"
+  },
+  {
+    "id": "eslgaming",
+    "name": "ESLGaming"
+  },
+  {
+    "id": "eslint",
+    "name": "ESLint"
+  },
+  {
+    "id": "esotericsoftware",
+    "name": "Esoteric Software"
+  },
+  {
+    "id": "esphome",
+    "name": "ESPHome"
+  },
+  {
+    "id": "espressif",
+    "name": "Espressif"
+  },
+  {
+    "id": "esri",
+    "name": "ESRI"
+  },
+  {
+    "id": "etcd",
+    "name": "etcd"
+  },
+  {
+    "id": "ethereum",
+    "name": "Ethereum"
+  },
+  {
+    "id": "ethers",
+    "name": "Ethers"
+  },
+  {
+    "id": "ethiopianairlines",
+    "name": "Ethiopian Airlines"
+  },
+  {
+    "id": "etihadairways",
+    "name": "Etihad Airways"
+  },
+  {
+    "id": "etsy",
+    "name": "Etsy"
+  },
+  {
+    "id": "europeanunion",
+    "name": "European Union"
+  },
+  {
+    "id": "eventstore",
+    "name": "Event Store"
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote"
+  },
+  {
+    "id": "everydotorg",
+    "name": "Every.org"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw"
+  },
+  {
+    "id": "exercism",
+    "name": "Exercism"
+  },
+  {
+    "id": "exordo",
+    "name": "Exordo"
+  },
+  {
+    "id": "exoscale",
+    "name": "Exoscale"
+  },
+  {
+    "id": "expedia",
+    "name": "Expedia"
+  },
+  {
+    "id": "expensify",
+    "name": "Expensify"
+  },
+  {
+    "id": "expertsexchange",
+    "name": "Experts Exchange"
+  },
+  {
+    "id": "expo",
+    "name": "Expo"
+  },
+  {
+    "id": "express",
+    "name": "Express"
+  },
+  {
+    "id": "expressdotcom",
+    "name": "Express.com"
+  },
+  {
+    "id": "expressvpn",
+    "name": "ExpressVPN"
+  },
+  {
+    "id": "eyeem",
+    "name": "EyeEm"
+  },
+  {
+    "id": "fsharp",
+    "name": "F#"
+  },
+  {
+    "id": "fdroid",
+    "name": "F-Droid"
+  },
+  {
+    "id": "f1",
+    "name": "F1"
+  },
+  {
+    "id": "f5",
+    "name": "F5"
+  },
+  {
+    "id": "facebook",
+    "name": "Facebook"
+  },
+  {
+    "id": "facebookgaming",
+    "name": "Facebook Gaming"
+  },
+  {
+    "id": "facebooklive",
+    "name": "Facebook Live"
+  },
+  {
+    "id": "faceit",
+    "name": "FACEIT"
+  },
+  {
+    "id": "facepunch",
+    "name": "Facepunch"
+  },
+  {
+    "id": "fairphone",
+    "name": "Fairphone"
+  },
+  {
+    "id": "falco",
+    "name": "Falco"
+  },
+  {
+    "id": "falcon",
+    "name": "Falcon"
+  },
+  {
+    "id": "fampay",
+    "name": "FamPay"
+  },
+  {
+    "id": "fandango",
+    "name": "Fandango"
+  },
+  {
+    "id": "fandom",
+    "name": "Fandom"
+  },
+  {
+    "id": "fanfou",
+    "name": "Fanfou"
+  },
+  {
+    "id": "fantom",
+    "name": "Fantom"
+  },
+  {
+    "id": "farcaster",
+    "name": "Farcaster"
+  },
+  {
+    "id": "fareharbor",
+    "name": "FareHarbor"
+  },
+  {
+    "id": "farfetch",
+    "name": "FARFETCH"
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI"
+  },
+  {
+    "id": "fastify",
+    "name": "Fastify"
+  },
+  {
+    "id": "fastlane",
+    "name": "Fastlane"
+  },
+  {
+    "id": "fastly",
+    "name": "Fastly"
+  },
+  {
+    "id": "fathom",
+    "name": "Fathom"
+  },
+  {
+    "id": "fauna",
+    "name": "Fauna"
+  },
+  {
+    "id": "favro",
+    "name": "Favro"
+  },
+  {
+    "id": "fcc",
+    "name": "FCC"
+  },
+  {
+    "id": "fedex",
+    "name": "FedEx"
+  },
+  {
+    "id": "fedora",
+    "name": "Fedora"
+  },
+  {
+    "id": "feedly",
+    "name": "Feedly"
+  },
+  {
+    "id": "ferrari",
+    "name": "Ferrari"
+  },
+  {
+    "id": "ferrarinv",
+    "name": "Ferrari N.V."
+  },
+  {
+    "id": "ferretdb",
+    "name": "FerretDB"
+  },
+  {
+    "id": "ffmpeg",
+    "name": "FFmpeg"
+  },
+  {
+    "id": "fi",
+    "name": "Fi"
+  },
+  {
+    "id": "fiat",
+    "name": "Fiat"
+  },
+  {
+    "id": "fidoalliance",
+    "name": "Fido Alliance"
+  },
+  {
+    "id": "fifa",
+    "name": "FIFA"
+  },
+  {
+    "id": "fig",
+    "name": "Fig"
+  },
+  {
+    "id": "figma",
+    "name": "Figma"
+  },
+  {
+    "id": "figshare",
+    "name": "figshare"
+  },
+  {
+    "id": "fila",
+    "name": "Fila"
+  },
+  {
+    "id": "filament",
+    "name": "Filament"
+  },
+  {
+    "id": "filedotio",
+    "name": "File.io"
+  },
+  {
+    "id": "filen",
+    "name": "Filen"
+  },
+  {
+    "id": "files",
+    "name": "Files"
+  },
+  {
+    "id": "filezilla",
+    "name": "FileZilla"
+  },
+  {
+    "id": "fineco",
+    "name": "Fineco"
+  },
+  {
+    "id": "fing",
+    "name": "Fing"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase"
+  },
+  {
+    "id": "firefish",
+    "name": "Firefish"
+  },
+  {
+    "id": "fireflyiii",
+    "name": "Firefly III"
+  },
+  {
+    "id": "firefox",
+    "name": "Firefox"
+  },
+  {
+    "id": "firefoxbrowser",
+    "name": "Firefox Browser"
+  },
+  {
+    "id": "fireship",
+    "name": "Fireship"
+  },
+  {
+    "id": "firewalla",
+    "name": "Firewalla"
+  },
+  {
+    "id": "first",
+    "name": "FIRST"
+  },
+  {
+    "id": "fishshell",
+    "name": "fish shell"
+  },
+  {
+    "id": "fitbit",
+    "name": "Fitbit"
+  },
+  {
+    "id": "fivem",
+    "name": "FiveM"
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr"
+  },
+  {
+    "id": "fizz",
+    "name": "Fizz"
+  },
+  {
+    "id": "flashforge",
+    "name": "Flashforge"
+  },
+  {
+    "id": "flask",
+    "name": "Flask"
+  },
+  {
+    "id": "flat",
+    "name": "Flat"
+  },
+  {
+    "id": "flathub",
+    "name": "Flathub"
+  },
+  {
+    "id": "flatpak",
+    "name": "Flatpak"
+  },
+  {
+    "id": "flickr",
+    "name": "Flickr"
+  },
+  {
+    "id": "flightaware",
+    "name": "Flightaware"
+  },
+  {
+    "id": "flipboard",
+    "name": "Flipboard"
+  },
+  {
+    "id": "flipkart",
+    "name": "Flipkart"
+  },
+  {
+    "id": "floatplane",
+    "name": "Floatplane"
+  },
+  {
+    "id": "flood",
+    "name": "Flood"
+  },
+  {
+    "id": "floorp",
+    "name": "Floorp"
+  },
+  {
+    "id": "fluentbit",
+    "name": "Fluent Bit"
+  },
+  {
+    "id": "fluentd",
+    "name": "Fluentd"
+  },
+  {
+    "id": "fluke",
+    "name": "Fluke"
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter"
+  },
+  {
+    "id": "flux",
+    "name": "Flux"
+  },
+  {
+    "id": "flydotio",
+    "name": "Fly.io"
+  },
+  {
+    "id": "flyway",
+    "name": "Flyway"
+  },
+  {
+    "id": "fmod",
+    "name": "FMOD"
+  },
+  {
+    "id": "fnac",
+    "name": "Fnac"
+  },
+  {
+    "id": "folium",
+    "name": "Folium"
+  },
+  {
+    "id": "fonoma",
+    "name": "Fonoma"
+  },
+  {
+    "id": "fontawesome",
+    "name": "Font Awesome"
+  },
+  {
+    "id": "fontbase",
+    "name": "FontBase"
+  },
+  {
+    "id": "fontforge",
+    "name": "FontForge"
+  },
+  {
+    "id": "foobar2000",
+    "name": "foobar2000"
+  },
+  {
+    "id": "foodpanda",
+    "name": "foodpanda"
+  },
+  {
+    "id": "ford",
+    "name": "Ford"
+  },
+  {
+    "id": "forgejo",
+    "name": "Forgejo"
+  },
+  {
+    "id": "formbricks",
+    "name": "Formbricks"
+  },
+  {
+    "id": "formik",
+    "name": "Formik"
+  },
+  {
+    "id": "formspree",
+    "name": "Formspree"
+  },
+  {
+    "id": "formstack",
+    "name": "Formstack"
+  },
+  {
+    "id": "fortinet",
+    "name": "Fortinet"
+  },
+  {
+    "id": "fortnite",
+    "name": "Fortnite"
+  },
+  {
+    "id": "fortran",
+    "name": "Fortran"
+  },
+  {
+    "id": "fossa",
+    "name": "Fossa"
+  },
+  {
+    "id": "fossilscm",
+    "name": "Fossil SCM"
+  },
+  {
+    "id": "foundryvirtualtabletop",
+    "name": "Foundry Virtual Tabletop"
+  },
+  {
+    "id": "foursquare",
+    "name": "Foursquare"
+  },
+  {
+    "id": "fox",
+    "name": "FOX"
+  },
+  {
+    "id": "foxtel",
+    "name": "Foxtel"
+  },
+  {
+    "id": "fozzy",
+    "name": "Fozzy"
+  },
+  {
+    "id": "framer",
+    "name": "Framer"
+  },
+  {
+    "id": "framework",
+    "name": "Framework"
+  },
+  {
+    "id": "framework7",
+    "name": "Framework7"
+  },
+  {
+    "id": "franprix",
+    "name": "Franprix"
+  },
+  {
+    "id": "frappe",
+    "name": "Frappe"
+  },
+  {
+    "id": "fraunhofergesellschaft",
+    "name": "Fraunhofer-Gesellschaft"
+  },
+  {
+    "id": "freebsd",
+    "name": "FreeBSD"
+  },
+  {
+    "id": "freecad",
+    "name": "FreeCAD"
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp"
+  },
+  {
+    "id": "freedesktopdotorg",
+    "name": "freedesktop.org"
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer"
+  },
+  {
+    "id": "freelancermap",
+    "name": "freelancermap"
+  },
+  {
+    "id": "freenas",
+    "name": "FreeNAS"
+  },
+  {
+    "id": "freenet",
+    "name": "freenet"
+  },
+  {
+    "id": "freepik",
+    "name": "Freepik"
+  },
+  {
+    "id": "freetube",
+    "name": "FreeTube"
+  },
+  {
+    "id": "fresh",
+    "name": "Fresh"
+  },
+  {
+    "id": "frigate",
+    "name": "Frigate"
+  },
+  {
+    "id": "frontendmentor",
+    "name": "Frontend Mentor"
+  },
+  {
+    "id": "frontify",
+    "name": "Frontify"
+  },
+  {
+    "id": "fubo",
+    "name": "Fubo"
+  },
+  {
+    "id": "fueler",
+    "name": "Fueler"
+  },
+  {
+    "id": "fugacloud",
+    "name": "Fuga Cloud"
+  },
+  {
+    "id": "fujifilm",
+    "name": "Fujifilm"
+  },
+  {
+    "id": "fujitsu",
+    "name": "Fujitsu"
+  },
+  {
+    "id": "furaffinity",
+    "name": "Fur Affinity"
+  },
+  {
+    "id": "furrynetwork",
+    "name": "Furry Network"
+  },
+  {
+    "id": "fusionauth",
+    "name": "FusionAuth"
+  },
+  {
+    "id": "futurelearn",
+    "name": "FutureLearn"
+  },
+  {
+    "id": "fyle",
+    "name": "Fyle"
+  },
+  {
+    "id": "g2",
+    "name": "G2"
+  },
+  {
+    "id": "g2a",
+    "name": "G2A"
+  },
+  {
+    "id": "g2g",
+    "name": "G2G"
+  },
+  {
+    "id": "galaxus",
+    "name": "Galaxus"
+  },
+  {
+    "id": "gamedeveloper",
+    "name": "Game Developer"
+  },
+  {
+    "id": "gamejolt",
+    "name": "Game Jolt"
+  },
+  {
+    "id": "gamescience",
+    "name": "Game Science"
+  },
+  {
+    "id": "gamebanana",
+    "name": "GameBanana"
+  },
+  {
+    "id": "gameloft",
+    "name": "Gameloft"
+  },
+  {
+    "id": "gamemaker",
+    "name": "Gamemaker"
+  },
+  {
+    "id": "gandi",
+    "name": "Gandi"
+  },
+  {
+    "id": "garmin",
+    "name": "Garmin"
+  },
+  {
+    "id": "gatling",
+    "name": "Gatling"
+  },
+  {
+    "id": "gatsby",
+    "name": "Gatsby"
+  },
+  {
+    "id": "gcore",
+    "name": "Gcore"
+  },
+  {
+    "id": "gdal",
+    "name": "GDAL"
+  },
+  {
+    "id": "geeksforgeeks",
+    "name": "GeeksforGeeks"
+  },
+  {
+    "id": "generalelectric",
+    "name": "General Electric"
+  },
+  {
+    "id": "generalmotors",
+    "name": "General Motors"
+  },
+  {
+    "id": "genius",
+    "name": "Genius"
+  },
+  {
+    "id": "gentoo",
+    "name": "Gentoo"
+  },
+  {
+    "id": "geocaching",
+    "name": "Geocaching"
+  },
+  {
+    "id": "geode",
+    "name": "Geode"
+  },
+  {
+    "id": "geopandas",
+    "name": "GeoPandas"
+  },
+  {
+    "id": "gerrit",
+    "name": "Gerrit"
+  },
+  {
+    "id": "getx",
+    "name": "GetX"
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost"
+  },
+  {
+    "id": "ghostery",
+    "name": "Ghostery"
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP"
+  },
+  {
+    "id": "gin",
+    "name": "Gin"
+  },
+  {
+    "id": "giphy",
+    "name": "GIPHY"
+  },
+  {
+    "id": "git",
+    "name": "Git"
+  },
+  {
+    "id": "gitextensions",
+    "name": "Git Extensions"
+  },
+  {
+    "id": "gitforwindows",
+    "name": "Git for Windows"
+  },
+  {
+    "id": "gitlfs",
+    "name": "Git LFS"
+  },
+  {
+    "id": "gitbook",
+    "name": "GitBook"
+  },
+  {
+    "id": "gitconnected",
+    "name": "Gitconnected"
+  },
+  {
+    "id": "gitea",
+    "name": "Gitea"
+  },
+  {
+    "id": "gitee",
+    "name": "Gitee"
+  },
+  {
+    "id": "github",
+    "name": "GitHub"
+  },
+  {
+    "id": "githubactions",
+    "name": "GitHub Actions"
+  },
+  {
+    "id": "githubcopilot",
+    "name": "GitHub Copilot"
+  },
+  {
+    "id": "githubpages",
+    "name": "GitHub Pages"
+  },
+  {
+    "id": "githubsponsors",
+    "name": "GitHub Sponsors"
+  },
+  {
+    "id": "gitignoredotio",
+    "name": "gitignore.io"
+  },
+  {
+    "id": "gitkraken",
+    "name": "GitKraken"
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab"
+  },
+  {
+    "id": "gitpod",
+    "name": "Gitpod"
+  },
+  {
+    "id": "gitter",
+    "name": "Gitter"
+  },
+  {
+    "id": "gldotinet",
+    "name": "GL.iNet"
+  },
+  {
+    "id": "glassdoor",
+    "name": "Glassdoor"
+  },
+  {
+    "id": "gleam",
+    "name": "Gleam"
+  },
+  {
+    "id": "glide",
+    "name": "Glide"
+  },
+  {
+    "id": "glitch",
+    "name": "Glitch"
+  },
+  {
+    "id": "globus",
+    "name": "Globus"
+  },
+  {
+    "id": "glovo",
+    "name": "Glovo"
+  },
+  {
+    "id": "gltf",
+    "name": "glTF"
+  },
+  {
+    "id": "gmail",
+    "name": "Gmail"
+  },
+  {
+    "id": "gmx",
+    "name": "GMX"
+  },
+  {
+    "id": "gnome",
+    "name": "GNOME"
+  },
+  {
+    "id": "gnometerminal",
+    "name": "GNOME Terminal"
+  },
+  {
+    "id": "gnu",
+    "name": "GNU"
+  },
+  {
+    "id": "gnubash",
+    "name": "GNU Bash"
+  },
+  {
+    "id": "gnuemacs",
+    "name": "GNU Emacs"
+  },
+  {
+    "id": "gnuicecat",
+    "name": "GNU IceCat"
+  },
+  {
+    "id": "gnuprivacyguard",
+    "name": "GNU Privacy Guard"
+  },
+  {
+    "id": "gnusocial",
+    "name": "GNU social"
+  },
+  {
+    "id": "go",
+    "name": "Go"
+  },
+  {
+    "id": "gocd",
+    "name": "GoCD"
+  },
+  {
+    "id": "godaddy",
+    "name": "GoDaddy"
+  },
+  {
+    "id": "godotengine",
+    "name": "Godot Engine"
+  },
+  {
+    "id": "gofundme",
+    "name": "GoFundMe"
+  },
+  {
+    "id": "gogdotcom",
+    "name": "GOG.com"
+  },
+  {
+    "id": "gojek",
+    "name": "Gojek"
+  },
+  {
+    "id": "goland",
+    "name": "GoLand"
+  },
+  {
+    "id": "goldmansachs",
+    "name": "Goldman Sachs"
+  },
+  {
+    "id": "goodreads",
+    "name": "Goodreads"
+  },
+  {
+    "id": "google",
+    "name": "Google"
+  },
+  {
+    "id": "googleadmob",
+    "name": "Google AdMob"
+  },
+  {
+    "id": "googleads",
+    "name": "Google Ads"
+  },
+  {
+    "id": "googleadsense",
+    "name": "Google AdSense"
+  },
+  {
+    "id": "googleanalytics",
+    "name": "Google Analytics"
+  },
+  {
+    "id": "googleappsscript",
+    "name": "Google Apps Script"
+  },
+  {
+    "id": "googleassistant",
+    "name": "Google Assistant"
+  },
+  {
+    "id": "googleauthenticator",
+    "name": "Google Authenticator"
+  },
+  {
+    "id": "googlebigquery",
+    "name": "Google BigQuery"
+  },
+  {
+    "id": "googlebigtable",
+    "name": "Google Bigtable"
+  },
+  {
+    "id": "googlecalendar",
+    "name": "Google Calendar"
+  },
+  {
+    "id": "googlecampaignmanager360",
+    "name": "Google Campaign Manager 360"
+  },
+  {
+    "id": "googlecardboard",
+    "name": "Google Cardboard"
+  },
+  {
+    "id": "googlecast",
+    "name": "Google Cast"
+  },
+  {
+    "id": "googlechat",
+    "name": "Google Chat"
+  },
+  {
+    "id": "googlechrome",
+    "name": "Google Chrome"
+  },
+  {
+    "id": "googlechronicle",
+    "name": "Google Chronicle"
+  },
+  {
+    "id": "googleclassroom",
+    "name": "Google Classroom"
+  },
+  {
+    "id": "googlecloud",
+    "name": "Google Cloud"
+  },
+  {
+    "id": "googlecloudcomposer",
+    "name": "Google Cloud Composer"
+  },
+  {
+    "id": "googlecloudspanner",
+    "name": "Google Cloud Spanner"
+  },
+  {
+    "id": "googlecloudstorage",
+    "name": "Google Cloud Storage"
+  },
+  {
+    "id": "googlecolab",
+    "name": "Google Colab"
+  },
+  {
+    "id": "googlecontaineroptimizedos",
+    "name": "Google Container Optimized OS"
+  },
+  {
+    "id": "googledataflow",
+    "name": "Google Dataflow"
+  },
+  {
+    "id": "googledataproc",
+    "name": "Google Dataproc"
+  },
+  {
+    "id": "googledisplayandvideo360",
+    "name": "Google Display & Video 360"
+  },
+  {
+    "id": "googledocs",
+    "name": "Google Docs"
+  },
+  {
+    "id": "googledrive",
+    "name": "Google Drive"
+  },
+  {
+    "id": "googleearth",
+    "name": "Google Earth"
+  },
+  {
+    "id": "googleearthengine",
+    "name": "Google Earth Engine"
+  },
+  {
+    "id": "googlefit",
+    "name": "Google Fit"
+  },
+  {
+    "id": "googlefonts",
+    "name": "Google Fonts"
+  },
+  {
+    "id": "googleforms",
+    "name": "Google Forms"
+  },
+  {
+    "id": "googlegemini",
+    "name": "Google Gemini"
+  },
+  {
+    "id": "googlehome",
+    "name": "Google Home"
+  },
+  {
+    "id": "googlekeep",
+    "name": "Google Keep"
+  },
+  {
+    "id": "googlelens",
+    "name": "Google Lens"
+  },
+  {
+    "id": "googlemaps",
+    "name": "Google Maps"
+  },
+  {
+    "id": "googlemarketingplatform",
+    "name": "Google Marketing Platform"
+  },
+  {
+    "id": "googlemeet",
+    "name": "Google Meet"
+  },
+  {
+    "id": "googlemessages",
+    "name": "Google Messages"
+  },
+  {
+    "id": "googlenearby",
+    "name": "Google Nearby"
+  },
+  {
+    "id": "googlenews",
+    "name": "Google News"
+  },
+  {
+    "id": "googlepay",
+    "name": "Google Pay"
+  },
+  {
+    "id": "googlephotos",
+    "name": "Google Photos"
+  },
+  {
+    "id": "googleplay",
+    "name": "Google Play"
+  },
+  {
+    "id": "googlepubsub",
+    "name": "Google Pub/Sub"
+  },
+  {
+    "id": "googlescholar",
+    "name": "Google Scholar"
+  },
+  {
+    "id": "googlesearchconsole",
+    "name": "Google Search Console"
+  },
+  {
+    "id": "googlesheets",
+    "name": "Google Sheets"
+  },
+  {
+    "id": "googleslides",
+    "name": "Google Slides"
+  },
+  {
+    "id": "googlestreetview",
+    "name": "Google Street View"
+  },
+  {
+    "id": "googlesummerofcode",
+    "name": "Google Summer of Code"
+  },
+  {
+    "id": "googletagmanager",
+    "name": "Google Tag Manager"
+  },
+  {
+    "id": "googletasks",
+    "name": "Google Tasks"
+  },
+  {
+    "id": "googletranslate",
+    "name": "Google Translate"
+  },
+  {
+    "id": "googletv",
+    "name": "Google TV"
+  },
+  {
+    "id": "gotomeeting",
+    "name": "GoToMeeting"
+  },
+  {
+    "id": "grab",
+    "name": "Grab"
+  },
+  {
+    "id": "gradio",
+    "name": "Gradio"
+  },
+  {
+    "id": "gradle",
+    "name": "Gradle"
+  },
+  {
+    "id": "gradleplaypublisher",
+    "name": "Gradle Play Publisher"
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly"
+  },
+  {
+    "id": "grandfrais",
+    "name": "Grand Frais"
+  },
+  {
+    "id": "grapheneos",
+    "name": "GrapheneOS"
+  },
+  {
+    "id": "graphite",
+    "name": "Graphite"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL"
+  },
+  {
+    "id": "grav",
+    "name": "Grav"
+  },
+  {
+    "id": "gravatar",
+    "name": "Gravatar"
+  },
+  {
+    "id": "graylog",
+    "name": "Graylog"
+  },
+  {
+    "id": "greasyfork",
+    "name": "Greasy Fork"
+  },
+  {
+    "id": "greatlearning",
+    "name": "Great Learning"
+  },
+  {
+    "id": "greenhouse",
+    "name": "Greenhouse"
+  },
+  {
+    "id": "greensock",
+    "name": "GreenSock"
+  },
+  {
+    "id": "griddotai",
+    "name": "Grid.ai"
+  },
+  {
+    "id": "gridsome",
+    "name": "Gridsome"
+  },
+  {
+    "id": "grocy",
+    "name": "Grocy"
+  },
+  {
+    "id": "groupme",
+    "name": "GroupMe"
+  },
+  {
+    "id": "groupon",
+    "name": "Groupon"
+  },
+  {
+    "id": "grunt",
+    "name": "Grunt"
+  },
+  {
+    "id": "gsk",
+    "name": "GSK"
+  },
+  {
+    "id": "gsma",
+    "name": "GSMA"
+  },
+  {
+    "id": "gsmarenadotcom",
+    "name": "GSMArena.com"
+  },
+  {
+    "id": "gstreamer",
+    "name": "GStreamer"
+  },
+  {
+    "id": "gtk",
+    "name": "GTK"
+  },
+  {
+    "id": "guangzhoumetro",
+    "name": "Guangzhou Metro"
+  },
+  {
+    "id": "guilded",
+    "name": "Guilded"
+  },
+  {
+    "id": "guitarpro",
+    "name": "Guitar Pro"
+  },
+  {
+    "id": "gulp",
+    "name": "gulp"
+  },
+  {
+    "id": "gumroad",
+    "name": "Gumroad"
+  },
+  {
+    "id": "gumtree",
+    "name": "Gumtree"
+  },
+  {
+    "id": "gunicorn",
+    "name": "Gunicorn"
+  },
+  {
+    "id": "gurobi",
+    "name": "Gurobi"
+  },
+  {
+    "id": "gusto",
+    "name": "Gusto"
+  },
+  {
+    "id": "gutenberg",
+    "name": "Gutenberg"
+  },
+  {
+    "id": "handm",
+    "name": "H&M"
+  },
+  {
+    "id": "h2database",
+    "name": "H2 Database"
+  },
+  {
+    "id": "h3",
+    "name": "H3"
+  },
+  {
+    "id": "habr",
+    "name": "Habr"
+  },
+  {
+    "id": "hackclub",
+    "name": "Hack Club"
+  },
+  {
+    "id": "hackthebox",
+    "name": "Hack The Box"
+  },
+  {
+    "id": "hackaday",
+    "name": "Hackaday"
+  },
+  {
+    "id": "hackernoon",
+    "name": "Hacker Noon"
+  },
+  {
+    "id": "hackerearth",
+    "name": "HackerEarth"
+  },
+  {
+    "id": "hackerone",
+    "name": "HackerOne"
+  },
+  {
+    "id": "hackerrank",
+    "name": "HackerRank"
+  },
+  {
+    "id": "hackster",
+    "name": "Hackster"
+  },
+  {
+    "id": "hal",
+    "name": "HAL"
+  },
+  {
+    "id": "handlebarsdotjs",
+    "name": "Handlebars.js"
+  },
+  {
+    "id": "handshake_protocol",
+    "name": "Handshake"
+  },
+  {
+    "id": "handshake",
+    "name": "Handshake"
+  },
+  {
+    "id": "happycow",
+    "name": "HappyCow"
+  },
+  {
+    "id": "harbor",
+    "name": "Harbor"
+  },
+  {
+    "id": "harmonyos",
+    "name": "HarmonyOS"
+  },
+  {
+    "id": "hashicorp",
+    "name": "HashiCorp"
+  },
+  {
+    "id": "hashnode",
+    "name": "Hashnode"
+  },
+  {
+    "id": "haskell",
+    "name": "Haskell"
+  },
+  {
+    "id": "hasura",
+    "name": "Hasura"
+  },
+  {
+    "id": "hatenabookmark",
+    "name": "Hatena Bookmark"
+  },
+  {
+    "id": "haveibeenpwned",
+    "name": "Have I Been Pwned"
+  },
+  {
+    "id": "havells",
+    "name": "Havells"
+  },
+  {
+    "id": "haxe",
+    "name": "Haxe"
+  },
+  {
+    "id": "hbo",
+    "name": "HBO"
+  },
+  {
+    "id": "hbomax",
+    "name": "HBO Max"
+  },
+  {
+    "id": "hcl",
+    "name": "HCL"
+  },
+  {
+    "id": "hdfcbank",
+    "name": "HDFC Bank"
+  },
+  {
+    "id": "headlessui",
+    "name": "Headless UI"
+  },
+  {
+    "id": "headphonezone",
+    "name": "Headphone Zone"
+  },
+  {
+    "id": "headspace",
+    "name": "Headspace"
+  },
+  {
+    "id": "hearth",
+    "name": "Hearth"
+  },
+  {
+    "id": "hearthisdotat",
+    "name": "hearthis.at"
+  },
+  {
+    "id": "hedera",
+    "name": "Hedera"
+  },
+  {
+    "id": "hedgedoc",
+    "name": "HedgeDoc"
+  },
+  {
+    "id": "helium",
+    "name": "Helium"
+  },
+  {
+    "id": "helix",
+    "name": "Helix"
+  },
+  {
+    "id": "hellofresh",
+    "name": "HelloFresh"
+  },
+  {
+    "id": "hellyhansen",
+    "name": "Helly Hansen"
+  },
+  {
+    "id": "helm",
+    "name": "Helm"
+  },
+  {
+    "id": "helpscout",
+    "name": "Help Scout"
+  },
+  {
+    "id": "helpdesk",
+    "name": "HelpDesk"
+  },
+  {
+    "id": "hepsiemlak",
+    "name": "Hepsiemlak"
+  },
+  {
+    "id": "here",
+    "name": "HERE"
+  },
+  {
+    "id": "hermes",
+    "name": "Hermes"
+  },
+  {
+    "id": "heroicgameslauncher",
+    "name": "Heroic Games Launcher"
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku"
+  },
+  {
+    "id": "heroui",
+    "name": "HeroUI"
+  },
+  {
+    "id": "hetzner",
+    "name": "Hetzner"
+  },
+  {
+    "id": "hevy",
+    "name": "Hevy"
+  },
+  {
+    "id": "hexlet",
+    "name": "Hexlet"
+  },
+  {
+    "id": "hexo",
+    "name": "Hexo"
+  },
+  {
+    "id": "hey",
+    "name": "HEY"
+  },
+  {
+    "id": "hibob",
+    "name": "Hi Bob"
+  },
+  {
+    "id": "hibernate",
+    "name": "Hibernate"
+  },
+  {
+    "id": "hilton",
+    "name": "Hilton"
+  },
+  {
+    "id": "hiltonhotelsandresorts",
+    "name": "Hilton Hotels & Resorts"
+  },
+  {
+    "id": "hitachi",
+    "name": "Hitachi"
+  },
+  {
+    "id": "hive_blockchain",
+    "name": "Hive"
+  },
+  {
+    "id": "hive",
+    "name": "Hive"
+  },
+  {
+    "id": "hivemq",
+    "name": "HiveMQ"
+  },
+  {
+    "id": "homarr",
+    "name": "Homarr"
+  },
+  {
+    "id": "homeassistant",
+    "name": "Home Assistant"
+  },
+  {
+    "id": "homeassistantcommunitystore",
+    "name": "Home Assistant Community Store"
+  },
+  {
+    "id": "homeadvisor",
+    "name": "HomeAdvisor"
+  },
+  {
+    "id": "homebrew",
+    "name": "Homebrew"
+  },
+  {
+    "id": "homebridge",
+    "name": "Homebridge"
+  },
+  {
+    "id": "homepage",
+    "name": "Homepage"
+  },
+  {
+    "id": "homify",
+    "name": "homify"
+  },
+  {
+    "id": "honda",
+    "name": "Honda"
+  },
+  {
+    "id": "honey",
+    "name": "Honey"
+  },
+  {
+    "id": "honeybadger",
+    "name": "Honeybadger"
+  },
+  {
+    "id": "honeygain",
+    "name": "Honeygain"
+  },
+  {
+    "id": "hono",
+    "name": "Hono"
+  },
+  {
+    "id": "honor",
+    "name": "Honor"
+  },
+  {
+    "id": "hootsuite",
+    "name": "Hootsuite"
+  },
+  {
+    "id": "hoppscotch",
+    "name": "Hoppscotch"
+  },
+  {
+    "id": "hostinger",
+    "name": "Hostinger"
+  },
+  {
+    "id": "hotelsdotcom",
+    "name": "Hotels.com"
+  },
+  {
+    "id": "hotjar",
+    "name": "Hotjar"
+  },
+  {
+    "id": "hotwire",
+    "name": "Hotwire"
+  },
+  {
+    "id": "houdini",
+    "name": "Houdini"
+  },
+  {
+    "id": "houzz",
+    "name": "Houzz"
+  },
+  {
+    "id": "hp",
+    "name": "HP"
+  },
+  {
+    "id": "hsbc",
+    "name": "HSBC"
+  },
+  {
+    "id": "htc",
+    "name": "HTC"
+  },
+  {
+    "id": "htcvive",
+    "name": "HTC Vive"
+  },
+  {
+    "id": "htmlacademy",
+    "name": "HTML Academy"
+  },
+  {
+    "id": "html5",
+    "name": "HTML5"
+  },
+  {
+    "id": "htmx",
+    "name": "htmx"
+  },
+  {
+    "id": "htop",
+    "name": "htop"
+  },
+  {
+    "id": "httpie",
+    "name": "HTTPie"
+  },
+  {
+    "id": "huawei",
+    "name": "Huawei"
+  },
+  {
+    "id": "hubspot",
+    "name": "HubSpot"
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face"
+  },
+  {
+    "id": "hugo",
+    "name": "Hugo"
+  },
+  {
+    "id": "humblebundle",
+    "name": "Humble Bundle"
+  },
+  {
+    "id": "humhub",
+    "name": "HumHub"
+  },
+  {
+    "id": "hungryjacks",
+    "name": "Hungry Jack's"
+  },
+  {
+    "id": "husqvarna",
+    "name": "Husqvarna"
+  },
+  {
+    "id": "hyper",
+    "name": "Hyper"
+  },
+  {
+    "id": "hyperskill",
+    "name": "Hyperskill"
+  },
+  {
+    "id": "hyperx",
+    "name": "HyperX"
+  },
+  {
+    "id": "hypothesis",
+    "name": "Hypothesis"
+  },
+  {
+    "id": "hyprland",
+    "name": "Hyprland"
+  },
+  {
+    "id": "hyundai",
+    "name": "Hyundai"
+  },
+  {
+    "id": "i18next",
+    "name": "i18next"
+  },
+  {
+    "id": "i3",
+    "name": "i3"
+  },
+  {
+    "id": "iata",
+    "name": "IATA"
+  },
+  {
+    "id": "ibeacon",
+    "name": "iBeacon"
+  },
+  {
+    "id": "iberia",
+    "name": "Iberia"
+  },
+  {
+    "id": "iced",
+    "name": "Iced"
+  },
+  {
+    "id": "iceland",
+    "name": "Iceland"
+  },
+  {
+    "id": "icicibank",
+    "name": "ICICI Bank"
+  },
+  {
+    "id": "icinga",
+    "name": "Icinga"
+  },
+  {
+    "id": "icloud",
+    "name": "iCloud"
+  },
+  {
+    "id": "icomoon",
+    "name": "IcoMoon"
+  },
+  {
+    "id": "icon",
+    "name": "ICON"
+  },
+  {
+    "id": "iconfinder",
+    "name": "Iconfinder"
+  },
+  {
+    "id": "iconify",
+    "name": "Iconify"
+  },
+  {
+    "id": "iconjar",
+    "name": "IconJar"
+  },
+  {
+    "id": "icons8",
+    "name": "Icons8"
+  },
+  {
+    "id": "icq",
+    "name": "ICQ"
+  },
+  {
+    "id": "ieee",
+    "name": "IEEE"
+  },
+  {
+    "id": "ifixit",
+    "name": "iFixit"
+  },
+  {
+    "id": "ifood",
+    "name": "iFood"
+  },
+  {
+    "id": "ifttt",
+    "name": "IFTTT"
+  },
+  {
+    "id": "igdb",
+    "name": "IGDB"
+  },
+  {
+    "id": "ign",
+    "name": "IGN"
+  },
+  {
+    "id": "iheartradio",
+    "name": "iHeartRadio"
+  },
+  {
+    "id": "ikea",
+    "name": "IKEA"
+  },
+  {
+    "id": "ilovepdf",
+    "name": "iLovePDF"
+  },
+  {
+    "id": "imagedotsc",
+    "name": "Image.sc"
+  },
+  {
+    "id": "imagej",
+    "name": "ImageJ"
+  },
+  {
+    "id": "imdb",
+    "name": "IMDb"
+  },
+  {
+    "id": "imessage",
+    "name": "iMessage"
+  },
+  {
+    "id": "imgur",
+    "name": "Imgur"
+  },
+  {
+    "id": "immer",
+    "name": "Immer"
+  },
+  {
+    "id": "immich",
+    "name": "Immich"
+  },
+  {
+    "id": "imou",
+    "name": "Imou"
+  },
+  {
+    "id": "improvmx",
+    "name": "ImprovMX"
+  },
+  {
+    "id": "indeed",
+    "name": "Indeed"
+  },
+  {
+    "id": "indiansuperleague",
+    "name": "Indian Super League"
+  },
+  {
+    "id": "indiehackers",
+    "name": "Indie Hackers"
+  },
+  {
+    "id": "indigo",
+    "name": "IndiGo"
+  },
+  {
+    "id": "inductiveautomation",
+    "name": "Inductive Automation"
+  },
+  {
+    "id": "inertia",
+    "name": "Inertia"
+  },
+  {
+    "id": "infiniti",
+    "name": "INFINITI"
+  },
+  {
+    "id": "infinityfree",
+    "name": "InfinityFree"
+  },
+  {
+    "id": "influxdb",
+    "name": "InfluxDB"
+  },
+  {
+    "id": "infomaniak",
+    "name": "Infomaniak"
+  },
+  {
+    "id": "infoq",
+    "name": "InfoQ"
+  },
+  {
+    "id": "informatica",
+    "name": "Informatica"
+  },
+  {
+    "id": "infosys",
+    "name": "Infosys"
+  },
+  {
+    "id": "infracost",
+    "name": "Infracost"
+  },
+  {
+    "id": "ingress",
+    "name": "Ingress"
+  },
+  {
+    "id": "inkdrop",
+    "name": "Inkdrop"
+  },
+  {
+    "id": "inkscape",
+    "name": "Inkscape"
+  },
+  {
+    "id": "inoreader",
+    "name": "Inoreader"
+  },
+  {
+    "id": "inquirer",
+    "name": "Inquirer"
+  },
+  {
+    "id": "insomnia",
+    "name": "Insomnia"
+  },
+  {
+    "id": "inspire",
+    "name": "INSPIRE"
+  },
+  {
+    "id": "insta360",
+    "name": "Insta360"
+  },
+  {
+    "id": "instacart",
+    "name": "Instacart"
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram"
+  },
+  {
+    "id": "instapaper",
+    "name": "Instapaper"
+  },
+  {
+    "id": "instatus",
+    "name": "Instatus"
+  },
+  {
+    "id": "instructables",
+    "name": "Instructables"
+  },
+  {
+    "id": "instructure",
+    "name": "Instructure"
+  },
+  {
+    "id": "intel",
+    "name": "Intel"
+  },
+  {
+    "id": "intellijidea",
+    "name": "IntelliJ IDEA"
+  },
+  {
+    "id": "interactiondesignfoundation",
+    "name": "Interaction Design Foundation"
+  },
+  {
+    "id": "interactjs",
+    "name": "InteractJS"
+  },
+  {
+    "id": "interbase",
+    "name": "Interbase"
+  },
+  {
+    "id": "intercom",
+    "name": "Intercom"
+  },
+  {
+    "id": "intermarche",
+    "name": "Intermarche"
+  },
+  {
+    "id": "internetarchive",
+    "name": "Internet Archive"
+  },
+  {
+    "id": "internetcomputer",
+    "name": "Internet Computer"
+  },
+  {
+    "id": "intigriti",
+    "name": "Intigriti"
+  },
+  {
+    "id": "intuit",
+    "name": "Intuit"
+  },
+  {
+    "id": "invision",
+    "name": "InVision"
+  },
+  {
+    "id": "invoiceninja",
+    "name": "Invoice Ninja"
+  },
+  {
+    "id": "iobroker",
+    "name": "ioBroker"
+  },
+  {
+    "id": "ionic",
+    "name": "Ionic"
+  },
+  {
+    "id": "ionos",
+    "name": "Ionos"
+  },
+  {
+    "id": "ios",
+    "name": "iOS"
+  },
+  {
+    "id": "iota",
+    "name": "IOTA"
+  },
+  {
+    "id": "ipfs",
+    "name": "IPFS"
+  },
+  {
+    "id": "iris",
+    "name": "IRIS"
+  },
+  {
+    "id": "irobot",
+    "name": "iRobot"
+  },
+  {
+    "id": "isc2",
+    "name": "ISC2"
+  },
+  {
+    "id": "isro",
+    "name": "ISRO"
+  },
+  {
+    "id": "issuu",
+    "name": "Issuu"
+  },
+  {
+    "id": "istio",
+    "name": "Istio"
+  },
+  {
+    "id": "itchdotio",
+    "name": "Itch.io"
+  },
+  {
+    "id": "iterm2",
+    "name": "iTerm2"
+  },
+  {
+    "id": "itunes",
+    "name": "iTunes"
+  },
+  {
+    "id": "itvx",
+    "name": "ITVx"
+  },
+  {
+    "id": "iveco",
+    "name": "IVECO"
+  },
+  {
+    "id": "jabber",
+    "name": "Jabber"
+  },
+  {
+    "id": "jaeger",
+    "name": "Jaeger"
+  },
+  {
+    "id": "jaguar",
+    "name": "Jaguar"
+  },
+  {
+    "id": "jameson",
+    "name": "Jameson"
+  },
+  {
+    "id": "jamstack",
+    "name": "Jamstack"
+  },
+  {
+    "id": "japanairlines",
+    "name": "Japan Airlines"
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript"
+  },
+  {
+    "id": "jbl",
+    "name": "JBL"
+  },
+  {
+    "id": "jcb",
+    "name": "JCB"
+  },
+  {
+    "id": "jdoodle",
+    "name": "JDoodle"
+  },
+  {
+    "id": "jeep",
+    "name": "Jeep"
+  },
+  {
+    "id": "jekyll",
+    "name": "Jekyll"
+  },
+  {
+    "id": "jellyfin",
+    "name": "Jellyfin"
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins"
+  },
+  {
+    "id": "jest",
+    "name": "Jest"
+  },
+  {
+    "id": "jet",
+    "name": "JET"
+  },
+  {
+    "id": "jetblue",
+    "name": "JetBlue"
+  },
+  {
+    "id": "jetbrains",
+    "name": "JetBrains"
+  },
+  {
+    "id": "jetpackcompose",
+    "name": "Jetpack Compose"
+  },
+  {
+    "id": "jfrog",
+    "name": "JFrog"
+  },
+  {
+    "id": "jfrogpipelines",
+    "name": "JFrog Pipelines"
+  },
+  {
+    "id": "jhipster",
+    "name": "JHipster"
+  },
+  {
+    "id": "jinja",
+    "name": "Jinja"
+  },
+  {
+    "id": "jio",
+    "name": "Jio"
+  },
+  {
+    "id": "jira",
+    "name": "Jira"
+  },
+  {
+    "id": "jirasoftware",
+    "name": "Jira Software"
+  },
+  {
+    "id": "jitpack",
+    "name": "JitPack"
+  },
+  {
+    "id": "jitsi",
+    "name": "Jitsi"
+  },
+  {
+    "id": "johndeere",
+    "name": "John Deere"
+  },
+  {
+    "id": "joomla",
+    "name": "Joomla"
+  },
+  {
+    "id": "joplin",
+    "name": "Joplin"
+  },
+  {
+    "id": "jordan",
+    "name": "Jordan"
+  },
+  {
+    "id": "jouav",
+    "name": "JOUAV"
+  },
+  {
+    "id": "jovian",
+    "name": "Jovian"
+  },
+  {
+    "id": "jpeg",
+    "name": "JPEG"
+  },
+  {
+    "id": "jquery",
+    "name": "jQuery"
+  },
+  {
+    "id": "jrgroup",
+    "name": "JR Group"
+  },
+  {
+    "id": "jsdelivr",
+    "name": "jsDelivr"
+  },
+  {
+    "id": "jsfiddle",
+    "name": "JSFiddle"
+  },
+  {
+    "id": "json",
+    "name": "JSON"
+  },
+  {
+    "id": "jsonwebtokens",
+    "name": "JSON Web Tokens"
+  },
+  {
+    "id": "jsr",
+    "name": "JSR"
+  },
+  {
+    "id": "jss",
+    "name": "JSS"
+  },
+  {
+    "id": "juce",
+    "name": "JUCE"
+  },
+  {
+    "id": "juejin",
+    "name": "Juejin"
+  },
+  {
+    "id": "juke",
+    "name": "JUKE"
+  },
+  {
+    "id": "julia",
+    "name": "Julia"
+  },
+  {
+    "id": "junipernetworks",
+    "name": "Juniper Networks"
+  },
+  {
+    "id": "junit5",
+    "name": "JUnit5"
+  },
+  {
+    "id": "jupyter",
+    "name": "Jupyter"
+  },
+  {
+    "id": "justeat",
+    "name": "Just Eat"
+  },
+  {
+    "id": "justgiving",
+    "name": "JustGiving"
+  },
+  {
+    "id": "k3s",
+    "name": "K3s"
+  },
+  {
+    "id": "k6",
+    "name": "k6"
+  },
+  {
+    "id": "kaggle",
+    "name": "Kaggle"
+  },
+  {
+    "id": "kagi",
+    "name": "Kagi"
+  },
+  {
+    "id": "kahoot",
+    "name": "Kahoot!"
+  },
+  {
+    "id": "kaios",
+    "name": "KaiOS"
+  },
+  {
+    "id": "kakao",
+    "name": "Kakao"
+  },
+  {
+    "id": "kakaotalk",
+    "name": "KakaoTalk"
+  },
+  {
+    "id": "kalilinux",
+    "name": "Kali Linux"
+  },
+  {
+    "id": "kamailio",
+    "name": "Kamailio"
+  },
+  {
+    "id": "kaniko",
+    "name": "Kaniko"
+  },
+  {
+    "id": "karlsruherverkehrsverbund",
+    "name": "Karlsruher Verkehrsverbund"
+  },
+  {
+    "id": "kasasmart",
+    "name": "Kasa Smart"
+  },
+  {
+    "id": "kashflow",
+    "name": "KashFlow"
+  },
+  {
+    "id": "kaspersky",
+    "name": "Kaspersky"
+  },
+  {
+    "id": "katana",
+    "name": "Katana"
+  },
+  {
+    "id": "kaufland",
+    "name": "Kaufland"
+  },
+  {
+    "id": "kde",
+    "name": "KDE"
+  },
+  {
+    "id": "kdeneon",
+    "name": "KDE neon"
+  },
+  {
+    "id": "kdeplasma",
+    "name": "KDE Plasma"
+  },
+  {
+    "id": "kdenlive",
+    "name": "Kdenlive"
+  },
+  {
+    "id": "kedro",
+    "name": "Kedro"
+  },
+  {
+    "id": "keenetic",
+    "name": "Keenetic"
+  },
+  {
+    "id": "keepachangelog",
+    "name": "Keep a Changelog"
+  },
+  {
+    "id": "keepassxc",
+    "name": "KeePassXC"
+  },
+  {
+    "id": "keeper",
+    "name": "Keeper"
+  },
+  {
+    "id": "keeweb",
+    "name": "KeeWeb"
+  },
+  {
+    "id": "kentico",
+    "name": "Kentico"
+  },
+  {
+    "id": "keras",
+    "name": "Keras"
+  },
+  {
+    "id": "keybase",
+    "name": "Keybase"
+  },
+  {
+    "id": "keycdn",
+    "name": "KeyCDN"
+  },
+  {
+    "id": "keycloak",
+    "name": "Keycloak"
+  },
+  {
+    "id": "keystone",
+    "name": "Keystone"
+  },
+  {
+    "id": "kfc",
+    "name": "KFC"
+  },
+  {
+    "id": "khanacademy",
+    "name": "Khan Academy"
+  },
+  {
+    "id": "khronosgroup",
+    "name": "Khronos Group"
+  },
+  {
+    "id": "kia",
+    "name": "Kia"
+  },
+  {
+    "id": "kibana",
+    "name": "Kibana"
+  },
+  {
+    "id": "kicad",
+    "name": "KiCad"
+  },
+  {
+    "id": "kick",
+    "name": "Kick"
+  },
+  {
+    "id": "kickstarter",
+    "name": "Kickstarter"
+  },
+  {
+    "id": "kik",
+    "name": "Kik"
+  },
+  {
+    "id": "kingstontechnology",
+    "name": "Kingston Technology"
+  },
+  {
+    "id": "kinopoisk",
+    "name": "Kinopoisk"
+  },
+  {
+    "id": "kinsta",
+    "name": "Kinsta"
+  },
+  {
+    "id": "kirby",
+    "name": "Kirby"
+  },
+  {
+    "id": "kit",
+    "name": "Kit"
+  },
+  {
+    "id": "kitsu",
+    "name": "Kitsu"
+  },
+  {
+    "id": "kiwix",
+    "name": "Kiwix"
+  },
+  {
+    "id": "klarna",
+    "name": "Klarna"
+  },
+  {
+    "id": "kleinanzeigen",
+    "name": "Kleinanzeigen"
+  },
+  {
+    "id": "klm",
+    "name": "KLM"
+  },
+  {
+    "id": "klook",
+    "name": "Klook"
+  },
+  {
+    "id": "knative",
+    "name": "Knative"
+  },
+  {
+    "id": "knexdotjs",
+    "name": "Knex.js"
+  },
+  {
+    "id": "knime",
+    "name": "KNIME"
+  },
+  {
+    "id": "knip",
+    "name": "Knip"
+  },
+  {
+    "id": "knowledgebase",
+    "name": "KnowledgeBase"
+  },
+  {
+    "id": "known",
+    "name": "Known"
+  },
+  {
+    "id": "kofi",
+    "name": "Ko-fi"
+  },
+  {
+    "id": "koa",
+    "name": "Koa"
+  },
+  {
+    "id": "koc",
+    "name": "Koc"
+  },
+  {
+    "id": "kodak",
+    "name": "Kodak"
+  },
+  {
+    "id": "kodi",
+    "name": "Kodi"
+  },
+  {
+    "id": "koenigsegg",
+    "name": "Koenigsegg"
+  },
+  {
+    "id": "kofax",
+    "name": "Kofax"
+  },
+  {
+    "id": "komoot",
+    "name": "Komoot"
+  },
+  {
+    "id": "konami",
+    "name": "Konami"
+  },
+  {
+    "id": "kong",
+    "name": "Kong"
+  },
+  {
+    "id": "kongregate",
+    "name": "Kongregate"
+  },
+  {
+    "id": "konva",
+    "name": "Konva"
+  },
+  {
+    "id": "koreader",
+    "name": "KOReader"
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin"
+  },
+  {
+    "id": "koyeb",
+    "name": "Koyeb"
+  },
+  {
+    "id": "kred",
+    "name": "Kred"
+  },
+  {
+    "id": "krita",
+    "name": "Krita"
+  },
+  {
+    "id": "ktm",
+    "name": "KTM"
+  },
+  {
+    "id": "ktor",
+    "name": "Ktor"
+  },
+  {
+    "id": "kuaishou",
+    "name": "Kuaishou"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes"
+  },
+  {
+    "id": "kubespray",
+    "name": "Kubespray"
+  },
+  {
+    "id": "kubuntu",
+    "name": "Kubuntu"
+  },
+  {
+    "id": "kucoin",
+    "name": "KuCoin"
+  },
+  {
+    "id": "kueski",
+    "name": "Kueski"
+  },
+  {
+    "id": "kuma",
+    "name": "Kuma"
+  },
+  {
+    "id": "kununu",
+    "name": "Kununu"
+  },
+  {
+    "id": "kuula",
+    "name": "Kuula"
+  },
+  {
+    "id": "kx",
+    "name": "KX"
+  },
+  {
+    "id": "kyocera",
+    "name": "Kyocera"
+  },
+  {
+    "id": "lequipe",
+    "name": "L'Équipe"
+  },
+  {
+    "id": "labview",
+    "name": "LabVIEW"
+  },
+  {
+    "id": "lada",
+    "name": "LADA"
+  },
+  {
+    "id": "lamborghini",
+    "name": "Lamborghini"
+  },
+  {
+    "id": "landrover",
+    "name": "Land Rover"
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain"
+  },
+  {
+    "id": "langflow",
+    "name": "Langflow"
+  },
+  {
+    "id": "langgraph",
+    "name": "LangGraph"
+  },
+  {
+    "id": "languagetool",
+    "name": "LanguageTool"
+  },
+  {
+    "id": "lapce",
+    "name": "Lapce"
+  },
+  {
+    "id": "laragon",
+    "name": "Laragon"
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel"
+  },
+  {
+    "id": "laravelhorizon",
+    "name": "Laravel Horizon"
+  },
+  {
+    "id": "laravelnova",
+    "name": "Laravel Nova"
+  },
+  {
+    "id": "lastdotfm",
+    "name": "Last.fm"
+  },
+  {
+    "id": "lastpass",
+    "name": "LastPass"
+  },
+  {
+    "id": "latex",
+    "name": "LaTeX"
+  },
+  {
+    "id": "launchpad",
+    "name": "Launchpad"
+  },
+  {
+    "id": "lazarus",
+    "name": "Lazarus"
+  },
+  {
+    "id": "lazyvim",
+    "name": "LazyVim"
+  },
+  {
+    "id": "lbry",
+    "name": "LBRY"
+  },
+  {
+    "id": "leaderprice",
+    "name": "Leader Price"
+  },
+  {
+    "id": "leaflet",
+    "name": "Leaflet"
+  },
+  {
+    "id": "leagueoflegends",
+    "name": "League of Legends"
+  },
+  {
+    "id": "leanpub",
+    "name": "Leanpub"
+  },
+  {
+    "id": "leetcode",
+    "name": "LeetCode"
+  },
+  {
+    "id": "lefthook",
+    "name": "Lefthook"
+  },
+  {
+    "id": "legacygames",
+    "name": "Legacy Games"
+  },
+  {
+    "id": "leica",
+    "name": "Leica"
+  },
+  {
+    "id": "lemmy",
+    "name": "Lemmy"
+  },
+  {
+    "id": "lemonsqueezy",
+    "name": "Lemon Squeezy"
+  },
+  {
+    "id": "lenovo",
+    "name": "Lenovo"
+  },
+  {
+    "id": "lens",
+    "name": "Lens"
+  },
+  {
+    "id": "leptos",
+    "name": "Leptos"
+  },
+  {
+    "id": "lerna",
+    "name": "Lerna"
+  },
+  {
+    "id": "leroymerlin",
+    "name": "Leroy Merlin"
+  },
+  {
+    "id": "leslibraires",
+    "name": "Les libraires"
+  },
+  {
+    "id": "less",
+    "name": "Less"
+  },
+  {
+    "id": "letsencrypt",
+    "name": "Let's Encrypt"
+  },
+  {
+    "id": "letterboxd",
+    "name": "Letterboxd"
+  },
+  {
+    "id": "levelsdotfyi",
+    "name": "levels.fyi"
+  },
+  {
+    "id": "lg",
+    "name": "LG"
+  },
+  {
+    "id": "lining",
+    "name": "Li-Ning"
+  },
+  {
+    "id": "liberadotchat",
+    "name": "Libera.Chat"
+  },
+  {
+    "id": "liberapay",
+    "name": "Liberapay"
+  },
+  {
+    "id": "librariesdotio",
+    "name": "Libraries.io"
+  },
+  {
+    "id": "librarything",
+    "name": "LibraryThing"
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice"
+  },
+  {
+    "id": "libreofficebase",
+    "name": "LibreOffice Base"
+  },
+  {
+    "id": "libreofficecalc",
+    "name": "LibreOffice Calc"
+  },
+  {
+    "id": "libreofficedraw",
+    "name": "LibreOffice Draw"
+  },
+  {
+    "id": "libreofficeimpress",
+    "name": "LibreOffice Impress"
+  },
+  {
+    "id": "libreofficemath",
+    "name": "LibreOffice Math"
+  },
+  {
+    "id": "libreofficewriter",
+    "name": "LibreOffice Writer"
+  },
+  {
+    "id": "libretranslate",
+    "name": "LibreTranslate"
+  },
+  {
+    "id": "libretube",
+    "name": "LibreTube"
+  },
+  {
+    "id": "librewolf",
+    "name": "LibreWolf"
+  },
+  {
+    "id": "libuv",
+    "name": "libuv"
+  },
+  {
+    "id": "lichess",
+    "name": "Lichess"
+  },
+  {
+    "id": "lidl",
+    "name": "Lidl"
+  },
+  {
+    "id": "lifx",
+    "name": "LIFX"
+  },
+  {
+    "id": "lightburn",
+    "name": "LightBurn"
+  },
+  {
+    "id": "lighthouse",
+    "name": "Lighthouse"
+  },
+  {
+    "id": "lightning",
+    "name": "Lightning"
+  },
+  {
+    "id": "limesurvey",
+    "name": "LimeSurvey"
+  },
+  {
+    "id": "line",
+    "name": "LINE"
+  },
+  {
+    "id": "lineageos",
+    "name": "LineageOS"
+  },
+  {
+    "id": "linear",
+    "name": "Linear"
+  },
+  {
+    "id": "linkerd",
+    "name": "Linkerd"
+  },
+  {
+    "id": "linkfire",
+    "name": "Linkfire"
+  },
+  {
+    "id": "linksys",
+    "name": "Linksys"
+  },
+  {
+    "id": "linktree",
+    "name": "Linktree"
+  },
+  {
+    "id": "linphone",
+    "name": "Linphone"
+  },
+  {
+    "id": "lintcode",
+    "name": "LintCode"
+  },
+  {
+    "id": "linux",
+    "name": "Linux"
+  },
+  {
+    "id": "linuxcontainers",
+    "name": "Linux Containers"
+  },
+  {
+    "id": "linuxfoundation",
+    "name": "Linux Foundation"
+  },
+  {
+    "id": "linuxmint",
+    "name": "Linux Mint"
+  },
+  {
+    "id": "linuxprofessionalinstitute",
+    "name": "Linux Professional Institute"
+  },
+  {
+    "id": "linuxserver",
+    "name": "LinuxServer"
+  },
+  {
+    "id": "lionair",
+    "name": "Lion Air"
+  },
+  {
+    "id": "liquibase",
+    "name": "Liquibase"
+  },
+  {
+    "id": "listmonk",
+    "name": "listmonk"
+  },
+  {
+    "id": "lit",
+    "name": "Lit"
+  },
+  {
+    "id": "litecoin",
+    "name": "Litecoin"
+  },
+  {
+    "id": "literal",
+    "name": "Literal"
+  },
+  {
+    "id": "litiengine",
+    "name": "LITIENGINE"
+  },
+  {
+    "id": "livechat",
+    "name": "LiveChat"
+  },
+  {
+    "id": "livejournal",
+    "name": "LiveJournal"
+  },
+  {
+    "id": "livewire",
+    "name": "Livewire"
+  },
+  {
+    "id": "llvm",
+    "name": "LLVM"
+  },
+  {
+    "id": "lmms",
+    "name": "LMMS"
+  },
+  {
+    "id": "lobsters",
+    "name": "Lobsters"
+  },
+  {
+    "id": "local",
+    "name": "Local"
+  },
+  {
+    "id": "lodash",
+    "name": "Lodash"
+  },
+  {
+    "id": "logitech",
+    "name": "Logitech"
+  },
+  {
+    "id": "logitechg",
+    "name": "Logitech G"
+  },
+  {
+    "id": "logmein",
+    "name": "LogMeIn"
+  },
+  {
+    "id": "logseq",
+    "name": "Logseq"
+  },
+  {
+    "id": "logstash",
+    "name": "Logstash"
+  },
+  {
+    "id": "looker",
+    "name": "Looker"
+  },
+  {
+    "id": "loom",
+    "name": "Loom"
+  },
+  {
+    "id": "loop",
+    "name": "Loop"
+  },
+  {
+    "id": "loopback",
+    "name": "LoopBack"
+  },
+  {
+    "id": "lootcrate",
+    "name": "Loot Crate"
+  },
+  {
+    "id": "lospec",
+    "name": "Lospec"
+  },
+  {
+    "id": "lotpolishairlines",
+    "name": "LOT Polish Airlines"
+  },
+  {
+    "id": "lottiefiles",
+    "name": "LottieFiles"
+  },
+  {
+    "id": "ltspice",
+    "name": "LTspice"
+  },
+  {
+    "id": "lua",
+    "name": "Lua"
+  },
+  {
+    "id": "lubuntu",
+    "name": "Lubuntu"
+  },
+  {
+    "id": "lucia",
+    "name": "Lucia"
+  },
+  {
+    "id": "lucid",
+    "name": "Lucid"
+  },
+  {
+    "id": "lucide",
+    "name": "Lucide"
+  },
+  {
+    "id": "ludwig",
+    "name": "Ludwig"
+  },
+  {
+    "id": "lufthansa",
+    "name": "Lufthansa"
+  },
+  {
+    "id": "lumen",
+    "name": "Lumen"
+  },
+  {
+    "id": "lunacy",
+    "name": "Lunacy"
+  },
+  {
+    "id": "lutris",
+    "name": "Lutris"
+  },
+  {
+    "id": "lvgl",
+    "name": "LVGL"
+  },
+  {
+    "id": "lydia",
+    "name": "Lydia"
+  },
+  {
+    "id": "lyft",
+    "name": "Lyft"
+  },
+  {
+    "id": "maas",
+    "name": "MAAS"
+  },
+  {
+    "id": "macos",
+    "name": "macOS"
+  },
+  {
+    "id": "macpaw",
+    "name": "MacPaw"
+  },
+  {
+    "id": "macys",
+    "name": "Macy's"
+  },
+  {
+    "id": "magasinsu",
+    "name": "Magasins U"
+  },
+  {
+    "id": "magic",
+    "name": "Magic"
+  },
+  {
+    "id": "magisk",
+    "name": "Magisk"
+  },
+  {
+    "id": "mahindra",
+    "name": "Mahindra"
+  },
+  {
+    "id": "maildotcom",
+    "name": "mail.com"
+  },
+  {
+    "id": "maildotru",
+    "name": "Mail.Ru"
+  },
+  {
+    "id": "mailboxdotorg",
+    "name": "mailbox.org"
+  },
+  {
+    "id": "mailchimp",
+    "name": "MailChimp"
+  },
+  {
+    "id": "mailgun",
+    "name": "Mailgun"
+  },
+  {
+    "id": "mailtrap",
+    "name": "Mailtrap"
+  },
+  {
+    "id": "mainwp",
+    "name": "MainWP"
+  },
+  {
+    "id": "majorleaguehacking",
+    "name": "Major League Hacking"
+  },
+  {
+    "id": "make",
+    "name": "Make"
+  },
+  {
+    "id": "makerbot",
+    "name": "MakerBot"
+  },
+  {
+    "id": "malt",
+    "name": "Malt"
+  },
+  {
+    "id": "malwarebytes",
+    "name": "Malwarebytes"
+  },
+  {
+    "id": "mambaui",
+    "name": "Mamba UI"
+  },
+  {
+    "id": "mamp",
+    "name": "MAMP"
+  },
+  {
+    "id": "man",
+    "name": "MAN"
+  },
+  {
+    "id": "manageiq",
+    "name": "ManageIQ"
+  },
+  {
+    "id": "mangaupdates",
+    "name": "MangaUpdates"
+  },
+  {
+    "id": "manjaro",
+    "name": "Manjaro"
+  },
+  {
+    "id": "mantine",
+    "name": "Mantine"
+  },
+  {
+    "id": "mapbox",
+    "name": "Mapbox"
+  },
+  {
+    "id": "mapillary",
+    "name": "Mapillary"
+  },
+  {
+    "id": "maplibre",
+    "name": "MapLibre"
+  },
+  {
+    "id": "maptiler",
+    "name": "MapTiler"
+  },
+  {
+    "id": "mariadb",
+    "name": "MariaDB"
+  },
+  {
+    "id": "mariadbfoundation",
+    "name": "MariaDB Foundation"
+  },
+  {
+    "id": "markdown",
+    "name": "Markdown"
+  },
+  {
+    "id": "marko",
+    "name": "Marko"
+  },
+  {
+    "id": "marriott",
+    "name": "Marriott"
+  },
+  {
+    "id": "marvelapp",
+    "name": "MarvelApp"
+  },
+  {
+    "id": "maserati",
+    "name": "Maserati"
+  },
+  {
+    "id": "mastercard",
+    "name": "MasterCard"
+  },
+  {
+    "id": "mastercomfig",
+    "name": "mastercomfig"
+  },
+  {
+    "id": "mastodon",
+    "name": "Mastodon"
+  },
+  {
+    "id": "materialdesign",
+    "name": "Material Design"
+  },
+  {
+    "id": "materialdesignicons",
+    "name": "Material Design Icons"
+  },
+  {
+    "id": "materialformkdocs",
+    "name": "Material for MkDocs"
+  },
+  {
+    "id": "matillion",
+    "name": "Matillion"
+  },
+  {
+    "id": "matomo",
+    "name": "Matomo"
+  },
+  {
+    "id": "matrix",
+    "name": "Matrix"
+  },
+  {
+    "id": "matterdotjs",
+    "name": "Matter.js"
+  },
+  {
+    "id": "mattermost",
+    "name": "Mattermost"
+  },
+  {
+    "id": "matternet",
+    "name": "Matternet"
+  },
+  {
+    "id": "mautic",
+    "name": "Mautic"
+  },
+  {
+    "id": "max",
+    "name": "Max"
+  },
+  {
+    "id": "maxplanckgesellschaft",
+    "name": "Max-Planck-Gesellschaft"
+  },
+  {
+    "id": "maytag",
+    "name": "Maytag"
+  },
+  {
+    "id": "mazda",
+    "name": "Mazda"
+  },
+  {
+    "id": "maze",
+    "name": "Maze"
+  },
+  {
+    "id": "mcafee",
+    "name": "McAfee"
+  },
+  {
+    "id": "mcdonalds",
+    "name": "McDonald's"
+  },
+  {
+    "id": "mclaren",
+    "name": "McLaren"
+  },
+  {
+    "id": "mdbook",
+    "name": "mdBook"
+  },
+  {
+    "id": "mdnwebdocs",
+    "name": "MDN Web Docs"
+  },
+  {
+    "id": "mdx",
+    "name": "MDX"
+  },
+  {
+    "id": "mealie",
+    "name": "Mealie"
+  },
+  {
+    "id": "mediafire",
+    "name": "MediaFire"
+  },
+  {
+    "id": "mediamarkt",
+    "name": "MediaMarkt"
+  },
+  {
+    "id": "mediapipe",
+    "name": "MediaPipe"
+  },
+  {
+    "id": "mediatek",
+    "name": "MediaTek"
+  },
+  {
+    "id": "medibangpaint",
+    "name": "MediBang Paint"
+  },
+  {
+    "id": "medium",
+    "name": "Medium"
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa"
+  },
+  {
+    "id": "meetup",
+    "name": "Meetup"
+  },
+  {
+    "id": "mega",
+    "name": "MEGA"
+  },
+  {
+    "id": "meilisearch",
+    "name": "Meilisearch"
+  },
+  {
+    "id": "meituan",
+    "name": "Meituan"
+  },
+  {
+    "id": "meizu",
+    "name": "Meizu"
+  },
+  {
+    "id": "mendeley",
+    "name": "Mendeley"
+  },
+  {
+    "id": "mentorcruise",
+    "name": "MentorCruise"
+  },
+  {
+    "id": "mercadopago",
+    "name": "Mercado Pago"
+  },
+  {
+    "id": "merck",
+    "name": "Merck"
+  },
+  {
+    "id": "mercurial",
+    "name": "Mercurial"
+  },
+  {
+    "id": "mermaid",
+    "name": "Mermaid"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger"
+  },
+  {
+    "id": "meta",
+    "name": "Meta"
+  },
+  {
+    "id": "metabase",
+    "name": "Metabase"
+  },
+  {
+    "id": "metacritic",
+    "name": "Metacritic"
+  },
+  {
+    "id": "metafilter",
+    "name": "MetaFilter"
+  },
+  {
+    "id": "metager",
+    "name": "MetaGer"
+  },
+  {
+    "id": "metasploit",
+    "name": "Metasploit"
+  },
+  {
+    "id": "meteor",
+    "name": "Meteor"
+  },
+  {
+    "id": "metro",
+    "name": "Metro"
+  },
+  {
+    "id": "metrodelaciudaddemexico",
+    "name": "Metro de la Ciudad de México"
+  },
+  {
+    "id": "metrodemadrid",
+    "name": "Metro de Madrid"
+  },
+  {
+    "id": "mewe",
+    "name": "MeWe"
+  },
+  {
+    "id": "mg",
+    "name": "MG"
+  },
+  {
+    "id": "microeditor",
+    "name": "Micro Editor"
+  },
+  {
+    "id": "microdotblog",
+    "name": "Micro.blog"
+  },
+  {
+    "id": "microbit",
+    "name": "micro:bit"
+  },
+  {
+    "id": "micropython",
+    "name": "MicroPython"
+  },
+  {
+    "id": "microstation",
+    "name": "Microstation"
+  },
+  {
+    "id": "microstrategy",
+    "name": "MicroStrategy"
+  },
+  {
+    "id": "midi",
+    "name": "MIDI"
+  },
+  {
+    "id": "migadu",
+    "name": "Migadu"
+  },
+  {
+    "id": "mihon",
+    "name": "Mihon"
+  },
+  {
+    "id": "mihoyo",
+    "name": "miHoYo"
+  },
+  {
+    "id": "mikrotik",
+    "name": "MikroTik"
+  },
+  {
+    "id": "milanote",
+    "name": "Milanote"
+  },
+  {
+    "id": "milvus",
+    "name": "Milvus"
+  },
+  {
+    "id": "minds",
+    "name": "Minds"
+  },
+  {
+    "id": "minetest",
+    "name": "Minetest"
+  },
+  {
+    "id": "mingww64",
+    "name": "MinGW-w64"
+  },
+  {
+    "id": "mini",
+    "name": "Mini"
+  },
+  {
+    "id": "minio",
+    "name": "MinIO"
+  },
+  {
+    "id": "mintlify",
+    "name": "Mintlify"
+  },
+  {
+    "id": "minutemailer",
+    "name": "Minutemailer"
+  },
+  {
+    "id": "miraheze",
+    "name": "Miraheze"
+  },
+  {
+    "id": "miro",
+    "name": "Miro"
+  },
+  {
+    "id": "misskey",
+    "name": "Misskey"
+  },
+  {
+    "id": "mitsubishi",
+    "name": "Mitsubishi"
+  },
+  {
+    "id": "mix",
+    "name": "Mix"
+  },
+  {
+    "id": "mixcloud",
+    "name": "Mixcloud"
+  },
+  {
+    "id": "mixpanel",
+    "name": "Mixpanel"
+  },
+  {
+    "id": "mlb",
+    "name": "MLB"
+  },
+  {
+    "id": "mlflow",
+    "name": "MLflow"
+  },
+  {
+    "id": "mobx",
+    "name": "MobX"
+  },
+  {
+    "id": "mobxstatetree",
+    "name": "MobX-State-Tree"
+  },
+  {
+    "id": "mocha",
+    "name": "Mocha"
+  },
+  {
+    "id": "mockserviceworker",
+    "name": "Mock Service Worker"
+  },
+  {
+    "id": "modal",
+    "name": "Modal"
+  },
+  {
+    "id": "modin",
+    "name": "Modin"
+  },
+  {
+    "id": "modrinth",
+    "name": "Modrinth"
+  },
+  {
+    "id": "modx",
+    "name": "MODX"
+  },
+  {
+    "id": "mojeek",
+    "name": "Mojeek"
+  },
+  {
+    "id": "moleculer",
+    "name": "Moleculer"
+  },
+  {
+    "id": "momenteo",
+    "name": "Momenteo"
+  },
+  {
+    "id": "monero",
+    "name": "Monero"
+  },
+  {
+    "id": "moneygram",
+    "name": "MoneyGram"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB"
+  },
+  {
+    "id": "mongoosedotws",
+    "name": "Mongoose"
+  },
+  {
+    "id": "mongoose",
+    "name": "Mongoose"
+  },
+  {
+    "id": "monica",
+    "name": "Monica"
+  },
+  {
+    "id": "monkeytie",
+    "name": "monkey tie"
+  },
+  {
+    "id": "monkeytype",
+    "name": "Monkeytype"
+  },
+  {
+    "id": "monogame",
+    "name": "MonoGame"
+  },
+  {
+    "id": "monoprix",
+    "name": "Monoprix"
+  },
+  {
+    "id": "monster",
+    "name": "Monster"
+  },
+  {
+    "id": "monzo",
+    "name": "Monzo"
+  },
+  {
+    "id": "moo",
+    "name": "Moo"
+  },
+  {
+    "id": "moodle",
+    "name": "Moodle"
+  },
+  {
+    "id": "moonrepo",
+    "name": "Moonrepo"
+  },
+  {
+    "id": "moq",
+    "name": "Moq"
+  },
+  {
+    "id": "moqups",
+    "name": "Moqups"
+  },
+  {
+    "id": "morrisons",
+    "name": "Morrisons"
+  },
+  {
+    "id": "moscowmetro",
+    "name": "Moscow Metro"
+  },
+  {
+    "id": "motorola",
+    "name": "Motorola"
+  },
+  {
+    "id": "movistar",
+    "name": "Movistar"
+  },
+  {
+    "id": "mozilla",
+    "name": "Mozilla"
+  },
+  {
+    "id": "mpv",
+    "name": "mpv"
+  },
+  {
+    "id": "mqtt",
+    "name": "MQTT"
+  },
+  {
+    "id": "msi",
+    "name": "MSI"
+  },
+  {
+    "id": "msibusiness",
+    "name": "MSI Business"
+  },
+  {
+    "id": "mta",
+    "name": "MTA"
+  },
+  {
+    "id": "mtr",
+    "name": "MTR"
+  },
+  {
+    "id": "mubi",
+    "name": "MUBI"
+  },
+  {
+    "id": "mui",
+    "name": "MUI"
+  },
+  {
+    "id": "mulesoft",
+    "name": "Mulesoft"
+  },
+  {
+    "id": "mullvad",
+    "name": "Mullvad"
+  },
+  {
+    "id": "multisim",
+    "name": "Multisim"
+  },
+  {
+    "id": "mumble",
+    "name": "Mumble"
+  },
+  {
+    "id": "muo",
+    "name": "MUO"
+  },
+  {
+    "id": "mural",
+    "name": "Mural"
+  },
+  {
+    "id": "musescore",
+    "name": "MuseScore"
+  },
+  {
+    "id": "musicbrainz",
+    "name": "MusicBrainz"
+  },
+  {
+    "id": "mxlinux",
+    "name": "MX Linux"
+  },
+  {
+    "id": "myanimelist",
+    "name": "MyAnimeList"
+  },
+  {
+    "id": "myget",
+    "name": "MyGet"
+  },
+  {
+    "id": "myob",
+    "name": "MYOB"
+  },
+  {
+    "id": "myspace",
+    "name": "Myspace"
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL"
+  },
+  {
+    "id": "metrodeparis",
+    "name": "Métro de Paris"
+  },
+  {
+    "id": "muller",
+    "name": "Müller"
+  },
+  {
+    "id": "n26",
+    "name": "N26"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n"
+  },
+  {
+    "id": "namebase",
+    "name": "Namebase"
+  },
+  {
+    "id": "namecheap",
+    "name": "Namecheap"
+  },
+  {
+    "id": "namemc",
+    "name": "NameMC"
+  },
+  {
+    "id": "namesilo",
+    "name": "NameSilo"
+  },
+  {
+    "id": "namuwiki",
+    "name": "Namu Wiki"
+  },
+  {
+    "id": "nano",
+    "name": "Nano"
+  },
+  {
+    "id": "nanostores",
+    "name": "Nano Stores"
+  },
+  {
+    "id": "napster",
+    "name": "Napster"
+  },
+  {
+    "id": "nasa",
+    "name": "NASA"
+  },
+  {
+    "id": "nationalgrid",
+    "name": "National Grid"
+  },
+  {
+    "id": "nationalrail",
+    "name": "National Rail"
+  },
+  {
+    "id": "nativescript",
+    "name": "NativeScript"
+  },
+  {
+    "id": "natsdotio",
+    "name": "NATS.io"
+  },
+  {
+    "id": "naver",
+    "name": "Naver"
+  },
+  {
+    "id": "nba",
+    "name": "NBA"
+  },
+  {
+    "id": "nbb",
+    "name": "NBB"
+  },
+  {
+    "id": "nbc",
+    "name": "NBC"
+  },
+  {
+    "id": "ndr",
+    "name": "NDR"
+  },
+  {
+    "id": "near",
+    "name": "NEAR"
+  },
+  {
+    "id": "nebula",
+    "name": "Nebula"
+  },
+  {
+    "id": "nec",
+    "name": "NEC"
+  },
+  {
+    "id": "nederlandsespoorwegen",
+    "name": "Nederlandse Spoorwegen"
+  },
+  {
+    "id": "neo4j",
+    "name": "Neo4j"
+  },
+  {
+    "id": "neovim",
+    "name": "Neovim"
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune"
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS"
+  },
+  {
+    "id": "netapp",
+    "name": "NetApp"
+  },
+  {
+    "id": "netbsd",
+    "name": "NetBSD"
+  },
+  {
+    "id": "netcup",
+    "name": "netcup"
+  },
+  {
+    "id": "netdata",
+    "name": "Netdata"
+  },
+  {
+    "id": "neteasecloudmusic",
+    "name": "NetEase Cloud Music"
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix"
+  },
+  {
+    "id": "netgear",
+    "name": "NETGEAR"
+  },
+  {
+    "id": "netim",
+    "name": "Netim"
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify"
+  },
+  {
+    "id": "nette",
+    "name": "Nette"
+  },
+  {
+    "id": "netto",
+    "name": "Netto"
+  },
+  {
+    "id": "neutralinojs",
+    "name": "Neutralinojs"
+  },
+  {
+    "id": "newbalance",
+    "name": "New Balance"
+  },
+  {
+    "id": "newjapanprowrestling",
+    "name": "New Japan Pro-Wrestling"
+  },
+  {
+    "id": "newrelic",
+    "name": "New Relic"
+  },
+  {
+    "id": "newyorktimes",
+    "name": "New York Times"
+  },
+  {
+    "id": "newegg",
+    "name": "Newegg"
+  },
+  {
+    "id": "newpipe",
+    "name": "NewPipe"
+  },
+  {
+    "id": "nexon",
+    "name": "NEXON"
+  },
+  {
+    "id": "nextdotjs",
+    "name": "Next.js"
+  },
+  {
+    "id": "nextbilliondotai",
+    "name": "NextBillion.ai"
+  },
+  {
+    "id": "nextcloud",
+    "name": "Nextcloud"
+  },
+  {
+    "id": "nextdns",
+    "name": "NextDNS"
+  },
+  {
+    "id": "nextdoor",
+    "name": "Nextdoor"
+  },
+  {
+    "id": "nextflow",
+    "name": "Nextflow"
+  },
+  {
+    "id": "nextra",
+    "name": "Nextra"
+  },
+  {
+    "id": "nexusmods",
+    "name": "Nexus Mods"
+  },
+  {
+    "id": "nfcore",
+    "name": "nf-core"
+  },
+  {
+    "id": "nfc",
+    "name": "NFC"
+  },
+  {
+    "id": "nginx",
+    "name": "NGINX"
+  },
+  {
+    "id": "nginxproxymanager",
+    "name": "Nginx Proxy Manager"
+  },
+  {
+    "id": "ngrok",
+    "name": "ngrok"
+  },
+  {
+    "id": "ngrx",
+    "name": "NgRx"
+  },
+  {
+    "id": "nhl",
+    "name": "NHL"
+  },
+  {
+    "id": "nhost",
+    "name": "Nhost"
+  },
+  {
+    "id": "nicehash",
+    "name": "NiceHash"
+  },
+  {
+    "id": "niconico",
+    "name": "niconico"
+  },
+  {
+    "id": "nike",
+    "name": "Nike"
+  },
+  {
+    "id": "nikon",
+    "name": "Nikon"
+  },
+  {
+    "id": "nim",
+    "name": "Nim"
+  },
+  {
+    "id": "nissan",
+    "name": "Nissan"
+  },
+  {
+    "id": "nixos",
+    "name": "NixOS"
+  },
+  {
+    "id": "nobaralinux",
+    "name": "Nobara Linux"
+  },
+  {
+    "id": "nodered",
+    "name": "Node-RED"
+  },
+  {
+    "id": "nodedotjs",
+    "name": "Node.js"
+  },
+  {
+    "id": "nodemon",
+    "name": "Nodemon"
+  },
+  {
+    "id": "nokia",
+    "name": "Nokia"
+  },
+  {
+    "id": "nomad",
+    "name": "Nomad"
+  },
+  {
+    "id": "norco",
+    "name": "Norco"
+  },
+  {
+    "id": "nordicsemiconductor",
+    "name": "Nordic Semiconductor"
+  },
+  {
+    "id": "nordvpn",
+    "name": "NordVPN"
+  },
+  {
+    "id": "normalizedotcss",
+    "name": "Normalize.css"
+  },
+  {
+    "id": "norton",
+    "name": "Norton"
+  },
+  {
+    "id": "norwegian",
+    "name": "Norwegian"
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM"
+  },
+  {
+    "id": "notepadplusplus",
+    "name": "Notepad++"
+  },
+  {
+    "id": "notion",
+    "name": "Notion"
+  },
+  {
+    "id": "notist",
+    "name": "Notist"
+  },
+  {
+    "id": "nounproject",
+    "name": "Noun Project"
+  },
+  {
+    "id": "novu",
+    "name": "Novu"
+  },
+  {
+    "id": "now",
+    "name": "NOW"
+  },
+  {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "nrwl",
+    "name": "Nrwl"
+  },
+  {
+    "id": "nsis",
+    "name": "NSIS"
+  },
+  {
+    "id": "ntfy",
+    "name": "ntfy"
+  },
+  {
+    "id": "nubank",
+    "name": "Nubank"
+  },
+  {
+    "id": "nucleo",
+    "name": "Nucleo"
+  },
+  {
+    "id": "nuget",
+    "name": "NuGet"
+  },
+  {
+    "id": "nuke",
+    "name": "Nuke"
+  },
+  {
+    "id": "numba",
+    "name": "Numba"
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy"
+  },
+  {
+    "id": "nunjucks",
+    "name": "Nunjucks"
+  },
+  {
+    "id": "nushell",
+    "name": "Nushell"
+  },
+  {
+    "id": "nutanix",
+    "name": "Nutanix"
+  },
+  {
+    "id": "nuxt",
+    "name": "Nuxt"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA"
+  },
+  {
+    "id": "nvm",
+    "name": "nvm"
+  },
+  {
+    "id": "nx",
+    "name": "Nx"
+  },
+  {
+    "id": "nxp",
+    "name": "NXP"
+  },
+  {
+    "id": "nzxt",
+    "name": "NZXT"
+  },
+  {
+    "id": "oreilly",
+    "name": "O'Reilly"
+  },
+  {
+    "id": "o2",
+    "name": "O2"
+  },
+  {
+    "id": "obsstudio",
+    "name": "OBS Studio"
+  },
+  {
+    "id": "observable",
+    "name": "Observable"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian"
+  },
+  {
+    "id": "obtainium",
+    "name": "Obtainium"
+  },
+  {
+    "id": "ocaml",
+    "name": "OCaml"
+  },
+  {
+    "id": "oclc",
+    "name": "OCLC"
+  },
+  {
+    "id": "oclif",
+    "name": "oclif"
+  },
+  {
+    "id": "octanerender",
+    "name": "Octane Render"
+  },
+  {
+    "id": "octave",
+    "name": "Octave"
+  },
+  {
+    "id": "octobercms",
+    "name": "October CMS"
+  },
+  {
+    "id": "octoprint",
+    "name": "OctoPrint"
+  },
+  {
+    "id": "octopusdeploy",
+    "name": "Octopus Deploy"
+  },
+  {
+    "id": "oculus",
+    "name": "Oculus"
+  },
+  {
+    "id": "odin",
+    "name": "Odin"
+  },
+  {
+    "id": "odnoklassniki",
+    "name": "Odnoklassniki"
+  },
+  {
+    "id": "odoo",
+    "name": "Odoo"
+  },
+  {
+    "id": "odysee",
+    "name": "Odysee"
+  },
+  {
+    "id": "ohdear",
+    "name": "Oh Dear"
+  },
+  {
+    "id": "okcupid",
+    "name": "okcupid"
+  },
+  {
+    "id": "okta",
+    "name": "Okta"
+  },
+  {
+    "id": "okx",
+    "name": "OKX"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama"
+  },
+  {
+    "id": "omadacloud",
+    "name": "Omada Cloud"
+  },
+  {
+    "id": "oneplus",
+    "name": "OnePlus"
+  },
+  {
+    "id": "onestream",
+    "name": "OneStream"
+  },
+  {
+    "id": "onlyfans",
+    "name": "OnlyFans"
+  },
+  {
+    "id": "onlyoffice",
+    "name": "ONLYOFFICE"
+  },
+  {
+    "id": "onnx",
+    "name": "ONNX"
+  },
+  {
+    "id": "onstar",
+    "name": "OnStar"
+  },
+  {
+    "id": "opel",
+    "name": "Opel"
+  },
+  {
+    "id": "openaccess",
+    "name": "Open Access"
+  },
+  {
+    "id": "openbadges",
+    "name": "Open Badges"
+  },
+  {
+    "id": "openbugbounty",
+    "name": "Open Bug Bounty"
+  },
+  {
+    "id": "opencollective",
+    "name": "Open Collective"
+  },
+  {
+    "id": "opencontainersinitiative",
+    "name": "Open Containers Initiative"
+  },
+  {
+    "id": "opensourcehardware",
+    "name": "Open Source Hardware"
+  },
+  {
+    "id": "opensourceinitiative",
+    "name": "Open Source Initiative"
+  },
+  {
+    "id": "open3d",
+    "name": "Open3D"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI"
+  },
+  {
+    "id": "openaigym",
+    "name": "OpenAI Gym"
+  },
+  {
+    "id": "openapiinitiative",
+    "name": "OpenAPI Initiative"
+  },
+  {
+    "id": "openbsd",
+    "name": "OpenBSD"
+  },
+  {
+    "id": "opencritic",
+    "name": "OpenCritic"
+  },
+  {
+    "id": "opencv",
+    "name": "OpenCV"
+  },
+  {
+    "id": "openfaas",
+    "name": "OpenFaaS"
+  },
+  {
+    "id": "opengl",
+    "name": "OpenGL"
+  },
+  {
+    "id": "openhab",
+    "name": "openHAB"
+  },
+  {
+    "id": "openid",
+    "name": "OpenID"
+  },
+  {
+    "id": "openjdk",
+    "name": "OpenJDK"
+  },
+  {
+    "id": "openjsfoundation",
+    "name": "OpenJS Foundation"
+  },
+  {
+    "id": "openlayers",
+    "name": "Openlayers"
+  },
+  {
+    "id": "openmediavault",
+    "name": "openmediavault"
+  },
+  {
+    "id": "openmined",
+    "name": "OpenMined"
+  },
+  {
+    "id": "opennebula",
+    "name": "OpenNebula"
+  },
+  {
+    "id": "openproject",
+    "name": "OpenProject"
+  },
+  {
+    "id": "openscad",
+    "name": "OpenSCAD"
+  },
+  {
+    "id": "opensea",
+    "name": "OpenSea"
+  },
+  {
+    "id": "opensearch",
+    "name": "OpenSearch"
+  },
+  {
+    "id": "openssl",
+    "name": "OpenSSL"
+  },
+  {
+    "id": "openstack",
+    "name": "OpenStack"
+  },
+  {
+    "id": "openstreetmap",
+    "name": "OpenStreetMap"
+  },
+  {
+    "id": "opensuse",
+    "name": "openSUSE"
+  },
+  {
+    "id": "opentelemetry",
+    "name": "OpenTelemetry"
+  },
+  {
+    "id": "opentext",
+    "name": "OpenText"
+  },
+  {
+    "id": "opentofu",
+    "name": "OpenTofu"
+  },
+  {
+    "id": "openverse",
+    "name": "Openverse"
+  },
+  {
+    "id": "openvpn",
+    "name": "OpenVPN"
+  },
+  {
+    "id": "openwrt",
+    "name": "OpenWrt"
+  },
+  {
+    "id": "openzeppelin",
+    "name": "OpenZeppelin"
+  },
+  {
+    "id": "openzfs",
+    "name": "OpenZFS"
+  },
+  {
+    "id": "opera",
+    "name": "Opera"
+  },
+  {
+    "id": "operagx",
+    "name": "Opera GX"
+  },
+  {
+    "id": "opnsense",
+    "name": "OPNSense"
+  },
+  {
+    "id": "oppo",
+    "name": "OPPO"
+  },
+  {
+    "id": "opsgenie",
+    "name": "Opsgenie"
+  },
+  {
+    "id": "opslevel",
+    "name": "OpsLevel"
+  },
+  {
+    "id": "optimism",
+    "name": "Optimism"
+  },
+  {
+    "id": "orange",
+    "name": "Orange"
+  },
+  {
+    "id": "orcid",
+    "name": "ORCID"
+  },
+  {
+    "id": "org",
+    "name": "Org"
+  },
+  {
+    "id": "organicmaps",
+    "name": "Organic Maps"
+  },
+  {
+    "id": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "osano",
+    "name": "Osano"
+  },
+  {
+    "id": "osf",
+    "name": "OSF"
+  },
+  {
+    "id": "osgeo",
+    "name": "OSGeo"
+  },
+  {
+    "id": "oshkosh",
+    "name": "Oshkosh"
+  },
+  {
+    "id": "osmand",
+    "name": "OsmAnd"
+  },
+  {
+    "id": "osmc",
+    "name": "OSMC"
+  },
+  {
+    "id": "osu",
+    "name": "osu!"
+  },
+  {
+    "id": "otto",
+    "name": "Otto"
+  },
+  {
+    "id": "outline",
+    "name": "Outline"
+  },
+  {
+    "id": "overcast",
+    "name": "Overcast"
+  },
+  {
+    "id": "overleaf",
+    "name": "Overleaf"
+  },
+  {
+    "id": "ovh",
+    "name": "OVH"
+  },
+  {
+    "id": "owasp",
+    "name": "OWASP"
+  },
+  {
+    "id": "dependencycheck",
+    "name": "OWASP Dependency-Check"
+  },
+  {
+    "id": "owncloud",
+    "name": "ownCloud"
+  },
+  {
+    "id": "oxygen",
+    "name": "Oxygen"
+  },
+  {
+    "id": "oyo",
+    "name": "OYO"
+  },
+  {
+    "id": "p5dotjs",
+    "name": "p5.js"
+  },
+  {
+    "id": "packagist",
+    "name": "Packagist"
+  },
+  {
+    "id": "packer",
+    "name": "Packer"
+  },
+  {
+    "id": "packt",
+    "name": "Packt"
+  },
+  {
+    "id": "paddle",
+    "name": "Paddle"
+  },
+  {
+    "id": "paddlepaddle",
+    "name": "PaddlePaddle"
+  },
+  {
+    "id": "paddypower",
+    "name": "Paddy Power"
+  },
+  {
+    "id": "pagekit",
+    "name": "Pagekit"
+  },
+  {
+    "id": "pagerduty",
+    "name": "PagerDuty"
+  },
+  {
+    "id": "pagespeedinsights",
+    "name": "PageSpeed Insights"
+  },
+  {
+    "id": "pagseguro",
+    "name": "PagSeguro"
+  },
+  {
+    "id": "palantir",
+    "name": "Palantir"
+  },
+  {
+    "id": "paloaltonetworks",
+    "name": "Palo Alto Networks"
+  },
+  {
+    "id": "paloaltosoftware",
+    "name": "Palo Alto Software"
+  },
+  {
+    "id": "panasonic",
+    "name": "Panasonic"
+  },
+  {
+    "id": "pandas",
+    "name": "pandas"
+  },
+  {
+    "id": "pandora",
+    "name": "Pandora"
+  },
+  {
+    "id": "pantheon",
+    "name": "Pantheon"
+  },
+  {
+    "id": "paperlessngx",
+    "name": "Paperless-ngx"
+  },
+  {
+    "id": "paperswithcode",
+    "name": "Papers With Code"
+  },
+  {
+    "id": "paperspace",
+    "name": "Paperspace"
+  },
+  {
+    "id": "paradoxinteractive",
+    "name": "Paradox Interactive"
+  },
+  {
+    "id": "paramountplus",
+    "name": "Paramount+"
+  },
+  {
+    "id": "paritysubstrate",
+    "name": "Parity Substrate"
+  },
+  {
+    "id": "parrotsecurity",
+    "name": "Parrot Security"
+  },
+  {
+    "id": "parsedotly",
+    "name": "Parse.ly"
+  },
+  {
+    "id": "passport",
+    "name": "Passport"
+  },
+  {
+    "id": "pastebin",
+    "name": "Pastebin"
+  },
+  {
+    "id": "patreon",
+    "name": "Patreon"
+  },
+  {
+    "id": "paychex",
+    "name": "Paychex"
+  },
+  {
+    "id": "payhip",
+    "name": "Payhip"
+  },
+  {
+    "id": "payloadcms",
+    "name": "Payload CMS"
+  },
+  {
+    "id": "payoneer",
+    "name": "Payoneer"
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal"
+  },
+  {
+    "id": "paytm",
+    "name": "Paytm"
+  },
+  {
+    "id": "pcgamingwiki",
+    "name": "PCGamingWiki"
+  },
+  {
+    "id": "pdm",
+    "name": "PDM"
+  },
+  {
+    "id": "pdq",
+    "name": "PDQ"
+  },
+  {
+    "id": "peakdesign",
+    "name": "Peak Design"
+  },
+  {
+    "id": "pearson",
+    "name": "Pearson"
+  },
+  {
+    "id": "peerlist",
+    "name": "Peerlist"
+  },
+  {
+    "id": "peertube",
+    "name": "PeerTube"
+  },
+  {
+    "id": "pegasusairlines",
+    "name": "Pegasus Airlines"
+  },
+  {
+    "id": "pelican",
+    "name": "Pelican"
+  },
+  {
+    "id": "peloton",
+    "name": "Peloton"
+  },
+  {
+    "id": "penny",
+    "name": "Penny"
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot"
+  },
+  {
+    "id": "percy",
+    "name": "Percy"
+  },
+  {
+    "id": "perforce",
+    "name": "Perforce"
+  },
+  {
+    "id": "perl",
+    "name": "Perl"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity"
+  },
+  {
+    "id": "persistent",
+    "name": "Persistent"
+  },
+  {
+    "id": "personio",
+    "name": "Personio"
+  },
+  {
+    "id": "petsathome",
+    "name": "Pets at Home"
+  },
+  {
+    "id": "peugeot",
+    "name": "Peugeot"
+  },
+  {
+    "id": "pexels",
+    "name": "Pexels"
+  },
+  {
+    "id": "pfsense",
+    "name": "pfSense"
+  },
+  {
+    "id": "phabricator",
+    "name": "Phabricator"
+  },
+  {
+    "id": "philipshue",
+    "name": "Philips Hue"
+  },
+  {
+    "id": "phoenixframework",
+    "name": "Phoenix Framework"
+  },
+  {
+    "id": "phonepe",
+    "name": "PhonePe"
+  },
+  {
+    "id": "phosphoricons",
+    "name": "Phosphor Icons"
+  },
+  {
+    "id": "photobucket",
+    "name": "Photobucket"
+  },
+  {
+    "id": "photocrowd",
+    "name": "Photocrowd"
+  },
+  {
+    "id": "photon",
+    "name": "Photon"
+  },
+  {
+    "id": "photopea",
+    "name": "Photopea"
+  },
+  {
+    "id": "php",
+    "name": "PHP"
+  },
+  {
+    "id": "phpbb",
+    "name": "phpBB"
+  },
+  {
+    "id": "phpmyadmin",
+    "name": "phpMyAdmin"
+  },
+  {
+    "id": "phpstorm",
+    "name": "PhpStorm"
+  },
+  {
+    "id": "pinetwork",
+    "name": "Pi Network"
+  },
+  {
+    "id": "pihole",
+    "name": "Pi-hole"
+  },
+  {
+    "id": "piaggiogroup",
+    "name": "Piaggio Group"
+  },
+  {
+    "id": "piapro",
+    "name": "Piapro"
+  },
+  {
+    "id": "picardsurgeles",
+    "name": "Picard Surgelés"
+  },
+  {
+    "id": "picartodottv",
+    "name": "Picarto.TV"
+  },
+  {
+    "id": "picnic",
+    "name": "Picnic"
+  },
+  {
+    "id": "picpay",
+    "name": "PicPay"
+  },
+  {
+    "id": "picrew",
+    "name": "Picrew"
+  },
+  {
+    "id": "picsart",
+    "name": "Picsart"
+  },
+  {
+    "id": "picxy",
+    "name": "Picxy"
+  },
+  {
+    "id": "pimcore",
+    "name": "Pimcore"
+  },
+  {
+    "id": "pinboard",
+    "name": "Pinboard"
+  },
+  {
+    "id": "pinescript",
+    "name": "Pine Script"
+  },
+  {
+    "id": "pingdom",
+    "name": "Pingdom"
+  },
+  {
+    "id": "pino",
+    "name": "pino"
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest"
+  },
+  {
+    "id": "pioneerdj",
+    "name": "Pioneer DJ"
+  },
+  {
+    "id": "piped",
+    "name": "Piped"
+  },
+  {
+    "id": "pipx",
+    "name": "pipx"
+  },
+  {
+    "id": "pivotaltracker",
+    "name": "Pivotal Tracker"
+  },
+  {
+    "id": "piwigo",
+    "name": "Piwigo"
+  },
+  {
+    "id": "pix",
+    "name": "Pix"
+  },
+  {
+    "id": "pixabay",
+    "name": "Pixabay"
+  },
+  {
+    "id": "pixelfed",
+    "name": "Pixelfed"
+  },
+  {
+    "id": "pixiv",
+    "name": "pixiv"
+  },
+  {
+    "id": "pixlr",
+    "name": "Pixlr"
+  },
+  {
+    "id": "pkgsrc",
+    "name": "pkgsrc"
+  },
+  {
+    "id": "planet",
+    "name": "Planet"
+  },
+  {
+    "id": "planetscale",
+    "name": "PlanetScale"
+  },
+  {
+    "id": "plangrid",
+    "name": "PlanGrid"
+  },
+  {
+    "id": "platformdotsh",
+    "name": "Platform.sh"
+  },
+  {
+    "id": "platformio",
+    "name": "PlatformIO"
+  },
+  {
+    "id": "platzi",
+    "name": "Platzi"
+  },
+  {
+    "id": "plausibleanalytics",
+    "name": "Plausible Analytics"
+  },
+  {
+    "id": "playcanvas",
+    "name": "PlayCanvas"
+  },
+  {
+    "id": "playerfm",
+    "name": "Player FM"
+  },
+  {
+    "id": "playerdotme",
+    "name": "Player.me"
+  },
+  {
+    "id": "playstation",
+    "name": "PlayStation"
+  },
+  {
+    "id": "playstation2",
+    "name": "PlayStation 2"
+  },
+  {
+    "id": "playstation3",
+    "name": "PlayStation 3"
+  },
+  {
+    "id": "playstation4",
+    "name": "PlayStation 4"
+  },
+  {
+    "id": "playstation5",
+    "name": "PlayStation 5"
+  },
+  {
+    "id": "playstationportable",
+    "name": "PlayStation Portable"
+  },
+  {
+    "id": "playstationvita",
+    "name": "PlayStation Vita"
+  },
+  {
+    "id": "pleroma",
+    "name": "Pleroma"
+  },
+  {
+    "id": "plesk",
+    "name": "Plesk"
+  },
+  {
+    "id": "plex",
+    "name": "Plex"
+  },
+  {
+    "id": "plotly",
+    "name": "Plotly"
+  },
+  {
+    "id": "plume",
+    "name": "Plume"
+  },
+  {
+    "id": "pluralsight",
+    "name": "Pluralsight"
+  },
+  {
+    "id": "plurk",
+    "name": "Plurk"
+  },
+  {
+    "id": "pm2",
+    "name": "PM2"
+  },
+  {
+    "id": "pnpm",
+    "name": "pnpm"
+  },
+  {
+    "id": "pocket",
+    "name": "Pocket"
+  },
+  {
+    "id": "pocketcasts",
+    "name": "Pocket Casts"
+  },
+  {
+    "id": "pocketbase",
+    "name": "PocketBase"
+  },
+  {
+    "id": "podcastaddict",
+    "name": "Podcast Addict"
+  },
+  {
+    "id": "podcastindex",
+    "name": "Podcast Index"
+  },
+  {
+    "id": "podman",
+    "name": "Podman"
+  },
+  {
+    "id": "poe",
+    "name": "Poe"
+  },
+  {
+    "id": "poetry",
+    "name": "Poetry"
+  },
+  {
+    "id": "polars",
+    "name": "Polars"
+  },
+  {
+    "id": "polestar",
+    "name": "Polestar"
+  },
+  {
+    "id": "polkadot",
+    "name": "Polkadot"
+  },
+  {
+    "id": "poly",
+    "name": "Poly"
+  },
+  {
+    "id": "polygon",
+    "name": "Polygon"
+  },
+  {
+    "id": "polymerproject",
+    "name": "Polymer Project"
+  },
+  {
+    "id": "polywork",
+    "name": "Polywork"
+  },
+  {
+    "id": "pond5",
+    "name": "Pond5"
+  },
+  {
+    "id": "popos",
+    "name": "Pop!_OS"
+  },
+  {
+    "id": "porkbun",
+    "name": "Porkbun"
+  },
+  {
+    "id": "porsche",
+    "name": "Porsche"
+  },
+  {
+    "id": "portableappsdotcom",
+    "name": "PortableApps.com"
+  },
+  {
+    "id": "portainer",
+    "name": "Portainer"
+  },
+  {
+    "id": "portswigger",
+    "name": "PortSwigger"
+  },
+  {
+    "id": "posit",
+    "name": "Posit"
+  },
+  {
+    "id": "postcss",
+    "name": "PostCSS"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL"
+  },
+  {
+    "id": "posthog",
+    "name": "PostHog"
+  },
+  {
+    "id": "postman",
+    "name": "Postman"
+  },
+  {
+    "id": "postmates",
+    "name": "Postmates"
+  },
+  {
+    "id": "powers",
+    "name": "POWERS"
+  },
+  {
+    "id": "prdotco",
+    "name": "pr.co"
+  },
+  {
+    "id": "precommit",
+    "name": "pre-commit"
+  },
+  {
+    "id": "preact",
+    "name": "Preact"
+  },
+  {
+    "id": "prefect",
+    "name": "Prefect"
+  },
+  {
+    "id": "premid",
+    "name": "PreMiD"
+  },
+  {
+    "id": "premierleague",
+    "name": "Premier League"
+  },
+  {
+    "id": "prepbytes",
+    "name": "PrepBytes"
+  },
+  {
+    "id": "prestashop",
+    "name": "PrestaShop"
+  },
+  {
+    "id": "presto",
+    "name": "Presto"
+  },
+  {
+    "id": "prettier",
+    "name": "Prettier"
+  },
+  {
+    "id": "pretzel",
+    "name": "Pretzel"
+  },
+  {
+    "id": "prevention",
+    "name": "Prevention"
+  },
+  {
+    "id": "prezi",
+    "name": "Prezi"
+  },
+  {
+    "id": "primefaces",
+    "name": "PrimeFaces"
+  },
+  {
+    "id": "primeng",
+    "name": "PrimeNG"
+  },
+  {
+    "id": "primereact",
+    "name": "PrimeReact"
+  },
+  {
+    "id": "primevue",
+    "name": "PrimeVue"
+  },
+  {
+    "id": "printables",
+    "name": "Printables"
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma"
+  },
+  {
+    "id": "prismic",
+    "name": "Prismic"
+  },
+  {
+    "id": "privatedivision",
+    "name": "Private Division"
+  },
+  {
+    "id": "privateinternetaccess",
+    "name": "Private Internet Access"
+  },
+  {
+    "id": "protools",
+    "name": "Pro Tools"
+  },
+  {
+    "id": "probot",
+    "name": "Probot"
+  },
+  {
+    "id": "processingfoundation",
+    "name": "Processing Foundation"
+  },
+  {
+    "id": "processwire",
+    "name": "ProcessWire"
+  },
+  {
+    "id": "producthunt",
+    "name": "Product Hunt"
+  },
+  {
+    "id": "progate",
+    "name": "Progate"
+  },
+  {
+    "id": "progress",
+    "name": "Progress"
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus"
+  },
+  {
+    "id": "pronounsdotpage",
+    "name": "Pronouns.page"
+  },
+  {
+    "id": "prosieben",
+    "name": "ProSieben"
+  },
+  {
+    "id": "proteus",
+    "name": "Proteus"
+  },
+  {
+    "id": "protodotio",
+    "name": "Proto.io"
+  },
+  {
+    "id": "protocolsdotio",
+    "name": "protocols.io"
+  },
+  {
+    "id": "proton",
+    "name": "Proton"
+  },
+  {
+    "id": "protoncalendar",
+    "name": "Proton Calendar"
+  },
+  {
+    "id": "protondrive",
+    "name": "Proton Drive"
+  },
+  {
+    "id": "protonmail",
+    "name": "Proton Mail"
+  },
+  {
+    "id": "protonvpn",
+    "name": "Proton VPN"
+  },
+  {
+    "id": "protondb",
+    "name": "ProtonDB"
+  },
+  {
+    "id": "protractor",
+    "name": "Protractor"
+  },
+  {
+    "id": "proxmox",
+    "name": "Proxmox"
+  },
+  {
+    "id": "pterodactyl",
+    "name": "Pterodactyl"
+  },
+  {
+    "id": "pubg",
+    "name": "PUBG"
+  },
+  {
+    "id": "publons",
+    "name": "Publons"
+  },
+  {
+    "id": "pubmed",
+    "name": "PubMed"
+  },
+  {
+    "id": "pug",
+    "name": "Pug"
+  },
+  {
+    "id": "pulumi",
+    "name": "Pulumi"
+  },
+  {
+    "id": "puma",
+    "name": "Puma"
+  },
+  {
+    "id": "puppet",
+    "name": "Puppet"
+  },
+  {
+    "id": "puppeteer",
+    "name": "Puppeteer"
+  },
+  {
+    "id": "purescript",
+    "name": "PureScript"
+  },
+  {
+    "id": "purgecss",
+    "name": "PurgeCSS"
+  },
+  {
+    "id": "purism",
+    "name": "Purism"
+  },
+  {
+    "id": "pushbullet",
+    "name": "Pushbullet"
+  },
+  {
+    "id": "pusher",
+    "name": "Pusher"
+  },
+  {
+    "id": "pwa",
+    "name": "PWA"
+  },
+  {
+    "id": "pycharm",
+    "name": "PyCharm"
+  },
+  {
+    "id": "pycqa",
+    "name": "PyCQA"
+  },
+  {
+    "id": "pydantic",
+    "name": "Pydantic"
+  },
+  {
+    "id": "pyg",
+    "name": "PyG"
+  },
+  {
+    "id": "pypi",
+    "name": "PyPI"
+  },
+  {
+    "id": "pypy",
+    "name": "PyPy"
+  },
+  {
+    "id": "pyscaffold",
+    "name": "PyScaffold"
+  },
+  {
+    "id": "pysyft",
+    "name": "PySyft"
+  },
+  {
+    "id": "pytest",
+    "name": "Pytest"
+  },
+  {
+    "id": "python",
+    "name": "Python"
+  },
+  {
+    "id": "pythonanywhere",
+    "name": "PythonAnywhere"
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch"
+  },
+  {
+    "id": "pyup",
+    "name": "PyUp"
+  },
+  {
+    "id": "qantas",
+    "name": "Qantas"
+  },
+  {
+    "id": "qase",
+    "name": "Qase"
+  },
+  {
+    "id": "qatarairways",
+    "name": "Qatar Airways"
+  },
+  {
+    "id": "qbittorrent",
+    "name": "qbittorrent"
+  },
+  {
+    "id": "qemu",
+    "name": "QEMU"
+  },
+  {
+    "id": "qgis",
+    "name": "Qgis"
+  },
+  {
+    "id": "qi",
+    "name": "Qi"
+  },
+  {
+    "id": "qiita",
+    "name": "Qiita"
+  },
+  {
+    "id": "qiskit",
+    "name": "Qiskit"
+  },
+  {
+    "id": "qiwi",
+    "name": "QIWI"
+  },
+  {
+    "id": "qlik",
+    "name": "Qlik"
+  },
+  {
+    "id": "qmk",
+    "name": "QMK"
+  },
+  {
+    "id": "qnap",
+    "name": "QNAP"
+  },
+  {
+    "id": "qq",
+    "name": "QQ"
+  },
+  {
+    "id": "qt",
+    "name": "Qt"
+  },
+  {
+    "id": "quad9",
+    "name": "Quad9"
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm"
+  },
+  {
+    "id": "qualtrics",
+    "name": "Qualtrics"
+  },
+  {
+    "id": "qualys",
+    "name": "Qualys"
+  },
+  {
+    "id": "quantcast",
+    "name": "Quantcast"
+  },
+  {
+    "id": "quantconnect",
+    "name": "QuantConnect"
+  },
+  {
+    "id": "quarkus",
+    "name": "Quarkus"
+  },
+  {
+    "id": "quarto",
+    "name": "Quarto"
+  },
+  {
+    "id": "quasar",
+    "name": "Quasar"
+  },
+  {
+    "id": "qubesos",
+    "name": "Qubes OS"
+  },
+  {
+    "id": "quest",
+    "name": "Quest"
+  },
+  {
+    "id": "quickbooks",
+    "name": "QuickBooks"
+  },
+  {
+    "id": "quicklook",
+    "name": "QuickLook"
+  },
+  {
+    "id": "quicktime",
+    "name": "QuickTime"
+  },
+  {
+    "id": "quicktype",
+    "name": "quicktype"
+  },
+  {
+    "id": "quip",
+    "name": "Quip"
+  },
+  {
+    "id": "quizlet",
+    "name": "Quizlet"
+  },
+  {
+    "id": "quora",
+    "name": "Quora"
+  },
+  {
+    "id": "qwant",
+    "name": "Qwant"
+  },
+  {
+    "id": "qwik",
+    "name": "Qwik"
+  },
+  {
+    "id": "qwiklabs",
+    "name": "Qwiklabs"
+  },
+  {
+    "id": "qzone",
+    "name": "Qzone"
+  },
+  {
+    "id": "r",
+    "name": "R"
+  },
+  {
+    "id": "r3",
+    "name": "R3"
+  },
+  {
+    "id": "rabbitmq",
+    "name": "RabbitMQ"
+  },
+  {
+    "id": "racket",
+    "name": "Racket"
+  },
+  {
+    "id": "radstudio",
+    "name": "RAD Studio"
+  },
+  {
+    "id": "radar",
+    "name": "Radar"
+  },
+  {
+    "id": "radarr",
+    "name": "radarr"
+  },
+  {
+    "id": "radiofrance",
+    "name": "Radio France"
+  },
+  {
+    "id": "radixui",
+    "name": "Radix UI"
+  },
+  {
+    "id": "railway",
+    "name": "Railway"
+  },
+  {
+    "id": "rainmeter",
+    "name": "Rainmeter"
+  },
+  {
+    "id": "rakuten",
+    "name": "Rakuten"
+  },
+  {
+    "id": "rakutenkobo",
+    "name": "Rakuten Kobo"
+  },
+  {
+    "id": "ram",
+    "name": "Ram"
+  },
+  {
+    "id": "rancher",
+    "name": "Rancher"
+  },
+  {
+    "id": "rapid",
+    "name": "Rapid"
+  },
+  {
+    "id": "rarible",
+    "name": "Rarible"
+  },
+  {
+    "id": "rasa",
+    "name": "Rasa"
+  },
+  {
+    "id": "raspberrypi",
+    "name": "Raspberry Pi"
+  },
+  {
+    "id": "ravelry",
+    "name": "Ravelry"
+  },
+  {
+    "id": "ray",
+    "name": "Ray"
+  },
+  {
+    "id": "raycast",
+    "name": "Raycast"
+  },
+  {
+    "id": "raylib",
+    "name": "Raylib"
+  },
+  {
+    "id": "razer",
+    "name": "Razer"
+  },
+  {
+    "id": "razorpay",
+    "name": "Razorpay"
+  },
+  {
+    "id": "rclone",
+    "name": "Rclone"
+  },
+  {
+    "id": "react",
+    "name": "React"
+  },
+  {
+    "id": "reactbootstrap",
+    "name": "React Bootstrap"
+  },
+  {
+    "id": "reacthookform",
+    "name": "React Hook Form"
+  },
+  {
+    "id": "reactquery",
+    "name": "React Query"
+  },
+  {
+    "id": "reactrouter",
+    "name": "React Router"
+  },
+  {
+    "id": "reacttable",
+    "name": "React Table"
+  },
+  {
+    "id": "reactiveresume",
+    "name": "Reactive Resume"
+  },
+  {
+    "id": "reactivex",
+    "name": "ReactiveX"
+  },
+  {
+    "id": "reactos",
+    "name": "ReactOS"
+  },
+  {
+    "id": "readthedocs",
+    "name": "Read the Docs"
+  },
+  {
+    "id": "readdotcv",
+    "name": "Read.cv"
+  },
+  {
+    "id": "readme",
+    "name": "ReadMe"
+  },
+  {
+    "id": "reason",
+    "name": "Reason"
+  },
+  {
+    "id": "reasonstudios",
+    "name": "Reason Studios"
+  },
+  {
+    "id": "recoil",
+    "name": "Recoil"
+  },
+  {
+    "id": "red",
+    "name": "Red"
+  },
+  {
+    "id": "redbull",
+    "name": "Red Bull"
+  },
+  {
+    "id": "redcandlegames",
+    "name": "Red Candle Games"
+  },
+  {
+    "id": "redhat",
+    "name": "Red Hat"
+  },
+  {
+    "id": "redhatopenshift",
+    "name": "Red Hat Open Shift"
+  },
+  {
+    "id": "redash",
+    "name": "Redash"
+  },
+  {
+    "id": "redbubble",
+    "name": "Redbubble"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit"
+  },
+  {
+    "id": "redis",
+    "name": "Redis"
+  },
+  {
+    "id": "redmine",
+    "name": "Redmine"
+  },
+  {
+    "id": "redox",
+    "name": "Redox"
+  },
+  {
+    "id": "redragon",
+    "name": "Redragon"
+  },
+  {
+    "id": "redsys",
+    "name": "Redsys"
+  },
+  {
+    "id": "redux",
+    "name": "Redux"
+  },
+  {
+    "id": "reduxsaga",
+    "name": "Redux-Saga"
+  },
+  {
+    "id": "redwoodjs",
+    "name": "RedwoodJS"
+  },
+  {
+    "id": "reebok",
+    "name": "Reebok"
+  },
+  {
+    "id": "refine",
+    "name": "Refine"
+  },
+  {
+    "id": "refinedgithub",
+    "name": "Refined GitHub"
+  },
+  {
+    "id": "relay",
+    "name": "Relay"
+  },
+  {
+    "id": "relianceindustrieslimited",
+    "name": "Reliance Industries Limited"
+  },
+  {
+    "id": "remark",
+    "name": "remark"
+  },
+  {
+    "id": "remedyentertainment",
+    "name": "Remedy Entertainment"
+  },
+  {
+    "id": "remix",
+    "name": "Remix"
+  },
+  {
+    "id": "removedotbg",
+    "name": "remove.bg"
+  },
+  {
+    "id": "renpy",
+    "name": "Ren'Py"
+  },
+  {
+    "id": "renault",
+    "name": "Renault"
+  },
+  {
+    "id": "render",
+    "name": "Render"
+  },
+  {
+    "id": "renovate",
+    "name": "Renovate"
+  },
+  {
+    "id": "renren",
+    "name": "Renren"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate"
+  },
+  {
+    "id": "replit",
+    "name": "Replit"
+  },
+  {
+    "id": "republicofgamers",
+    "name": "Republic of Gamers"
+  },
+  {
+    "id": "rescript",
+    "name": "ReScript"
+  },
+  {
+    "id": "rescuetime",
+    "name": "RescueTime"
+  },
+  {
+    "id": "researchgate",
+    "name": "ResearchGate"
+  },
+  {
+    "id": "resend",
+    "name": "Resend"
+  },
+  {
+    "id": "resharper",
+    "name": "ReSharper"
+  },
+  {
+    "id": "resurrectionremixos",
+    "name": "Resurrection Remix OS"
+  },
+  {
+    "id": "retool",
+    "name": "Retool"
+  },
+  {
+    "id": "retroarch",
+    "name": "RetroArch"
+  },
+  {
+    "id": "retropie",
+    "name": "RetroPie"
+  },
+  {
+    "id": "revanced",
+    "name": "ReVanced"
+  },
+  {
+    "id": "revealdotjs",
+    "name": "reveal.js"
+  },
+  {
+    "id": "reverbnation",
+    "name": "ReverbNation"
+  },
+  {
+    "id": "revoltdotchat",
+    "name": "Revolt.chat"
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut"
+  },
+  {
+    "id": "rewe",
+    "name": "REWE"
+  },
+  {
+    "id": "rezgo",
+    "name": "Rezgo"
+  },
+  {
+    "id": "rhinoceros",
+    "name": "Rhinoceros"
+  },
+  {
+    "id": "rich",
+    "name": "Rich"
+  },
+  {
+    "id": "rider",
+    "name": "Rider"
+  },
+  {
+    "id": "rimacautomobili",
+    "name": "Rimac Automobili"
+  },
+  {
+    "id": "rime",
+    "name": "Rime"
+  },
+  {
+    "id": "ring",
+    "name": "Ring"
+  },
+  {
+    "id": "riotgames",
+    "name": "Riot Games"
+  },
+  {
+    "id": "ripple",
+    "name": "Ripple"
+  },
+  {
+    "id": "riscv",
+    "name": "RISC-V"
+  },
+  {
+    "id": "riseup",
+    "name": "Riseup"
+  },
+  {
+    "id": "ritzcarlton",
+    "name": "Ritz Carlton"
+  },
+  {
+    "id": "rive",
+    "name": "Rive"
+  },
+  {
+    "id": "roadmapdotsh",
+    "name": "roadmap.sh"
+  },
+  {
+    "id": "roamresearch",
+    "name": "Roam Research"
+  },
+  {
+    "id": "robinhood",
+    "name": "Robinhood"
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox"
+  },
+  {
+    "id": "robloxstudio",
+    "name": "Roblox Studio"
+  },
+  {
+    "id": "roboflow",
+    "name": "Roboflow"
+  },
+  {
+    "id": "robotframework",
+    "name": "Robot Framework"
+  },
+  {
+    "id": "rocket",
+    "name": "Rocket"
+  },
+  {
+    "id": "rocketdotchat",
+    "name": "Rocket.Chat"
+  },
+  {
+    "id": "rocksdb",
+    "name": "RocksDB"
+  },
+  {
+    "id": "rockstargames",
+    "name": "Rockstar Games"
+  },
+  {
+    "id": "rockwellautomation",
+    "name": "Rockwell Automation"
+  },
+  {
+    "id": "rockylinux",
+    "name": "Rocky Linux"
+  },
+  {
+    "id": "roku",
+    "name": "Roku"
+  },
+  {
+    "id": "roll20",
+    "name": "Roll20"
+  },
+  {
+    "id": "rollsroyce",
+    "name": "Rolls-Royce"
+  },
+  {
+    "id": "rollupdotjs",
+    "name": "rollup.js"
+  },
+  {
+    "id": "rook",
+    "name": "Rook"
+  },
+  {
+    "id": "roon",
+    "name": "Roon"
+  },
+  {
+    "id": "rootme",
+    "name": "Root Me"
+  },
+  {
+    "id": "roots",
+    "name": "Roots"
+  },
+  {
+    "id": "rootsbedrock",
+    "name": "Roots Bedrock"
+  },
+  {
+    "id": "rootssage",
+    "name": "Roots Sage"
+  },
+  {
+    "id": "ros",
+    "name": "ROS"
+  },
+  {
+    "id": "rossmann",
+    "name": "Rossmann"
+  },
+  {
+    "id": "rotaryinternational",
+    "name": "Rotary International"
+  },
+  {
+    "id": "rottentomatoes",
+    "name": "Rotten Tomatoes"
+  },
+  {
+    "id": "roundcube",
+    "name": "Roundcube"
+  },
+  {
+    "id": "rsocket",
+    "name": "RSocket"
+  },
+  {
+    "id": "rss",
+    "name": "RSS"
+  },
+  {
+    "id": "rstudioide",
+    "name": "RStudio IDE"
+  },
+  {
+    "id": "rtl",
+    "name": "RTL"
+  },
+  {
+    "id": "rtlzwei",
+    "name": "RTLZWEI"
+  },
+  {
+    "id": "rtm",
+    "name": "RTM"
+  },
+  {
+    "id": "rte",
+    "name": "RTÉ"
+  },
+  {
+    "id": "rubocop",
+    "name": "RuboCop"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby"
+  },
+  {
+    "id": "rubyonrails",
+    "name": "Ruby on Rails"
+  },
+  {
+    "id": "rubysinatra",
+    "name": "Ruby Sinatra"
+  },
+  {
+    "id": "rubygems",
+    "name": "RubyGems"
+  },
+  {
+    "id": "rubymine",
+    "name": "RubyMine"
+  },
+  {
+    "id": "ruff",
+    "name": "Ruff"
+  },
+  {
+    "id": "rumahweb",
+    "name": "Rumahweb"
+  },
+  {
+    "id": "rumble",
+    "name": "Rumble"
+  },
+  {
+    "id": "rundeck",
+    "name": "Rundeck"
+  },
+  {
+    "id": "runkeeper",
+    "name": "Runkeeper"
+  },
+  {
+    "id": "runkit",
+    "name": "RunKit"
+  },
+  {
+    "id": "runrundotit",
+    "name": "Runrun.it"
+  },
+  {
+    "id": "rust",
+    "name": "Rust"
+  },
+  {
+    "id": "rustdesk",
+    "name": "RustDesk"
+  },
+  {
+    "id": "rxdb",
+    "name": "RxDB"
+  },
+  {
+    "id": "ryanair",
+    "name": "Ryanair"
+  },
+  {
+    "id": "rye",
+    "name": "Rye"
+  },
+  {
+    "id": "s7airlines",
+    "name": "S7 Airlines"
+  },
+  {
+    "id": "sabanci",
+    "name": "Sabanci"
+  },
+  {
+    "id": "safari",
+    "name": "Safari"
+  },
+  {
+    "id": "sage",
+    "name": "Sage"
+  },
+  {
+    "id": "sagemath",
+    "name": "SageMath"
+  },
+  {
+    "id": "sahibinden",
+    "name": "Sahibinden"
+  },
+  {
+    "id": "sailfishos",
+    "name": "Sailfish OS"
+  },
+  {
+    "id": "sailsdotjs",
+    "name": "Sails.js"
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce"
+  },
+  {
+    "id": "salla",
+    "name": "Salla"
+  },
+  {
+    "id": "saltproject",
+    "name": "Salt Project"
+  },
+  {
+    "id": "samsclub",
+    "name": "Sam's Club"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung"
+  },
+  {
+    "id": "samsungpay",
+    "name": "Samsung Pay"
+  },
+  {
+    "id": "sanfranciscomunicipalrailway",
+    "name": "San Francisco Municipal Railway"
+  },
+  {
+    "id": "sanic",
+    "name": "Sanic"
+  },
+  {
+    "id": "sanity",
+    "name": "Sanity"
+  },
+  {
+    "id": "sap",
+    "name": "SAP"
+  },
+  {
+    "id": "sartorius",
+    "name": "Sartorius"
+  },
+  {
+    "id": "sass",
+    "name": "Sass"
+  },
+  {
+    "id": "sat1",
+    "name": "Sat.1"
+  },
+  {
+    "id": "satellite",
+    "name": "Satellite"
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn"
+  },
+  {
+    "id": "saucelabs",
+    "name": "Sauce Labs"
+  },
+  {
+    "id": "saudia",
+    "name": "Saudia"
+  },
+  {
+    "id": "scala",
+    "name": "Scala"
+  },
+  {
+    "id": "scalar",
+    "name": "Scalar"
+  },
+  {
+    "id": "scaleway",
+    "name": "Scaleway"
+  },
+  {
+    "id": "scania",
+    "name": "Scania"
+  },
+  {
+    "id": "schneiderelectric",
+    "name": "Schneider Electric"
+  },
+  {
+    "id": "scikitlearn",
+    "name": "scikit-learn"
+  },
+  {
+    "id": "scilab",
+    "name": "Scilab"
+  },
+  {
+    "id": "scipy",
+    "name": "SciPy"
+  },
+  {
+    "id": "scopus",
+    "name": "Scopus"
+  },
+  {
+    "id": "scpfoundation",
+    "name": "SCP Foundation"
+  },
+  {
+    "id": "scrapbox",
+    "name": "Scrapbox"
+  },
+  {
+    "id": "scrapy",
+    "name": "Scrapy"
+  },
+  {
+    "id": "scratch",
+    "name": "Scratch"
+  },
+  {
+    "id": "screencastify",
+    "name": "Screencastify"
+  },
+  {
+    "id": "scribd",
+    "name": "Scribd"
+  },
+  {
+    "id": "scrimba",
+    "name": "Scrimba"
+  },
+  {
+    "id": "scrollreveal",
+    "name": "ScrollReveal"
+  },
+  {
+    "id": "scrumalliance",
+    "name": "Scrum Alliance"
+  },
+  {
+    "id": "scrutinizerci",
+    "name": "Scrutinizer CI"
+  },
+  {
+    "id": "scylladb",
+    "name": "ScyllaDB"
+  },
+  {
+    "id": "seafile",
+    "name": "Seafile"
+  },
+  {
+    "id": "seagate",
+    "name": "Seagate"
+  },
+  {
+    "id": "searxng",
+    "name": "SearXNG"
+  },
+  {
+    "id": "seat",
+    "name": "SEAT"
+  },
+  {
+    "id": "seatgeek",
+    "name": "SeatGeek"
+  },
+  {
+    "id": "securityscorecard",
+    "name": "SecurityScorecard"
+  },
+  {
+    "id": "sefaria",
+    "name": "Sefaria"
+  },
+  {
+    "id": "sega",
+    "name": "Sega"
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium"
+  },
+  {
+    "id": "sellfy",
+    "name": "Sellfy"
+  },
+  {
+    "id": "semanticscholar",
+    "name": "Semantic Scholar"
+  },
+  {
+    "id": "semanticui",
+    "name": "Semantic UI"
+  },
+  {
+    "id": "semanticuireact",
+    "name": "Semantic UI React"
+  },
+  {
+    "id": "semanticweb",
+    "name": "Semantic Web"
+  },
+  {
+    "id": "semanticrelease",
+    "name": "semantic-release"
+  },
+  {
+    "id": "semaphoreci",
+    "name": "Semaphore CI"
+  },
+  {
+    "id": "semrush",
+    "name": "Semrush"
+  },
+  {
+    "id": "semver",
+    "name": "SemVer"
+  },
+  {
+    "id": "sencha",
+    "name": "Sencha"
+  },
+  {
+    "id": "sendgrid",
+    "name": "SendGrid"
+  },
+  {
+    "id": "sennheiser",
+    "name": "Sennheiser"
+  },
+  {
+    "id": "sensu",
+    "name": "Sensu"
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry"
+  },
+  {
+    "id": "sepa",
+    "name": "SEPA"
+  },
+  {
+    "id": "sequelize",
+    "name": "Sequelize"
+  },
+  {
+    "id": "serverfault",
+    "name": "Server Fault"
+  },
+  {
+    "id": "serverless",
+    "name": "Serverless"
+  },
+  {
+    "id": "session",
+    "name": "Session"
+  },
+  {
+    "id": "sessionize",
+    "name": "Sessionize"
+  },
+  {
+    "id": "setapp",
+    "name": "Setapp"
+  },
+  {
+    "id": "sfml",
+    "name": "SFML"
+  },
+  {
+    "id": "shadcnui",
+    "name": "shadcn/ui"
+  },
+  {
+    "id": "shadow",
+    "name": "Shadow"
+  },
+  {
+    "id": "shanghaimetro",
+    "name": "Shanghai Metro"
+  },
+  {
+    "id": "sharex",
+    "name": "ShareX"
+  },
+  {
+    "id": "sharp",
+    "name": "sharp"
+  },
+  {
+    "id": "shazam",
+    "name": "Shazam"
+  },
+  {
+    "id": "shell",
+    "name": "Shell"
+  },
+  {
+    "id": "shelly",
+    "name": "Shelly"
+  },
+  {
+    "id": "shenzhenmetro",
+    "name": "Shenzhen Metro"
+  },
+  {
+    "id": "shieldsdotio",
+    "name": "Shields.io"
+  },
+  {
+    "id": "shikimori",
+    "name": "Shikimori"
+  },
+  {
+    "id": "shopee",
+    "name": "Shopee"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify"
+  },
+  {
+    "id": "shopware",
+    "name": "Shopware"
+  },
+  {
+    "id": "shortcut",
+    "name": "Shortcut"
+  },
+  {
+    "id": "showpad",
+    "name": "Showpad"
+  },
+  {
+    "id": "showtime",
+    "name": "Showtime"
+  },
+  {
+    "id": "showwcase",
+    "name": "Showwcase"
+  },
+  {
+    "id": "shutterstock",
+    "name": "Shutterstock"
+  },
+  {
+    "id": "sidekiq",
+    "name": "Sidekiq"
+  },
+  {
+    "id": "sidequest",
+    "name": "SideQuest"
+  },
+  {
+    "id": "siemens",
+    "name": "Siemens"
+  },
+  {
+    "id": "sifive",
+    "name": "SiFive"
+  },
+  {
+    "id": "signal",
+    "name": "Signal"
+  },
+  {
+    "id": "silverairways",
+    "name": "Silver Airways"
+  },
+  {
+    "id": "similarweb",
+    "name": "Similarweb"
+  },
+  {
+    "id": "simkl",
+    "name": "Simkl"
+  },
+  {
+    "id": "simpleanalytics",
+    "name": "Simple Analytics"
+  },
+  {
+    "id": "simpleicons",
+    "name": "Simple Icons"
+  },
+  {
+    "id": "simplelocalize",
+    "name": "SimpleLocalize"
+  },
+  {
+    "id": "simplelogin",
+    "name": "SimpleLogin"
+  },
+  {
+    "id": "simplenote",
+    "name": "Simplenote"
+  },
+  {
+    "id": "simplex",
+    "name": "SimpleX"
+  },
+  {
+    "id": "sinaweibo",
+    "name": "Sina Weibo"
+  },
+  {
+    "id": "singaporeairlines",
+    "name": "Singapore Airlines"
+  },
+  {
+    "id": "singlestore",
+    "name": "SingleStore"
+  },
+  {
+    "id": "sitecore",
+    "name": "Sitecore"
+  },
+  {
+    "id": "sitepoint",
+    "name": "SitePoint"
+  },
+  {
+    "id": "siyuan",
+    "name": "SiYuan"
+  },
+  {
+    "id": "skaffold",
+    "name": "Skaffold"
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch"
+  },
+  {
+    "id": "sketchfab",
+    "name": "Sketchfab"
+  },
+  {
+    "id": "sketchup",
+    "name": "SketchUp"
+  },
+  {
+    "id": "skillshare",
+    "name": "Skillshare"
+  },
+  {
+    "id": "sky",
+    "name": "Sky"
+  },
+  {
+    "id": "skypack",
+    "name": "Skypack"
+  },
+  {
+    "id": "slack",
+    "name": "Slack"
+  },
+  {
+    "id": "slackware",
+    "name": "Slackware"
+  },
+  {
+    "id": "slashdot",
+    "name": "Slashdot"
+  },
+  {
+    "id": "slickpic",
+    "name": "SlickPic"
+  },
+  {
+    "id": "slides",
+    "name": "Slides"
+  },
+  {
+    "id": "slideshare",
+    "name": "SlideShare"
+  },
+  {
+    "id": "slint",
+    "name": "Slint"
+  },
+  {
+    "id": "smart",
+    "name": "smart"
+  },
+  {
+    "id": "smartthings",
+    "name": "SmartThings"
+  },
+  {
+    "id": "smashingmagazine",
+    "name": "Smashing Magazine"
+  },
+  {
+    "id": "smrt",
+    "name": "SMRT"
+  },
+  {
+    "id": "smugmug",
+    "name": "SmugMug"
+  },
+  {
+    "id": "snapchat",
+    "name": "Snapchat"
+  },
+  {
+    "id": "snapcraft",
+    "name": "Snapcraft"
+  },
+  {
+    "id": "snapdragon",
+    "name": "Snapdragon"
+  },
+  {
+    "id": "sncf",
+    "name": "SNCF"
+  },
+  {
+    "id": "snort",
+    "name": "Snort"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake"
+  },
+  {
+    "id": "snowpack",
+    "name": "Snowpack"
+  },
+  {
+    "id": "snyk",
+    "name": "Snyk"
+  },
+  {
+    "id": "socialblade",
+    "name": "Social Blade"
+  },
+  {
+    "id": "society6",
+    "name": "Society6"
+  },
+  {
+    "id": "socket",
+    "name": "Socket"
+  },
+  {
+    "id": "socketdotio",
+    "name": "Socket.io"
+  },
+  {
+    "id": "softcatala",
+    "name": "Softcatalà"
+  },
+  {
+    "id": "softpedia",
+    "name": "Softpedia"
+  },
+  {
+    "id": "sogou",
+    "name": "Sogou"
+  },
+  {
+    "id": "solana",
+    "name": "Solana"
+  },
+  {
+    "id": "solid",
+    "name": "Solid"
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity"
+  },
+  {
+    "id": "sololearn",
+    "name": "Sololearn"
+  },
+  {
+    "id": "solus",
+    "name": "Solus"
+  },
+  {
+    "id": "sonar",
+    "name": "Sonar"
+  },
+  {
+    "id": "sonarqubecloud",
+    "name": "SonarQube Cloud"
+  },
+  {
+    "id": "sonarqubeforide",
+    "name": "SonarQube for IDE"
+  },
+  {
+    "id": "sonarqubeserver",
+    "name": "SonarQube Server"
+  },
+  {
+    "id": "sonarr",
+    "name": "sonarr"
+  },
+  {
+    "id": "sonatype",
+    "name": "Sonatype"
+  },
+  {
+    "id": "songkick",
+    "name": "Songkick"
+  },
+  {
+    "id": "songoda",
+    "name": "Songoda"
+  },
+  {
+    "id": "sonicwall",
+    "name": "SonicWall"
+  },
+  {
+    "id": "sonos",
+    "name": "Sonos"
+  },
+  {
+    "id": "sony",
+    "name": "Sony"
+  },
+  {
+    "id": "soriana",
+    "name": "Soriana"
+  },
+  {
+    "id": "soundcharts",
+    "name": "Soundcharts"
+  },
+  {
+    "id": "soundcloud",
+    "name": "SoundCloud"
+  },
+  {
+    "id": "sourceengine",
+    "name": "Source Engine"
+  },
+  {
+    "id": "sourceforge",
+    "name": "SourceForge"
+  },
+  {
+    "id": "sourcehut",
+    "name": "SourceHut"
+  },
+  {
+    "id": "sourcetree",
+    "name": "Sourcetree"
+  },
+  {
+    "id": "southwestairlines",
+    "name": "Southwest Airlines"
+  },
+  {
+    "id": "spacemacs",
+    "name": "Spacemacs"
+  },
+  {
+    "id": "spaceship",
+    "name": "Spaceship"
+  },
+  {
+    "id": "spacex",
+    "name": "SpaceX"
+  },
+  {
+    "id": "spacy",
+    "name": "spaCy"
+  },
+  {
+    "id": "sparkar",
+    "name": "Spark AR"
+  },
+  {
+    "id": "sparkasse",
+    "name": "Sparkasse"
+  },
+  {
+    "id": "sparkfun",
+    "name": "SparkFun"
+  },
+  {
+    "id": "sparkpost",
+    "name": "SparkPost"
+  },
+  {
+    "id": "spdx",
+    "name": "SPDX"
+  },
+  {
+    "id": "speakerdeck",
+    "name": "Speaker Deck"
+  },
+  {
+    "id": "spectrum",
+    "name": "Spectrum"
+  },
+  {
+    "id": "speedtest",
+    "name": "Speedtest"
+  },
+  {
+    "id": "speedypage",
+    "name": "SpeedyPage"
+  },
+  {
+    "id": "spoj",
+    "name": "Sphere Online Judge"
+  },
+  {
+    "id": "sphinx",
+    "name": "Sphinx"
+  },
+  {
+    "id": "spigotmc",
+    "name": "SpigotMC"
+  },
+  {
+    "id": "spine",
+    "name": "Spine"
+  },
+  {
+    "id": "spinnaker",
+    "name": "Spinnaker"
+  },
+  {
+    "id": "splunk",
+    "name": "Splunk"
+  },
+  {
+    "id": "spond",
+    "name": "Spond"
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify"
+  },
+  {
+    "id": "spotlight",
+    "name": "Spotlight"
+  },
+  {
+    "id": "spreadshirt",
+    "name": "Spreadshirt"
+  },
+  {
+    "id": "spreaker",
+    "name": "Spreaker"
+  },
+  {
+    "id": "spring",
+    "name": "Spring"
+  },
+  {
+    "id": "spring_creators",
+    "name": "Spring"
+  },
+  {
+    "id": "springboot",
+    "name": "Spring Boot"
+  },
+  {
+    "id": "springsecurity",
+    "name": "Spring Security"
+  },
+  {
+    "id": "spyderide",
+    "name": "Spyder IDE"
+  },
+  {
+    "id": "sqlalchemy",
+    "name": "SQLAlchemy"
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite"
+  },
+  {
+    "id": "square",
+    "name": "Square"
+  },
+  {
+    "id": "squareenix",
+    "name": "Square Enix"
+  },
+  {
+    "id": "squarespace",
+    "name": "Squarespace"
+  },
+  {
+    "id": "srgssr",
+    "name": "SRG SSR"
+  },
+  {
+    "id": "ssrn",
+    "name": "SSRN"
+  },
+  {
+    "id": "sst",
+    "name": "SST"
+  },
+  {
+    "id": "stackexchange",
+    "name": "Stack Exchange"
+  },
+  {
+    "id": "stackoverflow",
+    "name": "Stack Overflow"
+  },
+  {
+    "id": "stackbit",
+    "name": "Stackbit"
+  },
+  {
+    "id": "stackblitz",
+    "name": "StackBlitz"
+  },
+  {
+    "id": "stackedit",
+    "name": "StackEdit"
+  },
+  {
+    "id": "stackhawk",
+    "name": "StackHawk"
+  },
+  {
+    "id": "stackshare",
+    "name": "StackShare"
+  },
+  {
+    "id": "stadia",
+    "name": "Stadia"
+  },
+  {
+    "id": "staffbase",
+    "name": "Staffbase"
+  },
+  {
+    "id": "stagetimer",
+    "name": "Stagetimer"
+  },
+  {
+    "id": "standardresume",
+    "name": "Standard Resume"
+  },
+  {
+    "id": "standardjs",
+    "name": "StandardJS"
+  },
+  {
+    "id": "startrek",
+    "name": "Star Trek"
+  },
+  {
+    "id": "starbucks",
+    "name": "Starbucks"
+  },
+  {
+    "id": "stardock",
+    "name": "Stardock"
+  },
+  {
+    "id": "starlingbank",
+    "name": "Starling Bank"
+  },
+  {
+    "id": "starship",
+    "name": "Starship"
+  },
+  {
+    "id": "startdotgg",
+    "name": "start.gg"
+  },
+  {
+    "id": "startpage",
+    "name": "Startpage"
+  },
+  {
+    "id": "starz",
+    "name": "STARZ"
+  },
+  {
+    "id": "statamic",
+    "name": "Statamic"
+  },
+  {
+    "id": "statista",
+    "name": "Statista"
+  },
+  {
+    "id": "statuspage",
+    "name": "Statuspage"
+  },
+  {
+    "id": "statuspal",
+    "name": "Statuspal"
+  },
+  {
+    "id": "steam",
+    "name": "Steam"
+  },
+  {
+    "id": "steamdeck",
+    "name": "Steam Deck"
+  },
+  {
+    "id": "steamdb",
+    "name": "SteamDB"
+  },
+  {
+    "id": "steamworks",
+    "name": "Steamworks"
+  },
+  {
+    "id": "steelseries",
+    "name": "Steelseries"
+  },
+  {
+    "id": "steem",
+    "name": "Steem"
+  },
+  {
+    "id": "steemit",
+    "name": "Steemit"
+  },
+  {
+    "id": "steinberg",
+    "name": "Steinberg"
+  },
+  {
+    "id": "stellar",
+    "name": "Stellar"
+  },
+  {
+    "id": "stencil",
+    "name": "Stencil"
+  },
+  {
+    "id": "stencyl",
+    "name": "Stencyl"
+  },
+  {
+    "id": "stimulus",
+    "name": "Stimulus"
+  },
+  {
+    "id": "stmicroelectronics",
+    "name": "STMicroelectronics"
+  },
+  {
+    "id": "stockx",
+    "name": "StockX"
+  },
+  {
+    "id": "stopstalk",
+    "name": "StopStalk"
+  },
+  {
+    "id": "storyblok",
+    "name": "Storyblok"
+  },
+  {
+    "id": "storybook",
+    "name": "Storybook"
+  },
+  {
+    "id": "strapi",
+    "name": "Strapi"
+  },
+  {
+    "id": "strava",
+    "name": "Strava"
+  },
+  {
+    "id": "streamlabs",
+    "name": "Streamlabs"
+  },
+  {
+    "id": "streamlit",
+    "name": "Streamlit"
+  },
+  {
+    "id": "streamrunners",
+    "name": "StreamRunners"
+  },
+  {
+    "id": "stremio",
+    "name": "Stremio"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe"
+  },
+  {
+    "id": "strongswan",
+    "name": "strongSwan"
+  },
+  {
+    "id": "stryker",
+    "name": "Stryker"
+  },
+  {
+    "id": "stubhub",
+    "name": "StubHub"
+  },
+  {
+    "id": "studio3t",
+    "name": "Studio 3T"
+  },
+  {
+    "id": "styledcomponents",
+    "name": "styled-components"
+  },
+  {
+    "id": "stylelint",
+    "name": "stylelint"
+  },
+  {
+    "id": "styleshare",
+    "name": "StyleShare"
+  },
+  {
+    "id": "stylus",
+    "name": "Stylus"
+  },
+  {
+    "id": "subaru",
+    "name": "Subaru"
+  },
+  {
+    "id": "sublimetext",
+    "name": "Sublime Text"
+  },
+  {
+    "id": "substack",
+    "name": "Substack"
+  },
+  {
+    "id": "subtitleedit",
+    "name": "Subtitle Edit"
+  },
+  {
+    "id": "subversion",
+    "name": "Subversion"
+  },
+  {
+    "id": "suckless",
+    "name": "suckless"
+  },
+  {
+    "id": "sui",
+    "name": "Sui"
+  },
+  {
+    "id": "sumologic",
+    "name": "Sumo Logic"
+  },
+  {
+    "id": "suno",
+    "name": "Suno"
+  },
+  {
+    "id": "sunrise",
+    "name": "Sunrise"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase"
+  },
+  {
+    "id": "superuser",
+    "name": "Super User"
+  },
+  {
+    "id": "supercrease",
+    "name": "Supercrease"
+  },
+  {
+    "id": "supermicro",
+    "name": "Supermicro"
+  },
+  {
+    "id": "surfshark",
+    "name": "Surfshark"
+  },
+  {
+    "id": "surrealdb",
+    "name": "SurrealDB"
+  },
+  {
+    "id": "surveymonkey",
+    "name": "SurveyMonkey"
+  },
+  {
+    "id": "suse",
+    "name": "SUSE"
+  },
+  {
+    "id": "suzuki",
+    "name": "Suzuki"
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte"
+  },
+  {
+    "id": "svg",
+    "name": "SVG"
+  },
+  {
+    "id": "svgdotjs",
+    "name": "SVG.js"
+  },
+  {
+    "id": "svgo",
+    "name": "SVGO"
+  },
+  {
+    "id": "svgtrace",
+    "name": "SvgTrace"
+  },
+  {
+    "id": "swagger",
+    "name": "Swagger"
+  },
+  {
+    "id": "swarm",
+    "name": "Swarm"
+  },
+  {
+    "id": "sway",
+    "name": "Sway"
+  },
+  {
+    "id": "swc",
+    "name": "SWC"
+  },
+  {
+    "id": "swift",
+    "name": "Swift"
+  },
+  {
+    "id": "swiggy",
+    "name": "Swiggy"
+  },
+  {
+    "id": "swiper",
+    "name": "Swiper"
+  },
+  {
+    "id": "swisscows",
+    "name": "Swisscows"
+  },
+  {
+    "id": "swr",
+    "name": "SWR"
+  },
+  {
+    "id": "symantec",
+    "name": "Symantec"
+  },
+  {
+    "id": "symbolab",
+    "name": "Symbolab"
+  },
+  {
+    "id": "symfony",
+    "name": "Symfony"
+  },
+  {
+    "id": "symphony",
+    "name": "Symphony"
+  },
+  {
+    "id": "sympy",
+    "name": "SymPy"
+  },
+  {
+    "id": "syncthing",
+    "name": "Syncthing"
+  },
+  {
+    "id": "synology",
+    "name": "Synology"
+  },
+  {
+    "id": "system76",
+    "name": "System76"
+  },
+  {
+    "id": "saopaulometro",
+    "name": "São Paulo Metro"
+  },
+  {
+    "id": "tabelog",
+    "name": "Tabelog"
+  },
+  {
+    "id": "tablecheck",
+    "name": "TableCheck"
+  },
+  {
+    "id": "tacobell",
+    "name": "Taco Bell"
+  },
+  {
+    "id": "tado",
+    "name": "tado°"
+  },
+  {
+    "id": "taichigraphics",
+    "name": "Taichi Graphics"
+  },
+  {
+    "id": "taichilang",
+    "name": "Taichi Lang"
+  },
+  {
+    "id": "tails",
+    "name": "Tails"
+  },
+  {
+    "id": "tailscale",
+    "name": "Tailscale"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS"
+  },
+  {
+    "id": "taipy",
+    "name": "Taipy"
+  },
+  {
+    "id": "taketwointeractivesoftware",
+    "name": "Take-Two Interactive Software"
+  },
+  {
+    "id": "talend",
+    "name": "Talend"
+  },
+  {
+    "id": "talenthouse",
+    "name": "Talenthouse"
+  },
+  {
+    "id": "talos",
+    "name": "Talos"
+  },
+  {
+    "id": "tamiya",
+    "name": "Tamiya"
+  },
+  {
+    "id": "tampermonkey",
+    "name": "Tampermonkey"
+  },
+  {
+    "id": "taobao",
+    "name": "Taobao"
+  },
+  {
+    "id": "tapas",
+    "name": "Tapas"
+  },
+  {
+    "id": "target",
+    "name": "Target"
+  },
+  {
+    "id": "tarom",
+    "name": "TAROM"
+  },
+  {
+    "id": "task",
+    "name": "Task"
+  },
+  {
+    "id": "tasmota",
+    "name": "Tasmota"
+  },
+  {
+    "id": "tata",
+    "name": "Tata"
+  },
+  {
+    "id": "tcs",
+    "name": "Tata Consultancy Services"
+  },
+  {
+    "id": "tauri",
+    "name": "Tauri"
+  },
+  {
+    "id": "taxbuzz",
+    "name": "TaxBuzz"
+  },
+  {
+    "id": "teal",
+    "name": "Teal"
+  },
+  {
+    "id": "teamcity",
+    "name": "TeamCity"
+  },
+  {
+    "id": "teamspeak",
+    "name": "TeamSpeak"
+  },
+  {
+    "id": "teamviewer",
+    "name": "TeamViewer"
+  },
+  {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+  },
+  {
+    "id": "ted",
+    "name": "TED"
+  },
+  {
+    "id": "teepublic",
+    "name": "TeePublic"
+  },
+  {
+    "id": "teespring",
+    "name": "Teespring"
+  },
+  {
+    "id": "tekton",
+    "name": "Tekton"
+  },
+  {
+    "id": "tele5",
+    "name": "TELE 5"
+  },
+  {
+    "id": "telefonica",
+    "name": "Telefónica"
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram"
+  },
+  {
+    "id": "telegraph",
+    "name": "Telegraph"
+  },
+  {
+    "id": "telenor",
+    "name": "Telenor"
+  },
+  {
+    "id": "temporal",
+    "name": "Temporal"
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow"
+  },
+  {
+    "id": "teradata",
+    "name": "Teradata"
+  },
+  {
+    "id": "teratail",
+    "name": "teratail"
+  },
+  {
+    "id": "termius",
+    "name": "Termius"
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform"
+  },
+  {
+    "id": "tesco",
+    "name": "Tesco"
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla"
+  },
+  {
+    "id": "testcafe",
+    "name": "TestCafe"
+  },
+  {
+    "id": "testin",
+    "name": "Testin"
+  },
+  {
+    "id": "testinglibrary",
+    "name": "Testing Library"
+  },
+  {
+    "id": "testrail",
+    "name": "TestRail"
+  },
+  {
+    "id": "tether",
+    "name": "Tether"
+  },
+  {
+    "id": "textpattern",
+    "name": "Textpattern"
+  },
+  {
+    "id": "tga",
+    "name": "TGA"
+  },
+  {
+    "id": "thangs",
+    "name": "Thangs"
+  },
+  {
+    "id": "thanos",
+    "name": "Thanos"
+  },
+  {
+    "id": "thealgorithms",
+    "name": "The Algorithms"
+  },
+  {
+    "id": "theboringcompany",
+    "name": "The Boring Company"
+  },
+  {
+    "id": "theconversation",
+    "name": "The Conversation"
+  },
+  {
+    "id": "thefinals",
+    "name": "THE FINALS"
+  },
+  {
+    "id": "theguardian",
+    "name": "The Guardian"
+  },
+  {
+    "id": "theirishtimes",
+    "name": "The Irish Times"
+  },
+  {
+    "id": "themighty",
+    "name": "The Mighty"
+  },
+  {
+    "id": "themodelsresource",
+    "name": "The Models Resource"
+  },
+  {
+    "id": "themoviedatabase",
+    "name": "The Movie Database"
+  },
+  {
+    "id": "thenorthface",
+    "name": "The North Face"
+  },
+  {
+    "id": "theodinproject",
+    "name": "The Odin Project"
+  },
+  {
+    "id": "theplanetarysociety",
+    "name": "The Planetary Society"
+  },
+  {
+    "id": "theregister",
+    "name": "The Register"
+  },
+  {
+    "id": "thesoundsresource",
+    "name": "The Sounds Resource"
+  },
+  {
+    "id": "thespritersresource",
+    "name": "The Spriters Resource"
+  },
+  {
+    "id": "thestorygraph",
+    "name": "The StoryGraph"
+  },
+  {
+    "id": "thewashingtonpost",
+    "name": "The Washington Post"
+  },
+  {
+    "id": "theweatherchannel",
+    "name": "The Weather Channel"
+  },
+  {
+    "id": "thingiverse",
+    "name": "Thingiverse"
+  },
+  {
+    "id": "thinkpad",
+    "name": "ThinkPad"
+  },
+  {
+    "id": "thirdweb",
+    "name": "thirdweb"
+  },
+  {
+    "id": "threadless",
+    "name": "Threadless"
+  },
+  {
+    "id": "threads",
+    "name": "Threads"
+  },
+  {
+    "id": "threedotjs",
+    "name": "Three.js"
+  },
+  {
+    "id": "threema",
+    "name": "Threema"
+  },
+  {
+    "id": "thumbtack",
+    "name": "Thumbtack"
+  },
+  {
+    "id": "thunderbird",
+    "name": "Thunderbird"
+  },
+  {
+    "id": "thunderstore",
+    "name": "Thunderstore"
+  },
+  {
+    "id": "thurgauerkantonalbank",
+    "name": "Thurgauer Kantonalbank"
+  },
+  {
+    "id": "thymeleaf",
+    "name": "Thymeleaf"
+  },
+  {
+    "id": "ticketmaster",
+    "name": "Ticketmaster"
+  },
+  {
+    "id": "ticktick",
+    "name": "TickTick"
+  },
+  {
+    "id": "tidal",
+    "name": "TIDAL"
+  },
+  {
+    "id": "tiddlywiki",
+    "name": "TiddlyWiki"
+  },
+  {
+    "id": "tide",
+    "name": "Tide"
+  },
+  {
+    "id": "tidyverse",
+    "name": "Tidyverse"
+  },
+  {
+    "id": "tietoevry",
+    "name": "TietoEVRY"
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok"
+  },
+  {
+    "id": "tildapublishing",
+    "name": "Tilda Publishing"
+  },
+  {
+    "id": "tile",
+    "name": "Tile"
+  },
+  {
+    "id": "timescale",
+    "name": "Timescale"
+  },
+  {
+    "id": "tina",
+    "name": "Tina"
+  },
+  {
+    "id": "tinder",
+    "name": "Tinder"
+  },
+  {
+    "id": "tindie",
+    "name": "Tindie"
+  },
+  {
+    "id": "tinkercad",
+    "name": "Tinkercad"
+  },
+  {
+    "id": "tinygrad",
+    "name": "tinygrad"
+  },
+  {
+    "id": "tinyletter",
+    "name": "TinyLetter"
+  },
+  {
+    "id": "tistory",
+    "name": "Tistory"
+  },
+  {
+    "id": "tldraw",
+    "name": "tldraw"
+  },
+  {
+    "id": "tmux",
+    "name": "tmux"
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist"
+  },
+  {
+    "id": "toggl",
+    "name": "Toggl"
+  },
+  {
+    "id": "toggltrack",
+    "name": "Toggl Track"
+  },
+  {
+    "id": "tokyometro",
+    "name": "Tokyo Metro"
+  },
+  {
+    "id": "toll",
+    "name": "Toll"
+  },
+  {
+    "id": "toml",
+    "name": "TOML"
+  },
+  {
+    "id": "tomorrowland",
+    "name": "Tomorrowland"
+  },
+  {
+    "id": "tomtom",
+    "name": "TomTom"
+  },
+  {
+    "id": "ton",
+    "name": "TON"
+  },
+  {
+    "id": "topdotgg",
+    "name": "Top.gg"
+  },
+  {
+    "id": "topcoder",
+    "name": "Topcoder"
+  },
+  {
+    "id": "toptal",
+    "name": "Toptal"
+  },
+  {
+    "id": "torbrowser",
+    "name": "Tor Browser"
+  },
+  {
+    "id": "torproject",
+    "name": "Tor Project"
+  },
+  {
+    "id": "torizon",
+    "name": "Torizon"
+  },
+  {
+    "id": "toshiba",
+    "name": "Toshiba"
+  },
+  {
+    "id": "totvs",
+    "name": "TOTVS"
+  },
+  {
+    "id": "tourbox",
+    "name": "TourBox"
+  },
+  {
+    "id": "tower",
+    "name": "Tower"
+  },
+  {
+    "id": "toyota",
+    "name": "Toyota"
+  },
+  {
+    "id": "tplink",
+    "name": "TP-Link"
+  },
+  {
+    "id": "tqdm",
+    "name": "tqdm"
+  },
+  {
+    "id": "traccar",
+    "name": "Traccar"
+  },
+  {
+    "id": "tradingview",
+    "name": "TradingView"
+  },
+  {
+    "id": "traefikmesh",
+    "name": "Traefik Mesh"
+  },
+  {
+    "id": "traefikproxy",
+    "name": "Traefik Proxy"
+  },
+  {
+    "id": "trailforks",
+    "name": "Trailforks"
+  },
+  {
+    "id": "trainerroad",
+    "name": "TrainerRoad"
+  },
+  {
+    "id": "trakt",
+    "name": "Trakt"
+  },
+  {
+    "id": "transifex",
+    "name": "Transifex"
+  },
+  {
+    "id": "transmission",
+    "name": "Transmission"
+  },
+  {
+    "id": "transportforireland",
+    "name": "Transport for Ireland"
+  },
+  {
+    "id": "transportforlondon",
+    "name": "Transport for London"
+  },
+  {
+    "id": "travisci",
+    "name": "Travis CI"
+  },
+  {
+    "id": "treehouse",
+    "name": "Treehouse"
+  },
+  {
+    "id": "trello",
+    "name": "Trello"
+  },
+  {
+    "id": "trendmicro",
+    "name": "Trend Micro"
+  },
+  {
+    "id": "tresorit",
+    "name": "Tresorit"
+  },
+  {
+    "id": "treyarch",
+    "name": "Treyarch"
+  },
+  {
+    "id": "tricentis",
+    "name": "Tricentis"
+  },
+  {
+    "id": "trilium",
+    "name": "Trilium"
+  },
+  {
+    "id": "triller",
+    "name": "Triller"
+  },
+  {
+    "id": "trillertv",
+    "name": "TrillerTV"
+  },
+  {
+    "id": "trimble",
+    "name": "Trimble"
+  },
+  {
+    "id": "trino",
+    "name": "Trino"
+  },
+  {
+    "id": "tripdotcom",
+    "name": "Trip.com"
+  },
+  {
+    "id": "tripadvisor",
+    "name": "Tripadvisor"
+  },
+  {
+    "id": "trivago",
+    "name": "trivago"
+  },
+  {
+    "id": "trivy",
+    "name": "Trivy"
+  },
+  {
+    "id": "trove",
+    "name": "Trove"
+  },
+  {
+    "id": "trpc",
+    "name": "tRPC"
+  },
+  {
+    "id": "truenas",
+    "name": "TrueNAS"
+  },
+  {
+    "id": "trueup",
+    "name": "TrueUp"
+  },
+  {
+    "id": "trulia",
+    "name": "trulia"
+  },
+  {
+    "id": "trustedshops",
+    "name": "Trusted Shops"
+  },
+  {
+    "id": "trustpilot",
+    "name": "Trustpilot"
+  },
+  {
+    "id": "tryitonline",
+    "name": "Try It Online"
+  },
+  {
+    "id": "tryhackme",
+    "name": "TryHackMe"
+  },
+  {
+    "id": "tsnode",
+    "name": "ts-node"
+  },
+  {
+    "id": "tubi",
+    "name": "Tubi"
+  },
+  {
+    "id": "tui",
+    "name": "TUI"
+  },
+  {
+    "id": "tumblr",
+    "name": "Tumblr"
+  },
+  {
+    "id": "tunein",
+    "name": "TuneIn"
+  },
+  {
+    "id": "turbo",
+    "name": "Turbo"
+  },
+  {
+    "id": "turborepo",
+    "name": "Turborepo"
+  },
+  {
+    "id": "turbosquid",
+    "name": "TurboSquid"
+  },
+  {
+    "id": "turkishairlines",
+    "name": "Turkish Airlines"
+  },
+  {
+    "id": "turso",
+    "name": "Turso"
+  },
+  {
+    "id": "tuta",
+    "name": "Tuta"
+  },
+  {
+    "id": "tvtime",
+    "name": "TV Time"
+  },
+  {
+    "id": "tv4play",
+    "name": "TV4 Play"
+  },
+  {
+    "id": "twenty",
+    "name": "Twenty"
+  },
+  {
+    "id": "twilio",
+    "name": "Twilio"
+  },
+  {
+    "id": "twinkly",
+    "name": "Twinkly"
+  },
+  {
+    "id": "twinmotion",
+    "name": "Twinmotion"
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch"
+  },
+  {
+    "id": "typeform",
+    "name": "Typeform"
+  },
+  {
+    "id": "typeorm",
+    "name": "TypeORM"
+  },
+  {
+    "id": "typer",
+    "name": "Typer"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript"
+  },
+  {
+    "id": "typo3",
+    "name": "TYPO3"
+  },
+  {
+    "id": "typst",
+    "name": "Typst"
+  },
+  {
+    "id": "telequebec",
+    "name": "Télé-Québec"
+  },
+  {
+    "id": "udotsdotnews",
+    "name": "U.S. News"
+  },
+  {
+    "id": "uber",
+    "name": "Uber"
+  },
+  {
+    "id": "ubereats",
+    "name": "Uber Eats"
+  },
+  {
+    "id": "ubiquiti",
+    "name": "Ubiquiti"
+  },
+  {
+    "id": "ubisoft",
+    "name": "Ubisoft"
+  },
+  {
+    "id": "ublockorigin",
+    "name": "uBlock Origin"
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu"
+  },
+  {
+    "id": "ubuntumate",
+    "name": "Ubuntu MATE"
+  },
+  {
+    "id": "udacity",
+    "name": "Udacity"
+  },
+  {
+    "id": "udemy",
+    "name": "Udemy"
+  },
+  {
+    "id": "ufc",
+    "name": "UFC"
+  },
+  {
+    "id": "uikit",
+    "name": "UIkit"
+  },
+  {
+    "id": "uipath",
+    "name": "UiPath"
+  },
+  {
+    "id": "ukca",
+    "name": "UKCA"
+  },
+  {
+    "id": "ultralytics",
+    "name": "Ultralytics"
+  },
+  {
+    "id": "ulule",
+    "name": "Ulule"
+  },
+  {
+    "id": "umami",
+    "name": "Umami"
+  },
+  {
+    "id": "umbraco",
+    "name": "Umbraco"
+  },
+  {
+    "id": "umbrel",
+    "name": "Umbrel"
+  },
+  {
+    "id": "uml",
+    "name": "UML"
+  },
+  {
+    "id": "unacademy",
+    "name": "Unacademy"
+  },
+  {
+    "id": "underarmour",
+    "name": "Under Armour"
+  },
+  {
+    "id": "underscoredotjs",
+    "name": "Underscore.js"
+  },
+  {
+    "id": "undertale",
+    "name": "Undertale"
+  },
+  {
+    "id": "unicode",
+    "name": "Unicode"
+  },
+  {
+    "id": "unilever",
+    "name": "Unilever"
+  },
+  {
+    "id": "uniqlo_ja",
+    "name": "Uniqlo"
+  },
+  {
+    "id": "uniqlo",
+    "name": "Uniqlo"
+  },
+  {
+    "id": "unitedairlines",
+    "name": "United Airlines"
+  },
+  {
+    "id": "unitednations",
+    "name": "United Nations"
+  },
+  {
+    "id": "unity",
+    "name": "Unity"
+  },
+  {
+    "id": "unjs",
+    "name": "UnJS"
+  },
+  {
+    "id": "unlicense",
+    "name": "Unlicense"
+  },
+  {
+    "id": "unocss",
+    "name": "UnoCSS"
+  },
+  {
+    "id": "unpkg",
+    "name": "unpkg"
+  },
+  {
+    "id": "unraid",
+    "name": "Unraid"
+  },
+  {
+    "id": "unrealengine",
+    "name": "Unreal Engine"
+  },
+  {
+    "id": "unsplash",
+    "name": "Unsplash"
+  },
+  {
+    "id": "untappd",
+    "name": "Untappd"
+  },
+  {
+    "id": "upcloud",
+    "name": "UpCloud"
+  },
+  {
+    "id": "uphold",
+    "name": "Uphold"
+  },
+  {
+    "id": "uplabs",
+    "name": "UpLabs"
+  },
+  {
+    "id": "upptime",
+    "name": "Upptime"
+  },
+  {
+    "id": "ups",
+    "name": "UPS"
+  },
+  {
+    "id": "upstash",
+    "name": "Upstash"
+  },
+  {
+    "id": "uptimekuma",
+    "name": "Uptime Kuma"
+  },
+  {
+    "id": "upwork",
+    "name": "Upwork"
+  },
+  {
+    "id": "uservoice",
+    "name": "UserVoice"
+  },
+  {
+    "id": "usps",
+    "name": "USPS"
+  },
+  {
+    "id": "utorrent",
+    "name": "uTorrent"
+  },
+  {
+    "id": "uv",
+    "name": "uv"
+  },
+  {
+    "id": "v",
+    "name": "V"
+  },
+  {
+    "id": "v0",
+    "name": "v0"
+  },
+  {
+    "id": "v2ex",
+    "name": "V2EX"
+  },
+  {
+    "id": "v8",
+    "name": "V8"
+  },
+  {
+    "id": "vaadin",
+    "name": "Vaadin"
+  },
+  {
+    "id": "vagrant",
+    "name": "Vagrant"
+  },
+  {
+    "id": "vala",
+    "name": "Vala"
+  },
+  {
+    "id": "valorant",
+    "name": "Valorant"
+  },
+  {
+    "id": "valve",
+    "name": "Valve"
+  },
+  {
+    "id": "vapor",
+    "name": "Vapor"
+  },
+  {
+    "id": "vault",
+    "name": "Vault"
+  },
+  {
+    "id": "vaultwarden",
+    "name": "Vaultwarden"
+  },
+  {
+    "id": "vauxhall",
+    "name": "Vauxhall"
+  },
+  {
+    "id": "vbulletin",
+    "name": "vBulletin"
+  },
+  {
+    "id": "vectary",
+    "name": "Vectary"
+  },
+  {
+    "id": "vectorlogozone",
+    "name": "Vector Logo Zone"
+  },
+  {
+    "id": "vectorworks",
+    "name": "Vectorworks"
+  },
+  {
+    "id": "veeam",
+    "name": "Veeam"
+  },
+  {
+    "id": "veed",
+    "name": "VEED"
+  },
+  {
+    "id": "veepee",
+    "name": "Veepee"
+  },
+  {
+    "id": "vega",
+    "name": "Vega"
+  },
+  {
+    "id": "vegas",
+    "name": "VEGAS"
+  },
+  {
+    "id": "velocity",
+    "name": "Velocity"
+  },
+  {
+    "id": "velog",
+    "name": "Velog"
+  },
+  {
+    "id": "vencord",
+    "name": "Vencord"
+  },
+  {
+    "id": "venmo",
+    "name": "Venmo"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel"
+  },
+  {
+    "id": "verdaccio",
+    "name": "Verdaccio"
+  },
+  {
+    "id": "veritas",
+    "name": "Veritas"
+  },
+  {
+    "id": "verizon",
+    "name": "Verizon"
+  },
+  {
+    "id": "vespa",
+    "name": "Vespa"
+  },
+  {
+    "id": "vestel",
+    "name": "Vestel"
+  },
+  {
+    "id": "vexxhost",
+    "name": "VEXXHOST"
+  },
+  {
+    "id": "vfairs",
+    "name": "vFairs"
+  },
+  {
+    "id": "viadeo",
+    "name": "Viadeo"
+  },
+  {
+    "id": "viaplay",
+    "name": "Viaplay"
+  },
+  {
+    "id": "viber",
+    "name": "Viber"
+  },
+  {
+    "id": "viblo",
+    "name": "Viblo"
+  },
+  {
+    "id": "victoriametrics",
+    "name": "VictoriaMetrics"
+  },
+  {
+    "id": "victronenergy",
+    "name": "Victron Energy"
+  },
+  {
+    "id": "vim",
+    "name": "Vim"
+  },
+  {
+    "id": "vimeo",
+    "name": "Vimeo"
+  },
+  {
+    "id": "vimeolivestream",
+    "name": "Vimeo Livestream"
+  },
+  {
+    "id": "vinted",
+    "name": "Vinted"
+  },
+  {
+    "id": "virgin",
+    "name": "Virgin"
+  },
+  {
+    "id": "virginatlantic",
+    "name": "Virgin Atlantic"
+  },
+  {
+    "id": "virginmedia",
+    "name": "Virgin Media"
+  },
+  {
+    "id": "virtualbox",
+    "name": "VirtualBox"
+  },
+  {
+    "id": "virustotal",
+    "name": "VirusTotal"
+  },
+  {
+    "id": "visa",
+    "name": "Visa"
+  },
+  {
+    "id": "visx",
+    "name": "visx"
+  },
+  {
+    "id": "vite",
+    "name": "Vite"
+  },
+  {
+    "id": "vitepress",
+    "name": "VitePress"
+  },
+  {
+    "id": "vitess",
+    "name": "Vitess"
+  },
+  {
+    "id": "vitest",
+    "name": "Vitest"
+  },
+  {
+    "id": "vivawallet",
+    "name": "Viva Wallet"
+  },
+  {
+    "id": "vivaldi",
+    "name": "Vivaldi"
+  },
+  {
+    "id": "vivino",
+    "name": "Vivino"
+  },
+  {
+    "id": "vivint",
+    "name": "Vivint"
+  },
+  {
+    "id": "vivo",
+    "name": "vivo"
+  },
+  {
+    "id": "vk",
+    "name": "VK"
+  },
+  {
+    "id": "vlcmediaplayer",
+    "name": "VLC media player"
+  },
+  {
+    "id": "vmware",
+    "name": "VMware"
+  },
+  {
+    "id": "vodafone",
+    "name": "Vodafone"
+  },
+  {
+    "id": "voelkner",
+    "name": "voelkner"
+  },
+  {
+    "id": "voidlinux",
+    "name": "Void Linux"
+  },
+  {
+    "id": "voipdotms",
+    "name": "VoIP.ms"
+  },
+  {
+    "id": "volkswagen",
+    "name": "Volkswagen"
+  },
+  {
+    "id": "volvo",
+    "name": "Volvo"
+  },
+  {
+    "id": "vonage",
+    "name": "Vonage"
+  },
+  {
+    "id": "vorondesign",
+    "name": "Voron Design"
+  },
+  {
+    "id": "vowpalwabbit",
+    "name": "Vowpal Wabbit"
+  },
+  {
+    "id": "vox",
+    "name": "VOX"
+  },
+  {
+    "id": "vrchat",
+    "name": "VRChat"
+  },
+  {
+    "id": "vsco",
+    "name": "VSCO"
+  },
+  {
+    "id": "vscodium",
+    "name": "VSCodium"
+  },
+  {
+    "id": "vtex",
+    "name": "VTEX"
+  },
+  {
+    "id": "vuedotjs",
+    "name": "Vue.js"
+  },
+  {
+    "id": "vuetify",
+    "name": "Vuetify"
+  },
+  {
+    "id": "vulkan",
+    "name": "Vulkan"
+  },
+  {
+    "id": "vultr",
+    "name": "Vultr"
+  },
+  {
+    "id": "vyond",
+    "name": "Vyond"
+  },
+  {
+    "id": "w3schools",
+    "name": "W3Schools"
+  },
+  {
+    "id": "wacom",
+    "name": "Wacom"
+  },
+  {
+    "id": "wagmi",
+    "name": "Wagmi"
+  },
+  {
+    "id": "wagtail",
+    "name": "Wagtail"
+  },
+  {
+    "id": "wails",
+    "name": "Wails"
+  },
+  {
+    "id": "wakatime",
+    "name": "WakaTime"
+  },
+  {
+    "id": "walkman",
+    "name": "WALKMAN"
+  },
+  {
+    "id": "wallabag",
+    "name": "Wallabag"
+  },
+  {
+    "id": "walletconnect",
+    "name": "WalletConnect"
+  },
+  {
+    "id": "walmart",
+    "name": "Walmart"
+  },
+  {
+    "id": "wantedly",
+    "name": "Wantedly"
+  },
+  {
+    "id": "wappalyzer",
+    "name": "Wappalyzer"
+  },
+  {
+    "id": "warnerbros",
+    "name": "Warner Bros."
+  },
+  {
+    "id": "warp",
+    "name": "Warp"
+  },
+  {
+    "id": "wasabi",
+    "name": "Wasabi"
+  },
+  {
+    "id": "wasmcloud",
+    "name": "wasmCloud"
+  },
+  {
+    "id": "wasmer",
+    "name": "Wasmer"
+  },
+  {
+    "id": "watchtower",
+    "name": "Watchtower"
+  },
+  {
+    "id": "wattpad",
+    "name": "Wattpad"
+  },
+  {
+    "id": "wayland",
+    "name": "Wayland"
+  },
+  {
+    "id": "waze",
+    "name": "Waze"
+  },
+  {
+    "id": "wazirx",
+    "name": "WazirX"
+  },
+  {
+    "id": "wearos",
+    "name": "Wear OS"
+  },
+  {
+    "id": "weasyl",
+    "name": "Weasyl"
+  },
+  {
+    "id": "webdotde",
+    "name": "WEB.DE"
+  },
+  {
+    "id": "web3dotjs",
+    "name": "Web3.js"
+  },
+  {
+    "id": "webassembly",
+    "name": "WebAssembly"
+  },
+  {
+    "id": "webauthn",
+    "name": "WebAuthn"
+  },
+  {
+    "id": "webcomponentsdotorg",
+    "name": "webcomponents.org"
+  },
+  {
+    "id": "webdriverio",
+    "name": "WebdriverIO"
+  },
+  {
+    "id": "webex",
+    "name": "Webex"
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow"
+  },
+  {
+    "id": "webgl",
+    "name": "WebGL"
+  },
+  {
+    "id": "webgpu",
+    "name": "WebGPU"
+  },
+  {
+    "id": "weblate",
+    "name": "Weblate"
+  },
+  {
+    "id": "webmin",
+    "name": "Webmin"
+  },
+  {
+    "id": "webmoney",
+    "name": "WebMoney"
+  },
+  {
+    "id": "webpack",
+    "name": "Webpack"
+  },
+  {
+    "id": "webrtc",
+    "name": "WebRTC"
+  },
+  {
+    "id": "webstorm",
+    "name": "WebStorm"
+  },
+  {
+    "id": "webtoon",
+    "name": "WEBTOON"
+  },
+  {
+    "id": "webtrees",
+    "name": "webtrees"
+  },
+  {
+    "id": "wechat",
+    "name": "WeChat"
+  },
+  {
+    "id": "wegame",
+    "name": "WeGame"
+  },
+  {
+    "id": "weightsandbiases",
+    "name": "Weights & Biases"
+  },
+  {
+    "id": "welcometothejungle",
+    "name": "Welcome to the Jungle"
+  },
+  {
+    "id": "wellfound",
+    "name": "Wellfound"
+  },
+  {
+    "id": "wellsfargo",
+    "name": "Wells Fargo"
+  },
+  {
+    "id": "wemo",
+    "name": "WEMO"
+  },
+  {
+    "id": "westerndigital",
+    "name": "Western Digital"
+  },
+  {
+    "id": "westernunion",
+    "name": "Western Union"
+  },
+  {
+    "id": "wetransfer",
+    "name": "WeTransfer"
+  },
+  {
+    "id": "wezterm",
+    "name": "WezTerm"
+  },
+  {
+    "id": "wgpu",
+    "name": "wgpu"
+  },
+  {
+    "id": "whatsapp",
+    "name": "WhatsApp"
+  },
+  {
+    "id": "wheniwork",
+    "name": "When I Work"
+  },
+  {
+    "id": "wikidotgg",
+    "name": "wiki.gg"
+  },
+  {
+    "id": "wikidotjs",
+    "name": "Wiki.js"
+  },
+  {
+    "id": "wikibooks",
+    "name": "Wikibooks"
+  },
+  {
+    "id": "wikidata",
+    "name": "Wikidata"
+  },
+  {
+    "id": "wikimediacommons",
+    "name": "Wikimedia Commons"
+  },
+  {
+    "id": "wikimediafoundation",
+    "name": "Wikimedia Foundation"
+  },
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia"
+  },
+  {
+    "id": "wikiquote",
+    "name": "Wikiquote"
+  },
+  {
+    "id": "wikisource",
+    "name": "Wikisource"
+  },
+  {
+    "id": "wikiversity",
+    "name": "Wikiversity"
+  },
+  {
+    "id": "wikivoyage",
+    "name": "Wikivoyage"
+  },
+  {
+    "id": "winamp",
+    "name": "Winamp"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf"
+  },
+  {
+    "id": "wine",
+    "name": "Wine"
+  },
+  {
+    "id": "wipro",
+    "name": "Wipro"
+  },
+  {
+    "id": "wire",
+    "name": "Wire"
+  },
+  {
+    "id": "wireguard",
+    "name": "WireGuard"
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark"
+  },
+  {
+    "id": "wise",
+    "name": "Wise"
+  },
+  {
+    "id": "wish",
+    "name": "Wish"
+  },
+  {
+    "id": "wistia",
+    "name": "Wistia"
+  },
+  {
+    "id": "wix",
+    "name": "Wix"
+  },
+  {
+    "id": "wizzair",
+    "name": "Wizz Air"
+  },
+  {
+    "id": "wolfram",
+    "name": "Wolfram"
+  },
+  {
+    "id": "wolframlanguage",
+    "name": "Wolfram Language"
+  },
+  {
+    "id": "wolframmathematica",
+    "name": "Wolfram Mathematica"
+  },
+  {
+    "id": "wondershare",
+    "name": "Wondershare"
+  },
+  {
+    "id": "wondersharefilmora",
+    "name": "Wondershare Filmora"
+  },
+  {
+    "id": "woo",
+    "name": "Woo"
+  },
+  {
+    "id": "woocommerce",
+    "name": "WooCommerce"
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress"
+  },
+  {
+    "id": "workplace",
+    "name": "Workplace"
+  },
+  {
+    "id": "worldhealthorganization",
+    "name": "World Health Organization"
+  },
+  {
+    "id": "wpengine",
+    "name": "WP Engine"
+  },
+  {
+    "id": "wprocket",
+    "name": "WP Rocket"
+  },
+  {
+    "id": "wpexplorer",
+    "name": "WPExplorer"
+  },
+  {
+    "id": "writedotas",
+    "name": "Write.as"
+  },
+  {
+    "id": "wwe",
+    "name": "WWE"
+  },
+  {
+    "id": "wwise",
+    "name": "Wwise"
+  },
+  {
+    "id": "wxt",
+    "name": "WXT"
+  },
+  {
+    "id": "wykop",
+    "name": "Wykop"
+  },
+  {
+    "id": "wyze",
+    "name": "Wyze"
+  },
+  {
+    "id": "x",
+    "name": "X"
+  },
+  {
+    "id": "xdotorg",
+    "name": "X.Org"
+  },
+  {
+    "id": "xampp",
+    "name": "XAMPP"
+  },
+  {
+    "id": "xcode",
+    "name": "Xcode"
+  },
+  {
+    "id": "xdadevelopers",
+    "name": "XDA Developers"
+  },
+  {
+    "id": "xendit",
+    "name": "Xendit"
+  },
+  {
+    "id": "xero",
+    "name": "Xero"
+  },
+  {
+    "id": "xfce",
+    "name": "XFCE"
+  },
+  {
+    "id": "xiaohongshu",
+    "name": "Xiaohongshu"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi"
+  },
+  {
+    "id": "xing",
+    "name": "Xing"
+  },
+  {
+    "id": "xml",
+    "name": "XML"
+  },
+  {
+    "id": "xmpp",
+    "name": "XMPP"
+  },
+  {
+    "id": "xo",
+    "name": "XO"
+  },
+  {
+    "id": "xrp",
+    "name": "XRP"
+  },
+  {
+    "id": "xsplit",
+    "name": "XSplit"
+  },
+  {
+    "id": "xstate",
+    "name": "XState"
+  },
+  {
+    "id": "xubuntu",
+    "name": "Xubuntu"
+  },
+  {
+    "id": "xyflow",
+    "name": "xyflow"
+  },
+  {
+    "id": "ycombinator",
+    "name": "Y Combinator"
+  },
+  {
+    "id": "yabai",
+    "name": "yabai"
+  },
+  {
+    "id": "yale",
+    "name": "Yale"
+  },
+  {
+    "id": "yamahacorporation",
+    "name": "Yamaha Corporation"
+  },
+  {
+    "id": "yamahamotorcorporation",
+    "name": "Yamaha Motor Corporation"
+  },
+  {
+    "id": "yaml",
+    "name": "YAML"
+  },
+  {
+    "id": "yandexcloud",
+    "name": "Yandex Cloud"
+  },
+  {
+    "id": "yarn",
+    "name": "Yarn"
+  },
+  {
+    "id": "yelp",
+    "name": "Yelp"
+  },
+  {
+    "id": "yeti",
+    "name": "Yeti"
+  },
+  {
+    "id": "yii",
+    "name": "Yii"
+  },
+  {
+    "id": "yoast",
+    "name": "Yoast"
+  },
+  {
+    "id": "yolo",
+    "name": "YOLO"
+  },
+  {
+    "id": "youhodler",
+    "name": "YouHodler"
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube"
+  },
+  {
+    "id": "youtubegaming",
+    "name": "YouTube Gaming"
+  },
+  {
+    "id": "youtubekids",
+    "name": "YouTube Kids"
+  },
+  {
+    "id": "youtubemusic",
+    "name": "YouTube Music"
+  },
+  {
+    "id": "youtubeshorts",
+    "name": "YouTube Shorts"
+  },
+  {
+    "id": "youtubestudio",
+    "name": "YouTube Studio"
+  },
+  {
+    "id": "youtubetv",
+    "name": "YouTube TV"
+  },
+  {
+    "id": "yr",
+    "name": "Yr"
+  },
+  {
+    "id": "yubico",
+    "name": "Yubico"
+  },
+  {
+    "id": "yunohost",
+    "name": "YunoHost"
+  },
+  {
+    "id": "zaim",
+    "name": "Zaim"
+  },
+  {
+    "id": "zalando",
+    "name": "Zalando"
+  },
+  {
+    "id": "zalo",
+    "name": "Zalo"
+  },
+  {
+    "id": "zap",
+    "name": "ZAP"
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier"
+  },
+  {
+    "id": "zara",
+    "name": "Zara"
+  },
+  {
+    "id": "zazzle",
+    "name": "Zazzle"
+  },
+  {
+    "id": "zcash",
+    "name": "Zcash"
+  },
+  {
+    "id": "zcool",
+    "name": "ZCOOL"
+  },
+  {
+    "id": "zdf",
+    "name": "ZDF"
+  },
+  {
+    "id": "zebpay",
+    "name": "ZebPay"
+  },
+  {
+    "id": "zebratechnologies",
+    "name": "Zebra Technologies"
+  },
+  {
+    "id": "zedindustries",
+    "name": "Zed Industries"
+  },
+  {
+    "id": "zelle",
+    "name": "Zelle"
+  },
+  {
+    "id": "zenbrowser",
+    "name": "Zen Browser"
+  },
+  {
+    "id": "zend",
+    "name": "Zend"
+  },
+  {
+    "id": "zendesk",
+    "name": "Zendesk"
+  },
+  {
+    "id": "zenn",
+    "name": "Zenn"
+  },
+  {
+    "id": "zenodo",
+    "name": "Zenodo"
+  },
+  {
+    "id": "zensar",
+    "name": "Zensar"
+  },
+  {
+    "id": "zerodha",
+    "name": "Zerodha"
+  },
+  {
+    "id": "zerotier",
+    "name": "ZeroTier"
+  },
+  {
+    "id": "zettlr",
+    "name": "Zettlr"
+  },
+  {
+    "id": "zhihu",
+    "name": "Zhihu"
+  },
+  {
+    "id": "zig",
+    "name": "Zig"
+  },
+  {
+    "id": "zigbee",
+    "name": "Zigbee"
+  },
+  {
+    "id": "zigbee2mqtt",
+    "name": "Zigbee2MQTT"
+  },
+  {
+    "id": "ziggo",
+    "name": "Ziggo"
+  },
+  {
+    "id": "zilch",
+    "name": "Zilch"
+  },
+  {
+    "id": "zillow",
+    "name": "Zillow"
+  },
+  {
+    "id": "zincsearch",
+    "name": "ZincSearch"
+  },
+  {
+    "id": "zingat",
+    "name": "Zingat"
+  },
+  {
+    "id": "zod",
+    "name": "Zod"
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho"
+  },
+  {
+    "id": "zoiper",
+    "name": "Zoiper"
+  },
+  {
+    "id": "zomato",
+    "name": "Zomato"
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom"
+  },
+  {
+    "id": "zorin",
+    "name": "Zorin"
+  },
+  {
+    "id": "zotero",
+    "name": "Zotero"
+  },
+  {
+    "id": "zsh",
+    "name": "Zsh"
+  },
+  {
+    "id": "zulip",
+    "name": "Zulip"
+  },
+  {
+    "id": "zyte",
+    "name": "Zyte"
+  },
+  {
+    "id": "iledefrancemobilites",
+    "name": "Île-de-France Mobilités"
+  },
+  {
+    "id": "obb",
+    "name": "ÖBB"
+  },
+  {
+    "id": "skoda",
+    "name": "ŠKODA"
+  },
+  {
+    "id": "zabka",
+    "name": "Żabka"
+  }
+]
