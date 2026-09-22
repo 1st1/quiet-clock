@@ -12,11 +12,11 @@ struct AppearanceSandboxProbe {
             var value = ClockAppearance()
             value.fontFamily = "Georgia"
             value.fontSize = 107
-            value.transparentBackground = true
+            value.shortcuts = [ClockShortcut(label: "GitHub", address: "https://github.com", icon: "github")]
             try store.save(value)
         case "read":
             let value = try store.load()
-            precondition(value.fontFamily == "Georgia" && value.fontSize == 107 && value.transparentBackground)
+            precondition(value.fontFamily == "Georgia" && value.fontSize == 107 && value.shortcuts.first?.icon == "github")
             do { try store.save(value); fatalError("Read-only widget can unexpectedly write settings") }
             catch { print("Read-only boundary enforced.") }
         case "cleanup":

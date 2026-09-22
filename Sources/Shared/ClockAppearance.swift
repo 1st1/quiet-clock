@@ -9,6 +9,11 @@ struct ClockRGB: Codable, Equatable {
     var isValid: Bool { [red, green, blue].allSatisfy { $0.isFinite && (0...1).contains($0) } }
 }
 
+enum ClockAlignment: String, Codable, CaseIterable {
+    case left, center, right
+    var label: String { rawValue.capitalized }
+}
+
 struct ClockAppearance: Codable, Equatable {
     var fontFamily = "System Rounded"
     var automaticSize = true
@@ -17,18 +22,49 @@ struct ClockAppearance: Codable, Equatable {
     var spacing = -2.0
     var automaticTextColor = true
     var textColor = ClockRGB(red: 1, green: 1, blue: 1)
-    var automaticBackgroundColor = true
-    var backgroundColor = ClockRGB(red: 0.12, green: 0.13, blue: 0.15)
-    var transparentBackground = false
+    // Optional storage keeps appearance files from earlier versions readable.
+    var savedLinkSize: Double?
+    var linkSize: Double {
+        get { savedLinkSize ?? 16 }
+        set { savedLinkSize = newValue }
+    }
+    var savedLinkSpacing: Double?
+    var linkSpacing: Double {
+        get { savedLinkSpacing ?? 12 }
+        set { savedLinkSpacing = newValue }
+    }
+    var savedDividerBrightness: Double?
+    var dividerBrightness: Double {
+        get { savedDividerBrightness ?? 0.25 }
+        set { savedDividerBrightness = newValue }
+    }
+    static let linkSpacingRange = 0.0...48.0
+    static let linkSizeRange = 8.0...32.0
+    static let clockSizeRange = 8.0...240.0
+
+    var savedAlignment: ClockAlignment?
+    var alignment: ClockAlignment {
+        get { savedAlignment ?? .center }
+        set { savedAlignment = newValue }
+    }
+    var savedShortcuts: [ClockShortcut]?
+    var shortcuts: [ClockShortcut] {
+        get { savedShortcuts ?? [] }
+        set { savedShortcuts = newValue }
+    }
 
     static let weightNames = ["Ultra Light", "Thin", "Light", "Regular", "Medium", "Semibold", "Bold", "Heavy", "Black"]
     static let systemFamilies = ["System Rounded", "System", "System Serif", "System Monospaced"]
 
     var isValid: Bool {
-        !fontFamily.isEmpty && fontFamily.count <= 200 && fontSize.isFinite && (20...140).contains(fontSize)
+        !fontFamily.isEmpty && fontFamily.count <= 200 && fontSize.isFinite && Self.clockSizeRange.contains(fontSize)
             && (0..<Self.weightNames.count).contains(weight)
             && spacing.isFinite && (-8...16).contains(spacing)
-            && textColor.isValid && backgroundColor.isValid
+            && linkSize.isFinite && Self.linkSizeRange.contains(linkSize)
+            && linkSpacing.isFinite && Self.linkSpacingRange.contains(linkSpacing)
+            && dividerBrightness.isFinite && (0...1).contains(dividerBrightness)
+            && textColor.isValid && shortcuts.count <= 6 && shortcuts.allSatisfy(\.isValid)
+            && Set(shortcuts.map(\.id)).count == shortcuts.count
     }
 }
 

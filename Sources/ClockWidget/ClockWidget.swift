@@ -30,15 +30,12 @@ struct QuietClockWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: "QuietClock", provider: ClockProvider()) { entry in
             ClockFace(date: entry.date, appearance: entry.appearance)
-                .containerBackground(for: .widget) {
-                    if !entry.appearance.transparentBackground {
-                        entry.appearance.background
-                    }
-                }
+                .widgetURL(URL(string: "quietclock://idle")!)
+                .containerBackground(for: .widget) { Color.clear }
         }
         .configurationDisplayName("Quiet Clock")
         .description("Just the hours and minutes. A little quieter.")
-        .supportedFamilies([.systemSmall, .systemMedium])
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
         .contentMarginsDisabled()
         .containerBackgroundRemovable(true)
     }

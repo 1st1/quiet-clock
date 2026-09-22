@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p build/module-cache
 xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
-    Sources/Shared/ClockAppearance.swift Tests/AppearanceSandboxProbe.swift -o build/AppearanceProbe
+    Sources/Shared/ClockShortcut.swift Sources/Shared/ClockAppearance.swift Tests/AppearanceSandboxProbe.swift -o build/AppearanceProbe
 python3 - <<'PY'
 import pathlib, plistlib, shutil
 for role in ['Writer', 'Reader']:

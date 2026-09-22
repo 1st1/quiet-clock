@@ -6,5 +6,11 @@ xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
     Sources/Shared/ClockTime.swift Tests/ClockTimeTests.swift -o build/ClockTimeTests
 build/ClockTimeTests
 xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
-    Sources/Shared/ClockAppearance.swift Tests/AppearanceTests.swift -o build/AppearanceTests
+    Sources/Shared/ClockShortcut.swift Sources/Shared/ClockAppearance.swift Tests/AppearanceTests.swift -o build/AppearanceTests
 build/AppearanceTests
+xcrun clang -fobjc-arc -fblocks -framework Foundation \
+    Sources/ClockWidget/PrivateBackground.m Tests/PrivateBackgroundTests.m -o build/PrivateBackgroundTests
+build/PrivateBackgroundTests
+xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
+    Sources/Shared/ClockShortcut.swift Sources/Shared/ClockAppearance.swift Tests/ShortcutTests.swift -o build/ShortcutTests
+build/ShortcutTests
