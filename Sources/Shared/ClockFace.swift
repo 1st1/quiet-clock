@@ -44,19 +44,25 @@ struct ClockFace: View {
     var body: some View {
         GeometryReader { geometry in
             let links = appearance.shortcuts.filter { $0.destination != nil }
-            VStack(alignment: appearance.alignment.horizontal, spacing: links.isEmpty ? 0 : 8) {
+            VStack(alignment: appearance.alignment.horizontal, spacing: 0) {
                 Link(destination: URL(string: "quietclock://settings")!) {
                     clockText(width: geometry.size.width)
+                        .fixedSize(horizontal: false, vertical: !appearance.automaticLineHeight)
                 }
                     .buttonStyle(.plain)
                     .accessibilityHint("Open clock settings")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: appearance.alignment.frame)
+                    .frame(height: appearance.automaticLineHeight ? nil : appearance.clockLineHeight)
+                    .padding(.top, appearance.clockTopPadding)
+                    .padding(.bottom, appearance.clockBottomPadding)
+                    .frame(maxWidth: .infinity, maxHeight: appearance.automaticLineHeight ? .infinity : nil, alignment: appearance.alignment.frame)
                 if !links.isEmpty {
                     DottedDivider()
                         .stroke(style: StrokeStyle(lineWidth: 1, lineCap: .round, dash: [1, 4]))
                         .opacity(appearance.dividerLength == 0 ? 0 : appearance.dividerBrightness)
                         .frame(width: max(0, geometry.size.width - 24) * appearance.dividerLength, height: 1)
                         .frame(maxWidth: .infinity, alignment: appearance.alignment.frame)
+                        .padding(.top, 8)
+                        .padding(.bottom, appearance.dividerBottomPadding)
                     ViewThatFits(in: .vertical) {
                         ForEach([1.0, 0.85, 0.7, 0.55, 0.4, 0.3, 0.2], id: \.self) { scale in
                             VStack(alignment: appearance.alignment.horizontal, spacing: appearance.linkSpacing * scale) {

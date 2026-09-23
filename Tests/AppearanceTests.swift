@@ -9,6 +9,11 @@ struct AppearanceTests {
         let defaults = try store.load()
         assert(defaults == ClockAppearance())
         var custom = defaults
+        custom.automaticLineHeight = false
+        custom.clockLineHeight = 72
+        custom.clockTopPadding = -12
+        custom.clockBottomPadding = -20
+        custom.dividerBottomPadding = -16
         custom.linkFontFamily = "Georgia"
         custom.linkWeight = 6
         custom.linkSize = 18
@@ -30,6 +35,11 @@ struct AppearanceTests {
         let reloaded = try AppearanceStore(url: store.url).load()
         assert(reloaded == custom, "All settings must survive a separate store instance")
         var legacy = try JSONSerialization.jsonObject(with: JSONEncoder().encode(custom)) as! [String: Any]
+        legacy.removeValue(forKey: "savedAutomaticLineHeight")
+        legacy.removeValue(forKey: "savedClockLineHeight")
+        legacy.removeValue(forKey: "savedClockTopPadding")
+        legacy.removeValue(forKey: "savedClockBottomPadding")
+        legacy.removeValue(forKey: "savedDividerBottomPadding")
         legacy.removeValue(forKey: "savedShortcuts")
         legacy.removeValue(forKey: "savedAlignment")
         legacy.removeValue(forKey: "savedLinkFontFamily")
@@ -46,6 +56,30 @@ struct AppearanceTests {
         assert(migrated.shortcuts.isEmpty && migrated.fontFamily == custom.fontFamily && migrated.alignment == .center && migrated.linkSize == 16)
         assert(migrated.linkFontFamily == "System" && migrated.linkWeight == 4)
         assert(migrated.dividerLength == 1)
+        assert(migrated.automaticLineHeight && migrated.clockLineHeight == 100)
+        for value in [8.0, 240.0] {
+            var boundary = custom
+            boundary.clockLineHeight = value
+            assert(boundary.isValid)
+        }
+        for value in [7.0, 241.0, Double.infinity, Double.nan] {
+            var invalid = custom
+            invalid.clockLineHeight = value
+            assert(!invalid.isValid)
+        }
+        assert(migrated.clockTopPadding == 0 && migrated.clockBottomPadding == 0 && migrated.dividerBottomPadding == 8)
+        for keyPath in [\ClockAppearance.clockTopPadding, \ClockAppearance.clockBottomPadding, \ClockAppearance.dividerBottomPadding] {
+            for value in [-64.0, -1.0, 0.0, 64.0] {
+                var boundary = custom
+                boundary[keyPath: keyPath] = value
+                assert(boundary.isValid)
+            }
+            for value in [-65.0, 65.0, Double.infinity, Double.nan] {
+                var invalid = custom
+                invalid[keyPath: keyPath] = value
+                assert(!invalid.isValid)
+            }
+        }
         assert(migrated.iconSize == 16 && migrated.iconGap == 5)
         legacy["savedLinkSize"] = 22.0
         var legacyIcons = try JSONDecoder().decode(ClockAppearance.self, from: JSONSerialization.data(withJSONObject: legacy))

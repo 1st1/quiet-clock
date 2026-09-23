@@ -1,6 +1,9 @@
 import SwiftUI
-import WidgetKit
 import Carbon
+
+// Select the property wrapper, not the SDK 27 State macro whose plugin
+// is not bundled with the current Command Line Tools.
+typealias StoredState<Value> = State<Value>
 
 @main
 struct QuietClockApp {
@@ -8,7 +11,7 @@ struct QuietClockApp {
         let app = NSApplication.shared
         let delegate = ClockApplicationDelegate()
         app.delegate = delegate
-        app.setActivationPolicy(.regular)
+        app.setActivationPolicy(.accessory)
         withExtendedLifetime(delegate) { _ = NSApplicationMain(CommandLine.argc, CommandLine.unsafeArgv) }
     }
 }
@@ -16,6 +19,11 @@ struct QuietClockApp {
 @MainActor
 final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
     private var editor: NSWindow?
+    private let desktop = DesktopClockController()
+    private var statusItem: NSStatusItem?
+
+    @objc private func toggleMove() { desktop.moving.toggle() }
+    @objc private func resetPosition() { desktop.resetPosition() }
 
     @objc func openApplication(_ event: NSAppleEventDescriptor, withReplyEvent reply: NSAppleEventDescriptor) {
         showSettings()
@@ -42,11 +50,19 @@ final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
         NSApplication.shared.mainMenu = menu
     }
     func applicationDidFinishLaunching(_ notification: Notification) {
-        let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? ""
-        if UserDefaults.standard.string(forKey: "lastWidgetBuild") != build {
-            WidgetCenter.shared.reloadTimelines(ofKind: "QuietClock")
-            UserDefaults.standard.set(build, forKey: "lastWidgetBuild")
+        desktop.openSettings = { [weak self] in self?.showSettings() }
+        desktop.start()
+        let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
+        item.button?.image = NSImage(systemSymbolName: "clock", accessibilityDescription: "Quiet Clock")
+        let menu = NSMenu()
+        for (title, action) in [("Settings…", #selector(showSettings)), ("Move / Lock Clock", #selector(toggleMove)), ("Reset Position", #selector(resetPosition))] {
+            let entry = menu.addItem(withTitle: title, action: action, keyEquivalent: "")
+            entry.target = self
         }
+        menu.addItem(.separator())
+        menu.addItem(withTitle: "Quit Quiet Clock", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
+        item.menu = menu
+        statusItem = item
         if notification.userInfo?[NSApplication.launchIsDefaultUserInfoKey] as? Bool == true {
             showSettings()
         }
@@ -71,7 +87,7 @@ final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
     }
     @objc private func showSettings() {
         if editor == nil {
-            let controller = NSHostingController(rootView: AppearanceEditor())
+            let controller = NSHostingController(rootView: AppearanceEditor(desktop: desktop))
             let window = NSWindow(contentViewController: controller)
             window.title = "Quiet Clock"
             window.styleMask = [.titled, .closable, .miniaturizable]
@@ -85,39 +101,27 @@ final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
 }
 
 struct AppearanceEditor: View {
-    @State private var appearance = ClockAppearance()
-    @State private var saved = ClockAppearance()
-    @State private var message = "Changes save automatically"
-    @State private var reloadTask: Task<Void, Never>?
-    @State private var error: String?
-    @State private var previewSize = "Medium"
+    @ObservedObject var desktop: DesktopClockController
+    @StoredState private var appearance = ClockAppearance()
+    @StoredState private var saved = ClockAppearance()
+    @StoredState private var message = "Changes save automatically"
+    @StoredState private var error: String?
     private let families = NSFontManager.shared.availableFontFamilies.sorted { $0.localizedCaseInsensitiveCompare($1) == .orderedAscending }
 
     var body: some View {
         VStack(spacing: 0) {
-            VStack(spacing: 12) {
-                TimelineView(.periodic(from: .now, by: 60)) { context in
-                    ClockFace(date: context.date, appearance: appearance)
-                        .frame(width: previewSize == "Small" ? 164 : 344, height: previewSize == "Large" ? 344 : 164)
-                        .scaleEffect(previewSize == "Large" ? 0.65 : 1)
-                        .frame(width: 420, height: 240)
-                        .background {
-                            LinearGradient(colors: [Color(red: 0.32, green: 0.4, blue: 0.44), Color(red: 0.66, green: 0.63, blue: 0.55)], startPoint: .topLeading, endPoint: .bottomTrailing)
-                        }
-                        .clipShape(RoundedRectangle(cornerRadius: 24))
-                }
-                Picker("Preview size", selection: $previewSize) {
-                    ForEach(["Small", "Medium", "Large"], id: \.self) { Text($0).tag($0) }
-                }
-                .pickerStyle(.segmented)
-                .frame(width: 280)
-            }
-            .padding(24)
-
             Form {
                 Section("Layout") {
-                    Text("For more room, right-click the desktop widget and choose Large. The preview selector does not resize the desktop widget.")
-                        .font(.caption).foregroundStyle(.secondary)
+                    Toggle("Move clock (drag on desktop)", isOn: $desktop.moving)
+                    HStack {
+                        Slider(value: $desktop.width, in: 160...1200, step: 1) { Text("Width") }
+                        Text("\(Int(desktop.width)) pt").monospacedDigit().frame(width: 58)
+                    }
+                    HStack {
+                        Slider(value: $desktop.height, in: 80...1200, step: 1) { Text("Height") }
+                        Text("\(Int(desktop.height)) pt").monospacedDigit().frame(width: 58)
+                    }
+                    Button("Reset desktop position") { desktop.resetPosition() }
                     Picker("Alignment", selection: $appearance.alignment) {
                         ForEach(ClockAlignment.allCases, id: \.self) { Text($0.label).tag($0) }
                     }
@@ -137,6 +141,15 @@ struct AppearanceEditor: View {
                         }
                         Text("Large text scales down when needed to fit the widget.").font(.caption).foregroundStyle(.secondary)
                     }
+                    Toggle("Automatic line height", isOn: $appearance.automaticLineHeight)
+                    if !appearance.automaticLineHeight {
+                        HStack {
+                            Slider(value: $appearance.clockLineHeight, in: ClockAppearance.clockLineHeightRange, step: 1) { Text("Clock line height") }
+                            Text("\(Int(appearance.clockLineHeight)) pt").monospacedDigit().frame(width: 52, alignment: .trailing)
+                        }
+                        Text("Sets the clock’s vertical space independently of font size. Small heights can overlap nearby content.")
+                            .font(.caption).foregroundStyle(.secondary)
+                    }
                     Picker("Weight", selection: $appearance.weight) {
                         ForEach(0..<ClockAppearance.weightNames.count, id: \.self) { Text(ClockAppearance.weightNames[$0]).tag($0) }
                     }
@@ -145,6 +158,11 @@ struct AppearanceEditor: View {
                         Text(appearance.spacing.formatted(.number.precision(.fractionLength(1))) + " pt")
                             .monospacedDigit().frame(width: 52, alignment: .trailing)
                     }
+                }
+                Section("Padding") {
+                    paddingSlider("Clock top padding", value: $appearance.clockTopPadding)
+                    paddingSlider("Clock bottom padding", value: $appearance.clockBottomPadding)
+                    paddingSlider("Divider bottom padding", value: $appearance.dividerBottomPadding)
                 }
                 Section("Colors") {
                     Toggle("Automatic text color", isOn: $appearance.automaticTextColor)
@@ -188,9 +206,7 @@ struct AppearanceEditor: View {
                     Text("Up to six links below the clock. Icons and labels follow the clock’s text color.")
                         .font(.caption).foregroundStyle(.secondary)
                     ForEach($appearance.shortcuts) { $shortcut in
-                        ShortcutEditor(shortcut: $shortcut, linkSize: appearance.linkSize,
-                            linkFontFamily: appearance.linkFontFamily, linkWeight: appearance.linkWeight,
-                            iconSize: appearance.iconSize, iconGap: appearance.iconGap,
+                        ShortcutEditor(shortcut: $shortcut,
                             moveUp: { moveShortcut(shortcut.id, by: -1) },
                             moveDown: { moveShortcut(shortcut.id, by: 1) },
                             canMoveUp: appearance.shortcuts.first?.id != shortcut.id,
@@ -204,7 +220,7 @@ struct AppearanceEditor: View {
                 }
             }
             .formStyle(.grouped)
-            .frame(height: 420)
+            .frame(height: 560)
 
             HStack {
                 Button("Reset") { appearance = ClockAppearance(); save() }
@@ -213,7 +229,7 @@ struct AppearanceEditor: View {
                     .font(.caption).foregroundStyle(.secondary)
             }
             .padding(20)
-            Text("Always transparent. Changes apply to all Quiet Clock widgets.")
+            Text("Always transparent. Keep Quiet Clock running to show the clock.")
                 .font(.caption).foregroundStyle(.secondary).padding(.bottom, 16)
         }
         .frame(width: 490)
@@ -224,13 +240,16 @@ struct AppearanceEditor: View {
         .onChange(of: appearance) { _, value in
             if value != saved { save() }
         }
-        .onDisappear { flushReload() }
-        .onReceive(NotificationCenter.default.publisher(for: NSApplication.willTerminateNotification)) { _ in
-            flushReload()
-        }
         .alert("Couldn’t update appearance", isPresented: Binding(get: { error != nil }, set: { if !$0 { error = nil } })) {
             Button("OK") { error = nil }
         } message: { Text(error ?? "") }
+    }
+
+    private func paddingSlider(_ title: String, value: Binding<Double>) -> some View {
+        HStack {
+            Slider(value: value, in: ClockAppearance.paddingRange, step: 1) { Text(title) }
+            Text("\(Int(value.wrappedValue)) pt").monospacedDigit().frame(width: 42)
+        }
     }
 
     private func moveShortcut(_ id: UUID, by offset: Int) {
@@ -248,22 +267,8 @@ struct AppearanceEditor: View {
             try AppearanceStore.shared.save(appearance)
             saved = appearance
             message = "Saved"
-            // Persist immediately so closing the app cannot lose the latest edit.
-            // Only the WidgetKit request is debounced during continuous adjustments.
-            reloadTask?.cancel()
-            reloadTask = Task { @MainActor in
-                do { try await Task.sleep(for: .milliseconds(400)) }
-                catch { return }
-                WidgetCenter.shared.reloadTimelines(ofKind: "QuietClock")
-                reloadTask = nil
-            }
+            desktop.appearance = appearance
         } catch { self.error = error.localizedDescription }
     }
 
-    private func flushReload() {
-        guard let pending = reloadTask else { return }
-        pending.cancel()
-        reloadTask = nil
-        WidgetCenter.shared.reloadTimelines(ofKind: "QuietClock")
-    }
 }

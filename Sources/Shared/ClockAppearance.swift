@@ -23,6 +23,33 @@ struct ClockAppearance: Codable, Equatable {
     var automaticTextColor = true
     var textColor = ClockRGB(red: 1, green: 1, blue: 1)
     // Optional storage keeps appearance files from earlier versions readable.
+    var savedAutomaticLineHeight: Bool?
+    var automaticLineHeight: Bool {
+        get { savedAutomaticLineHeight ?? true }
+        set { savedAutomaticLineHeight = newValue }
+    }
+    var savedClockLineHeight: Double?
+    var clockLineHeight: Double {
+        get { savedClockLineHeight ?? 100 }
+        set { savedClockLineHeight = newValue }
+    }
+    static let clockLineHeightRange = 8.0...240.0
+    var savedClockTopPadding: Double?
+    var clockTopPadding: Double {
+        get { savedClockTopPadding ?? 0 }
+        set { savedClockTopPadding = newValue }
+    }
+    var savedClockBottomPadding: Double?
+    var clockBottomPadding: Double {
+        get { savedClockBottomPadding ?? 0 }
+        set { savedClockBottomPadding = newValue }
+    }
+    var savedDividerBottomPadding: Double?
+    var dividerBottomPadding: Double {
+        get { savedDividerBottomPadding ?? 8 }
+        set { savedDividerBottomPadding = newValue }
+    }
+    static let paddingRange = -64.0...64.0
     var savedLinkFontFamily: String?
     var linkFontFamily: String {
         get { savedLinkFontFamily ?? "System" }
@@ -90,6 +117,9 @@ struct ClockAppearance: Codable, Equatable {
     var isValid: Bool {
         !fontFamily.isEmpty && fontFamily.count <= 200 && fontSize.isFinite && Self.clockSizeRange.contains(fontSize)
             && (0..<Self.weightNames.count).contains(weight)
+            && clockLineHeight.isFinite && Self.clockLineHeightRange.contains(clockLineHeight)
+            && [clockTopPadding, clockBottomPadding, dividerBottomPadding]
+                .allSatisfy { $0.isFinite && Self.paddingRange.contains($0) }
             && spacing.isFinite && (-8...16).contains(spacing)
             && !linkFontFamily.isEmpty && linkFontFamily.count <= 200
             && (0..<Self.weightNames.count).contains(linkWeight)

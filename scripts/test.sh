@@ -8,9 +8,9 @@ build/ClockTimeTests
 xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
     Sources/Shared/ClockShortcut.swift Sources/Shared/ClockAppearance.swift Tests/AppearanceTests.swift -o build/AppearanceTests
 build/AppearanceTests
-xcrun clang -fobjc-arc -fblocks -framework Foundation \
-    Sources/ClockWidget/PrivateBackground.m Tests/PrivateBackgroundTests.m -o build/PrivateBackgroundTests
-build/PrivateBackgroundTests
 xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
     Sources/Shared/ClockShortcut.swift Sources/Shared/ClockAppearance.swift Tests/ShortcutTests.swift -o build/ShortcutTests
 build/ShortcutTests
+xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
+    Sources/Shared/DesktopGeometry.swift Sources/Shared/DesktopPlacement.swift Tests/DesktopGeometryTests.swift -o build/DesktopGeometryTests
+build/DesktopGeometryTests

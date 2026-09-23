@@ -2,22 +2,17 @@ import SwiftUI
 
 struct ShortcutEditor: View {
     @Binding var shortcut: ClockShortcut
-    let linkSize: Double
-    let linkFontFamily: String
-    let linkWeight: Int
-    let iconSize: Double
-    let iconGap: Double
     let moveUp: () -> Void
     let moveDown: () -> Void
     let canMoveUp: Bool
     let canMoveDown: Bool
     let remove: () -> Void
-    @State private var choosingIcon = false
+    @StoredState private var choosingIcon = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                ShortcutLabel(shortcut: shortcut, size: linkSize, family: linkFontFamily, weight: linkWeight, iconSize: iconSize, iconGap: iconGap)
+                Text(shortcut.title).font(.headline)
                 Spacer()
                 Button(action: moveUp) { Image(systemName: "arrow.up") }.disabled(!canMoveUp).help("Move up")
                 Button(action: moveDown) { Image(systemName: "arrow.down") }.disabled(!canMoveDown).help("Move down")
@@ -61,7 +56,7 @@ struct ShortcutEditor: View {
 struct IconPicker: View {
     @Binding var selection: String
     let close: () -> Void
-    @State private var search = ""
+    @StoredState private var search = ""
     private var matches: [ServiceIcon] {
         let query = search.trimmingCharacters(in: .whitespacesAndNewlines)
         return query.isEmpty ? ServiceIcon.all : ServiceIcon.all.filter {

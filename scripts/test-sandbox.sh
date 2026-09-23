@@ -16,7 +16,7 @@ for role in ['Writer', 'Reader']:
                           CFBundleExecutable='AppearanceProbe', CFBundlePackageType='APPL'), f)
 PY
 codesign --force --sign - --entitlements Sources/App.entitlements build/AppearanceWriter.app
-codesign --force --sign - --entitlements Sources/Widget.entitlements build/AppearanceReader.app
+codesign --force --sign - --entitlements Sources/App.entitlements build/AppearanceReader.app
 PROBE_NAME="probe-$(uuidgen).json"
 WRITER="$PWD/build/AppearanceWriter.app/Contents/MacOS/AppearanceProbe"
 READER="$PWD/build/AppearanceReader.app/Contents/MacOS/AppearanceProbe"

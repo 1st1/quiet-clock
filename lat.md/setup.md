@@ -1,6 +1,6 @@
 # Setup
 
-Build and install Quiet Clock, then customize its native desktop widget. The project is available under the [MIT license](../LICENSE).
+Build and install Quiet Clock as an always-running transparent desktop app. The project is [MIT licensed](../LICENSE).
 
 ## Build and install
 
@@ -11,25 +11,23 @@ bash scripts/build.sh
 open "build/Quiet Clock.app"
 ```
 
-For a permanent installation, copy the built app to your Applications folder and open that copy. Right-click the desktop → **Edit Widgets** → search **Quiet Clock** → add the small, medium, or large widget. You can then quit the app; keep it installed so macOS can find its extension.
+For permanent use, quit the previous app and replace it in your Applications folder with the built bundle. When upgrading from the WidgetKit version, remove the old desktop widget through its context menu. The new app creates its own desktop clock and does not appear in the widget gallery.
 
-See [[architecture#Architecture#Packaging]] for signing and extension startup details. Distributable builds require an appropriate Apple signing identity through `CODE_SIGN_IDENTITY` and notarization.
+Keep the app running; closing settings is fine. To start automatically, add Quiet Clock in System Settings → General → Login Items. See [[architecture#Architecture#Packaging]] for signing details.
 
 ## Customize
 
-Open Quiet Clock or click the time on the widget to edit the appearance. Changes save automatically and refresh all clock widgets after a brief pause in adjustments.
+Click the time or use the menu-bar clock’s Settings command. Changes save and appear immediately. Your existing appearance and links carry over.
 
-Choose a font family, automatic or fixed clock size (8–240 pt), weight, spacing, left/center/right alignment, and automatic or custom text color. The preview switches between Small, Medium, and Large; Large is scaled down in the editor. To allocate more desktop height, right-click the widget and choose **Large**. The preview selector does not change its desktop size, and native widgets cannot grow dynamically. **Reset** saves defaults and removes shortcuts. Closing the editor preserves the latest edit.
+Enable **Move clock** in settings or **Move / Lock Clock** in the menu bar, then drag the outlined clock on the desktop. Disable move mode to restore link and settings clicks. Use **Width** and **Height** to resize; **Reset Position** brings it back to the main display. Position and size survive relaunch and are remembered separately for each connected monitor group. Returning to a known group restores its placement automatically. Moving, resizing, and Reset Position affect only the current group. Rearranging monitors keeps the clock on the same physical display.
 
-The background is always transparent using the private implementation confirmed on macOS 27. There are no background controls. After upgrading an older installation, remove and re-add the widget once if its cached background persists. Select **Full-color** in System Settings → Desktop & Dock → Widgets to preserve your chosen text color. See [[architecture#Architecture#Transparent background]].
+Choose clock and link fonts, weights, sizes, alignment, text color, line height, and negative or positive padding. Shortcut controls include searchable icons, icon size/gap, row spacing, and divider length/brightness. Each link has its own row and opens the default browser. **Reset** restores appearance defaults and removes links. See [[architecture#Architecture#Shortcut links]] and [[architecture#Architecture#Clock appearance]].
 
-Under **Shortcuts**, use **Link font** and **Link weight** to set typography for all link labels independently of the clock. Choose **Add shortcut**, enter a website URL, and optionally set a label. Choose **Icon**, **Text**, or **Icon + text**, select any of the 3,291 bundled Simple Icons using search, and use **Link text size** (8–32 pt) for every label. **Icon size** (8–64 pt) adjusts all icons independently, and **Icon–text gap** (0–32 pt) sets the space between each icon and label. **Link spacing** adjusts the vertical gap between link rows (0–48 pt). **Divider length** adjusts its width from 0–100%, following the widget alignment. **Divider brightness** adjusts the dotted line from hidden to full opacity (0–100%). Up/down buttons reorder links; the trash button removes one. Up to six links appear below a subtle dotted divider, each on its own row. Labels wrap without ellipsis; crowded groups shrink to fit. Clicking the time opens settings; empty space and the divider do not. Incomplete URLs stay saved as drafts, and bare hostnames use HTTPS. Click a link on the widget or use **Open** in the editor to launch the default browser. See [[architecture#Architecture#Shortcut links]].
-
-WidgetKit can delay time updates, especially around sleep or system time changes. See [[architecture#Architecture#Scheduling]] and [Apple’s refresh guidance](https://developer.apple.com/documentation/widgetkit/keeping-a-widget-up-to-date).
+The background is always clear. A dashed outline appears only in move mode. Ordinary app windows cover the clock; it follows desktop Spaces, but is not intended to float above full-screen apps. Quit from the menu bar to remove the clock.
 
 ## Validate
 
-Run the automated checks before testing the widget on the desktop. The signed sandbox check uses a disposable settings file and leaves your appearance unchanged.
+Run automated checks before interactive desktop verification. The sandbox probe uses a disposable file and preserves your appearance.
 
 ```sh
 bash scripts/test.sh
@@ -37,4 +35,4 @@ bash scripts/test-sandbox.sh
 lat check
 ```
 
-See [[tests#Validation]] for coverage and manual desktop checks. The build script also verifies the signed bundle and extension entry point.
+The build also verifies signing, bundle contents, and absence of WidgetKit linkage. See [[tests#Validation]] for manual checks.

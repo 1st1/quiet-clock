@@ -17,8 +17,7 @@ struct AppearanceSandboxProbe {
         case "read":
             let value = try store.load()
             precondition(value.fontFamily == "Georgia" && value.fontSize == 107 && value.shortcuts.first?.icon == "github")
-            do { try store.save(value); fatalError("Read-only widget can unexpectedly write settings") }
-            catch { print("Read-only boundary enforced.") }
+            try store.save(value)
         case "cleanup":
             try FileManager.default.removeItem(at: store.url)
         default: fatalError("Unknown probe operation")
