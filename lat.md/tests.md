@@ -24,7 +24,7 @@ Tests cover persisted typography/layout/links, legacy defaults, divider visibili
 
 Manual checks verify immediate updates, automatic saving, Reset, font fallback, line height, signed padding, and reopening settings with the saved values.
 
-Verify there are no previews, Apply buttons, or background controls. Toggle Show divider off and on: the line and its padding disappear and return without losing divider length/brightness/padding settings. Close settings immediately after a slider change, reopen, and verify persistence. Existing appearance files must retain settings and ignore obsolete background keys.
+Verify there are no previews, Apply buttons, or background controls. All settings sliders should have one track without a row of ticks underneath; dragging and accessibility adjustments must retain the configured increments and bounds. Toggle Show divider off and on: the line and its padding disappear and return without losing divider length/brightness/padding settings. Close settings immediately after a slider change, reopen, and verify persistence. Existing appearance files must retain settings and ignore obsolete background keys.
 
 ## Desktop integration
 
@@ -36,7 +36,7 @@ Placement tests cover monitor-group persistence, order-independent identity, dis
 
 Tests cover website normalization, unsafe schemes, credentials, stable routing, duplicate IDs, draft persistence, and the six-link limit.
 
-[ShortcutTests.swift](../Tests/ShortcutTests.swift) runs through [test.sh](../scripts/test.sh). Manually check icon/text/both modes, all alignments, long wrapping labels, one link per row, divider visibility, and browser handoff. Move mode intentionally disables links until locked.
+[ShortcutTests.swift](../Tests/ShortcutTests.swift) runs through [test.sh](../scripts/test.sh). Manually check icon/text/both modes, all alignments, long wrapping labels, one link per row, divider visibility, and browser handoff. Move mode intentionally disables links until locked. With another app active, verify hovering links preserves keyboard focus and clicking still opens the browser. A hand cursor is not expected on the nonactivating desktop panel.
 
 ## Bundled service icons
 

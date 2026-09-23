@@ -98,7 +98,7 @@ struct AppearanceEditor: View {
                 Section("Layout") {
                     Toggle("Move clock (drag on desktop)", isOn: $desktop.moving)
                     HStack {
-                        Slider(value: $desktop.width, in: 160...1200, step: 1) { Text("Width") }
+                        SettingsSlider(value: $desktop.width, in: 160...1200, step: 1) { Text("Width") }
                         Text("\(Int(desktop.width)) pt").monospacedDigit().frame(width: 58)
                     }
                     Text("Height follows the content automatically.").font(.caption).foregroundStyle(.secondary)
@@ -117,7 +117,7 @@ struct AppearanceEditor: View {
                     Toggle("Size automatically", isOn: $appearance.automaticSize)
                     if !appearance.automaticSize {
                         HStack {
-                            Slider(value: $appearance.fontSize, in: ClockAppearance.clockSizeRange, step: 1) { Text("Font size") }
+                            SettingsSlider(value: $appearance.fontSize, in: ClockAppearance.clockSizeRange, step: 1) { Text("Font size") }
                             Text("\(Int(appearance.fontSize)) pt").monospacedDigit().frame(width: 52, alignment: .trailing)
                         }
                         Text("Font size stays fixed. Increase the window width if the clock is too wide.").font(.caption).foregroundStyle(.secondary)
@@ -125,7 +125,7 @@ struct AppearanceEditor: View {
                     Toggle("Automatic line height", isOn: $appearance.automaticLineHeight)
                     if !appearance.automaticLineHeight {
                         HStack {
-                            Slider(value: $appearance.clockLineHeight, in: ClockAppearance.clockLineHeightRange, step: 1) { Text("Clock line height") }
+                            SettingsSlider(value: $appearance.clockLineHeight, in: ClockAppearance.clockLineHeightRange, step: 1) { Text("Clock line height") }
                             Text("\(Int(appearance.clockLineHeight)) pt").monospacedDigit().frame(width: 52, alignment: .trailing)
                         }
                         Text("Sets the clock’s vertical space independently of font size. Small heights can overlap nearby content.")
@@ -135,7 +135,7 @@ struct AppearanceEditor: View {
                         ForEach(0..<ClockAppearance.weightNames.count, id: \.self) { Text(ClockAppearance.weightNames[$0]).tag($0) }
                     }
                     HStack {
-                        Slider(value: $appearance.spacing, in: -8...16, step: 0.5) { Text("Letter spacing") }
+                        SettingsSlider(value: $appearance.spacing, in: -8...16, step: 0.5) { Text("Letter spacing") }
                         Text(appearance.spacing.formatted(.number.precision(.fractionLength(1))) + " pt")
                             .monospacedDigit().frame(width: 52, alignment: .trailing)
                     }
@@ -161,28 +161,28 @@ struct AppearanceEditor: View {
                         ForEach(0..<ClockAppearance.weightNames.count, id: \.self) { Text(ClockAppearance.weightNames[$0]).tag($0) }
                     }
                     HStack {
-                        Slider(value: $appearance.linkSize, in: ClockAppearance.linkSizeRange, step: 1) { Text("Link text size") }
+                        SettingsSlider(value: $appearance.linkSize, in: ClockAppearance.linkSizeRange, step: 1) { Text("Link text size") }
                         Text("\(Int(appearance.linkSize)) pt").monospacedDigit().frame(width: 42)
                     }
                     HStack {
-                        Slider(value: $appearance.iconSize, in: ClockAppearance.iconSizeRange, step: 1) { Text("Icon size") }
+                        SettingsSlider(value: $appearance.iconSize, in: ClockAppearance.iconSizeRange, step: 1) { Text("Icon size") }
                         Text("\(Int(appearance.iconSize)) pt").monospacedDigit().frame(width: 42)
                     }
                     HStack {
-                        Slider(value: $appearance.iconGap, in: ClockAppearance.iconGapRange, step: 1) { Text("Icon–text gap") }
+                        SettingsSlider(value: $appearance.iconGap, in: ClockAppearance.iconGapRange, step: 1) { Text("Icon–text gap") }
                         Text("\(Int(appearance.iconGap)) pt").monospacedDigit().frame(width: 42)
                     }
                     HStack {
-                        Slider(value: $appearance.linkSpacing, in: ClockAppearance.linkSpacingRange, step: 1) { Text("Link spacing") }
+                        SettingsSlider(value: $appearance.linkSpacing, in: ClockAppearance.linkSpacingRange, step: 1) { Text("Link spacing") }
                         Text("\(Int(appearance.linkSpacing)) pt").monospacedDigit().frame(width: 42)
                     }
                     Toggle("Show divider", isOn: $appearance.showDivider)
                     HStack {
-                        Slider(value: $appearance.dividerLength, in: 0...1, step: 0.05) { Text("Divider length") }
+                        SettingsSlider(value: $appearance.dividerLength, in: 0...1, step: 0.05) { Text("Divider length") }
                         Text("\(Int((appearance.dividerLength * 100).rounded()))%").monospacedDigit().frame(width: 42)
                     }
                     HStack {
-                        Slider(value: $appearance.dividerBrightness, in: 0...1, step: 0.05) { Text("Divider brightness") }
+                        SettingsSlider(value: $appearance.dividerBrightness, in: 0...1, step: 0.05) { Text("Divider brightness") }
                         Text("\(Int((appearance.dividerBrightness * 100).rounded()))%").monospacedDigit().frame(width: 42)
                     }
                     Text("Up to six links below the clock. Icons and labels follow the clock’s text color.")
@@ -229,7 +229,7 @@ struct AppearanceEditor: View {
 
     private func paddingSlider(_ title: String, value: Binding<Double>) -> some View {
         HStack {
-            Slider(value: value, in: ClockAppearance.paddingRange, step: 1) { Text(title) }
+            SettingsSlider(value: value, in: ClockAppearance.paddingRange, step: 1) { Text(title) }
             Text("\(Int(value.wrappedValue)) pt").monospacedDigit().frame(width: 42)
         }
     }
