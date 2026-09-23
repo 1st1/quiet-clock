@@ -14,3 +14,6 @@ build/ShortcutTests
 xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
     Sources/Shared/DesktopGeometry.swift Sources/Shared/DesktopPlacement.swift Tests/DesktopGeometryTests.swift -o build/DesktopGeometryTests
 build/DesktopGeometryTests
+xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
+    Sources/Shared/ClockTime.swift Sources/Shared/ClockShortcut.swift Sources/Shared/ClockAppearance.swift Sources/Shared/ClockFace.swift Tests/ClockLayoutTests.swift -o build/ClockLayoutTests
+build/ClockLayoutTests

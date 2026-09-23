@@ -40,53 +40,47 @@ extension ClockAlignment {
 struct ClockFace: View {
     let date: Date
     var appearance = ClockAppearance()
+    var width: CGFloat = 344
 
     var body: some View {
-        GeometryReader { geometry in
             let links = appearance.shortcuts.filter { $0.destination != nil }
             VStack(alignment: appearance.alignment.horizontal, spacing: 0) {
-                Link(destination: URL(string: "quietclock://settings")!) {
-                    clockText(width: geometry.size.width)
-                        .fixedSize(horizontal: false, vertical: !appearance.automaticLineHeight)
-                }
-                    .buttonStyle(.plain)
-                    .accessibilityHint("Open clock settings")
+                clockText(width: width)
+                    .fixedSize(horizontal: true, vertical: true)
                     .frame(height: appearance.automaticLineHeight ? nil : appearance.clockLineHeight)
                     .padding(.top, appearance.clockTopPadding)
                     .padding(.bottom, appearance.clockBottomPadding)
-                    .frame(maxWidth: .infinity, maxHeight: appearance.automaticLineHeight ? .infinity : nil, alignment: appearance.alignment.frame)
+                    .frame(maxWidth: .infinity, alignment: appearance.alignment.frame)
                 if !links.isEmpty {
-                    DottedDivider()
-                        .stroke(style: StrokeStyle(lineWidth: 1, lineCap: .round, dash: [1, 4]))
-                        .opacity(appearance.dividerLength == 0 ? 0 : appearance.dividerBrightness)
-                        .frame(width: max(0, geometry.size.width - 24) * appearance.dividerLength, height: 1)
-                        .frame(maxWidth: .infinity, alignment: appearance.alignment.frame)
-                        .padding(.top, 8)
-                        .padding(.bottom, appearance.dividerBottomPadding)
-                    ViewThatFits(in: .vertical) {
-                        ForEach([1.0, 0.85, 0.7, 0.55, 0.4, 0.3, 0.2], id: \.self) { scale in
-                            VStack(alignment: appearance.alignment.horizontal, spacing: appearance.linkSpacing * scale) {
-                                ForEach(links) { shortcut in
-                                    Link(destination: shortcut.widgetURL) {
-                                        ShortcutLabel(shortcut: shortcut, size: appearance.linkSize, scale: scale, family: appearance.linkFontFamily, weight: appearance.linkWeight, iconSize: appearance.iconSize, iconGap: appearance.iconGap)
-                                            .multilineTextAlignment(appearance.alignment.text)
-                                            .contentShape(Rectangle())
-                                    }
-                                    .buttonStyle(.plain)
-                                    .frame(maxWidth: .infinity, alignment: appearance.alignment.frame)
-                                    .help(shortcut.destination?.absoluteString ?? "")
-                                }
+                    if appearance.showDivider {
+                        DottedDivider()
+                            .stroke(style: StrokeStyle(lineWidth: 1, lineCap: .round, dash: [1, 4]))
+                            .opacity(appearance.dividerLength == 0 ? 0 : appearance.dividerBrightness)
+                            .frame(width: max(0, width - 24) * appearance.dividerLength, height: 1)
+                            .frame(maxWidth: .infinity, alignment: appearance.alignment.frame)
+                            .padding(.top, 8)
+                            .padding(.bottom, appearance.dividerBottomPadding)
+                    }
+                    VStack(alignment: appearance.alignment.horizontal, spacing: appearance.linkSpacing) {
+                        ForEach(links) { shortcut in
+                            Link(destination: shortcut.widgetURL) {
+                                ShortcutLabel(shortcut: shortcut, size: appearance.linkSize, family: appearance.linkFontFamily, weight: appearance.linkWeight, iconSize: appearance.iconSize, iconGap: appearance.iconGap)
+                                    .multilineTextAlignment(appearance.alignment.text)
+                                    .contentShape(Rectangle())
                             }
-                            .fixedSize(horizontal: false, vertical: true)
+                            .buttonStyle(.plain)
+                            .frame(maxWidth: .infinity, alignment: appearance.alignment.frame)
+                            .help(shortcut.destination?.absoluteString ?? "")
                         }
                     }
-                    .frame(maxHeight: geometry.size.height * 0.46)
+                    .fixedSize(horizontal: false, vertical: true)
                     .padding(.bottom, 10)
                 }
             }
             .padding(.horizontal, 12)
             .foregroundStyle(appearance.automaticTextColor ? Color.primary : appearance.textColor.color)
-        }
+            .frame(width: width)
+            .fixedSize(horizontal: false, vertical: true)
     }
 
     private func clockText(width: CGFloat) -> some View {
@@ -99,7 +93,6 @@ struct ClockFace: View {
             .tracking(appearance.spacing)
             .shadow(color: .black.opacity(0.22), radius: 3, x: 0, y: 2)
             .lineLimit(1)
-            .minimumScaleFactor(0.2)
             .accessibilityLabel(date.formatted(date: .omitted, time: .shortened))
     }
 }

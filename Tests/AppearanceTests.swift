@@ -22,6 +22,7 @@ struct AppearanceTests {
         custom.linkSpacing = 28
         custom.dividerBrightness = 0.7
         custom.dividerLength = 0.6
+        custom.showDivider = false
         custom.alignment = .right
         custom.fontFamily = "Georgia"
         custom.automaticSize = false
@@ -50,12 +51,13 @@ struct AppearanceTests {
         legacy.removeValue(forKey: "savedLinkSpacing")
         legacy.removeValue(forKey: "savedDividerBrightness")
         legacy.removeValue(forKey: "savedDividerLength")
+        legacy.removeValue(forKey: "savedShowDivider")
         legacy["transparentBackground"] = false
         legacy["privateBackground"] = ["enabled": false, "style": 2]
         let migrated = try JSONDecoder().decode(ClockAppearance.self, from: JSONSerialization.data(withJSONObject: legacy))
         assert(migrated.shortcuts.isEmpty && migrated.fontFamily == custom.fontFamily && migrated.alignment == .center && migrated.linkSize == 16)
         assert(migrated.linkFontFamily == "System" && migrated.linkWeight == 4)
-        assert(migrated.dividerLength == 1)
+        assert(migrated.dividerLength == 1 && migrated.showDivider)
         assert(migrated.automaticLineHeight && migrated.clockLineHeight == 100)
         for value in [8.0, 240.0] {
             var boundary = custom

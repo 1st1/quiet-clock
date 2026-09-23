@@ -20,11 +20,6 @@ struct QuietClockApp {
 final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
     private var editor: NSWindow?
     private let desktop = DesktopClockController()
-    private var statusItem: NSStatusItem?
-
-    @objc private func toggleMove() { desktop.moving.toggle() }
-    @objc private func resetPosition() { desktop.resetPosition() }
-
     @objc func openApplication(_ event: NSAppleEventDescriptor, withReplyEvent reply: NSAppleEventDescriptor) {
         showSettings()
     }
@@ -52,17 +47,6 @@ final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         desktop.openSettings = { [weak self] in self?.showSettings() }
         desktop.start()
-        let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
-        item.button?.image = NSImage(systemSymbolName: "clock", accessibilityDescription: "Quiet Clock")
-        let menu = NSMenu()
-        for (title, action) in [("Settings…", #selector(showSettings)), ("Move / Lock Clock", #selector(toggleMove)), ("Reset Position", #selector(resetPosition))] {
-            let entry = menu.addItem(withTitle: title, action: action, keyEquivalent: "")
-            entry.target = self
-        }
-        menu.addItem(.separator())
-        menu.addItem(withTitle: "Quit Quiet Clock", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
-        item.menu = menu
-        statusItem = item
         if notification.userInfo?[NSApplication.launchIsDefaultUserInfoKey] as? Bool == true {
             showSettings()
         }
@@ -117,10 +101,7 @@ struct AppearanceEditor: View {
                         Slider(value: $desktop.width, in: 160...1200, step: 1) { Text("Width") }
                         Text("\(Int(desktop.width)) pt").monospacedDigit().frame(width: 58)
                     }
-                    HStack {
-                        Slider(value: $desktop.height, in: 80...1200, step: 1) { Text("Height") }
-                        Text("\(Int(desktop.height)) pt").monospacedDigit().frame(width: 58)
-                    }
+                    Text("Height follows the content automatically.").font(.caption).foregroundStyle(.secondary)
                     Button("Reset desktop position") { desktop.resetPosition() }
                     Picker("Alignment", selection: $appearance.alignment) {
                         ForEach(ClockAlignment.allCases, id: \.self) { Text($0.label).tag($0) }
@@ -139,7 +120,7 @@ struct AppearanceEditor: View {
                             Slider(value: $appearance.fontSize, in: ClockAppearance.clockSizeRange, step: 1) { Text("Font size") }
                             Text("\(Int(appearance.fontSize)) pt").monospacedDigit().frame(width: 52, alignment: .trailing)
                         }
-                        Text("Large text scales down when needed to fit the widget.").font(.caption).foregroundStyle(.secondary)
+                        Text("Font size stays fixed. Increase the window width if the clock is too wide.").font(.caption).foregroundStyle(.secondary)
                     }
                     Toggle("Automatic line height", isOn: $appearance.automaticLineHeight)
                     if !appearance.automaticLineHeight {
@@ -195,6 +176,7 @@ struct AppearanceEditor: View {
                         Slider(value: $appearance.linkSpacing, in: ClockAppearance.linkSpacingRange, step: 1) { Text("Link spacing") }
                         Text("\(Int(appearance.linkSpacing)) pt").monospacedDigit().frame(width: 42)
                     }
+                    Toggle("Show divider", isOn: $appearance.showDivider)
                     HStack {
                         Slider(value: $appearance.dividerLength, in: 0...1, step: 0.05) { Text("Divider length") }
                         Text("\(Int((appearance.dividerLength * 100).rounded()))%").monospacedDigit().frame(width: 42)

@@ -86,6 +86,11 @@ struct ClockAppearance: Codable, Equatable {
         get { savedLinkSpacing ?? 12 }
         set { savedLinkSpacing = newValue }
     }
+    var savedShowDivider: Bool?
+    var showDivider: Bool {
+        get { savedShowDivider ?? true }
+        set { savedShowDivider = newValue }
+    }
     var savedDividerLength: Double?
     var dividerLength: Double {
         get { savedDividerLength ?? 1 }

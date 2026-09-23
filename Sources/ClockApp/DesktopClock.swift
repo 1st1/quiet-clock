@@ -2,23 +2,33 @@ import SwiftUI
 import AppKit
 
 final class DesktopPanel: NSPanel {
+    var contextMenu: (() -> NSMenu)?
+    override func sendEvent(_ event: NSEvent) {
+        if event.type == .rightMouseDown || (event.type == .leftMouseDown && event.modifierFlags.contains(.control)),
+           let view = contentView, let menu = contextMenu?() {
+            NSMenu.popUpContextMenu(menu, with: event, for: view)
+            return
+        }
+        super.sendEvent(event)
+    }
     override var canBecomeKey: Bool { false }
     override var canBecomeMain: Bool { false }
 }
 
 @MainActor
 final class DesktopClockController: NSObject, ObservableObject, NSWindowDelegate {
-    @Published var appearance = (try? AppearanceStore.shared.load()) ?? ClockAppearance()
-    @Published var date = Date()
+    @Published var appearance = (try? AppearanceStore.shared.load()) ?? ClockAppearance() { didSet { measureContent() } }
+    @Published var date = Date() { didSet { measureContent() } }
     @Published var moving = false
     @Published var width: Double = 344 { didSet { resize() } }
-    @Published var height: Double = 344 { didSet { resize() } }
+    @Published private(set) var height: Double = 344
     var openSettings: (() -> Void)?
     private var panel: DesktopPanel?
     private var timer: Timer?
     private let placements = DesktopPlacementStore()
     private var activeDisplays: [DesktopDisplay] = []
     private var restoring = false
+    private var contentHeight: CGFloat?
     private var displayChangeTask: Task<Void, Never>?
 
     private func connectedDisplays() -> [DesktopDisplay] {
@@ -45,7 +55,10 @@ final class DesktopClockController: NSObject, ObservableObject, NSWindowDelegate
         window.isReleasedWhenClosed = false
         window.level = NSWindow.Level(rawValue: Int(CGWindowLevelForKey(.desktopIconWindow)) + 1)
         window.collectionBehavior = [.canJoinAllSpaces, .stationary, .ignoresCycle]
-        window.contentView = NSHostingView(rootView: DesktopClockView(clock: self))
+        let hosting = NSHostingView(rootView: DesktopClockView(clock: self))
+        hosting.sizingOptions = []
+        window.contentView = hosting
+        window.contextMenu = { [weak self] in self?.makeContextMenu() ?? NSMenu() }
         window.delegate = self
         panel = window
         window.orderFrontRegardless()
@@ -75,10 +88,31 @@ final class DesktopClockController: NSObject, ObservableObject, NSWindowDelegate
         guard let panel, !restoring else { return }
         let frame = NSRect(x: panel.frame.minX, y: panel.frame.maxY - height, width: width, height: height)
         applyFrame(DesktopGeometry.fit(frame, screens: NSScreen.screens.map(\.visibleFrame)))
+        measureContent()
         saveFrame()
     }
-    private func applyFrame(_ frame: NSRect) {
+    private func measureContent() {
+        guard panel != nil, !restoring else { return }
+        let measuringView = NSHostingView(rootView: ClockFace(date: date, appearance: appearance, width: width))
+        fitContentHeight(measuringView.fittingSize.height)
+    }
+    private func fitContentHeight(_ measured: CGFloat) {
+        guard measured.isFinite, measured > 0, let panel, !restoring else { return }
+        let desired = ceil(measured)
+        contentHeight = desired
+        guard abs(panel.frame.height - desired) >= 1 else { return }
+        // Grow downward without feeding the window height back into text layout.
+        applyFrame(NSRect(x: panel.frame.minX, y: panel.frame.maxY - desired,
+                          width: panel.frame.width, height: desired))
+        saveFrame()
+    }
+    private func applyFrame(_ proposed: NSRect) {
         guard let panel else { return }
+        var frame = proposed
+        if let contentHeight {
+            frame.origin.y = proposed.maxY - contentHeight
+            frame.size.height = contentHeight
+        }
         restoring = true
         panel.setFrame(frame, display: true)
         width = frame.width; height = frame.height
@@ -95,6 +129,7 @@ final class DesktopClockController: NSObject, ObservableObject, NSWindowDelegate
                 ?? DesktopGeometry.fit(panel.frame, screens: displays.map(\.frame))
             activeDisplays = displays
             applyFrame(frame)
+            measureContent()
             displayChangeTask = nil
             saveFrame()
         }
@@ -114,6 +149,20 @@ final class DesktopClockController: NSObject, ObservableObject, NSWindowDelegate
         guard !restoring, displayChangeTask == nil, activeDisplays == connectedDisplays(), let panel else { return }
         placements.save(panel.frame, for: activeDisplays)
     }
+    private func makeContextMenu() -> NSMenu {
+        let menu = NSMenu()
+        let move = menu.addItem(withTitle: moving ? "Lock Position" : "Move Clock (Drag & Drop)",
+                                action: #selector(toggleMoving), keyEquivalent: "")
+        move.target = self
+        let settings = menu.addItem(withTitle: "Settings…", action: #selector(showSettings), keyEquivalent: "")
+        settings.target = self
+        menu.addItem(.separator())
+        let quit = menu.addItem(withTitle: "Quit Quiet Clock", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "")
+        quit.target = NSApplication.shared
+        return menu
+    }
+    @objc private func toggleMoving() { moving.toggle() }
+    @objc private func showSettings() { openSettings?() }
     func open(_ url: URL) {
         switch ClockRoute.parse(url) {
         case .settings: openSettings?()
@@ -126,14 +175,14 @@ final class DesktopClockController: NSObject, ObservableObject, NSWindowDelegate
 private struct DesktopClockView: View {
     @ObservedObject var clock: DesktopClockController
     var body: some View {
-        ClockFace(date: clock.date, appearance: clock.appearance)
+        ClockFace(date: clock.date, appearance: clock.appearance, width: clock.width)
             .environment(\.openURL, OpenURLAction { clock.open($0); return .handled })
             .allowsHitTesting(!clock.moving)
             .overlay {
                 if clock.moving {
                     ZStack(alignment: .top) {
                         RoundedRectangle(cornerRadius: 12).stroke(.white.opacity(0.6), style: StrokeStyle(lineWidth: 1, dash: [4]))
-                        Text("Drag to move · lock from the menu bar")
+                        Text("Drag to move · right-click to lock")
                             .font(.caption).padding(6).background(.black.opacity(0.7)).foregroundStyle(.white)
                         DragSurface()
                     }
