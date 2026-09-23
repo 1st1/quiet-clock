@@ -2,6 +2,16 @@
 
 Quiet Clock is an always-running macOS accessory app with a transparent desktop window. AppKit owns the window and SwiftUI renders the clock, links, and settings without WidgetKit or private background hooks.
 
+## Why not WidgetKit
+
+Quiet Clock uses its own desktop window because the native widget host did not reliably preserve a fully transparent, visually quiet clock during minute updates. An always-running app is an accepted tradeoff.
+
+On the tested macOS 27 setup, the transparent WidgetKit clock repeatedly showed glass-like top and bottom borders as the time advanced. Disabling content animations and changing how time updates were delivered did not eliminate the effect. The exact system-rendering cause was not established; this is an observed limitation of our transparent widget, not a claim that all WidgetKit clocks behave this way.
+
+Private widget descriptor hooks could remove the background, but depended on undocumented behavior and cached host configuration. They did not provide consistent border-free updates. WidgetKit also owns refresh scheduling and preset widget sizes, limiting direct control over updates and content-driven height.
+
+The chosen AppKit panel owns its transparent surface and layout, bypassing that widget-host rendering path. Native widget-gallery integration is no longer a requirement; stable appearance takes priority. The app must remain running, manages its own placement, and uses a single minute-boundary timer. It no longer ships a widget extension or private transparency hooks. See [[architecture#Architecture#Transparent background]], [[architecture#Architecture#Scheduling]], and [[architecture#Architecture#Packaging]].
+
 ## Clock appearance
 
 The clock shows localized hours and minutes, configurable typography, text color, and optional shortcut links. Defaults use light rounded type, monospaced digits, and a subtle text shadow.
