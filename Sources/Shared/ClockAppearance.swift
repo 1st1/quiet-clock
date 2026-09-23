@@ -23,15 +23,46 @@ struct ClockAppearance: Codable, Equatable {
     var automaticTextColor = true
     var textColor = ClockRGB(red: 1, green: 1, blue: 1)
     // Optional storage keeps appearance files from earlier versions readable.
+    var savedLinkFontFamily: String?
+    var linkFontFamily: String {
+        get { savedLinkFontFamily ?? "System" }
+        set { savedLinkFontFamily = newValue }
+    }
+    var savedLinkWeight: Int?
+    var linkWeight: Int {
+        get { savedLinkWeight ?? 4 }
+        set { savedLinkWeight = newValue }
+    }
     var savedLinkSize: Double?
     var linkSize: Double {
         get { savedLinkSize ?? 16 }
-        set { savedLinkSize = newValue }
+        set {
+            // Preserve the existing icon size when adjusting text in older settings.
+            if savedIconSize == nil { savedIconSize = linkSize }
+            savedLinkSize = newValue
+        }
     }
+    var savedIconSize: Double?
+    var iconSize: Double {
+        get { savedIconSize ?? linkSize }
+        set { savedIconSize = newValue }
+    }
+    var savedIconGap: Double?
+    var iconGap: Double {
+        get { savedIconGap ?? 5 }
+        set { savedIconGap = newValue }
+    }
+    static let iconSizeRange = 8.0...64.0
+    static let iconGapRange = 0.0...32.0
     var savedLinkSpacing: Double?
     var linkSpacing: Double {
         get { savedLinkSpacing ?? 12 }
         set { savedLinkSpacing = newValue }
+    }
+    var savedDividerLength: Double?
+    var dividerLength: Double {
+        get { savedDividerLength ?? 1 }
+        set { savedDividerLength = newValue }
     }
     var savedDividerBrightness: Double?
     var dividerBrightness: Double {
@@ -60,8 +91,13 @@ struct ClockAppearance: Codable, Equatable {
         !fontFamily.isEmpty && fontFamily.count <= 200 && fontSize.isFinite && Self.clockSizeRange.contains(fontSize)
             && (0..<Self.weightNames.count).contains(weight)
             && spacing.isFinite && (-8...16).contains(spacing)
+            && !linkFontFamily.isEmpty && linkFontFamily.count <= 200
+            && (0..<Self.weightNames.count).contains(linkWeight)
             && linkSize.isFinite && Self.linkSizeRange.contains(linkSize)
+            && iconSize.isFinite && Self.iconSizeRange.contains(iconSize)
+            && iconGap.isFinite && Self.iconGapRange.contains(iconGap)
             && linkSpacing.isFinite && Self.linkSpacingRange.contains(linkSpacing)
+            && dividerLength.isFinite && (0...1).contains(dividerLength)
             && dividerBrightness.isFinite && (0...1).contains(dividerBrightness)
             && textColor.isValid && shortcuts.count <= 6 && shortcuts.allSatisfy(\.isValid)
             && Set(shortcuts.map(\.id)).count == shortcuts.count

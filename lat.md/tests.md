@@ -18,7 +18,7 @@ The build compiles both Swift executables, embeds the extension, applies sandbox
 
 ## Appearance persistence
 
-Settings tests verify persistence, compatibility with older appearance files, rejection of invalid values and corrupt data, preservation after invalid writes, and restoration of defaults.
+Settings tests verify persistence of typography, icon layout, and divider settings, compatibility with older appearance files, rejection of invalid values and corrupt data, preservation after invalid writes, and restoration of defaults.
 
 [AppearanceTests.swift](../Tests/AppearanceTests.swift) runs through [test.sh](../scripts/test.sh) using isolated temporary storage. [AppearanceSandboxProbe.swift](../Tests/AppearanceSandboxProbe.swift), run by [test-sandbox.sh](../scripts/test-sandbox.sh), verifies signed app-to-widget sharing and rejects writes using widget entitlements.
 

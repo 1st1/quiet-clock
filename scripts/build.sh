@@ -16,7 +16,7 @@ for path, executable, identifier, package in [
 ]:
     info = dict(CFBundleExecutable=executable, CFBundleIdentifier=identifier,
                 CFBundleName='Quiet Clock', CFBundleDisplayName='Quiet Clock',
-                CFBundlePackageType=package, CFBundleVersion='16',
+                CFBundlePackageType=package, CFBundleVersion='18',
                 CFBundleShortVersionString='1.1', LSMinimumSystemVersion='14.0',
                 CFBundleDevelopmentRegion='en', NSHumanReadableCopyright='')
     if package == 'XPC!':

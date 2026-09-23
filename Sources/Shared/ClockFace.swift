@@ -13,14 +13,18 @@ extension ClockRGB {
 
 extension ClockAppearance {
     func font(size: Double) -> Font {
+        Self.typeface(family: fontFamily, weight: weight, size: size)
+    }
+
+    static func typeface(family: String, weight: Int, size: Double) -> Font {
         let weights: [Font.Weight] = [.ultraLight, .thin, .light, .regular, .medium, .semibold, .bold, .heavy, .black]
         let selectedWeight = min(8, max(0, weight))
         let designs: [String: Font.Design] = ["System Rounded": .rounded, "System": .default, "System Serif": .serif, "System Monospaced": .monospaced]
-        if let design = designs[fontFamily] {
+        if let design = designs[family] {
             return .system(size: size, weight: weights[selectedWeight], design: design)
         }
         let nativeWeights = [1, 2, 3, 5, 6, 7, 9, 10, 12]
-        if let native = NSFontManager.shared.font(withFamily: fontFamily, traits: [], weight: nativeWeights[selectedWeight], size: size) {
+        if let native = NSFontManager.shared.font(withFamily: family, traits: [], weight: nativeWeights[selectedWeight], size: size) {
             return Font(native)
         }
         return .system(size: size, weight: weights[selectedWeight], design: .rounded)
@@ -50,13 +54,15 @@ struct ClockFace: View {
                 if !links.isEmpty {
                     DottedDivider()
                         .stroke(style: StrokeStyle(lineWidth: 1, lineCap: .round, dash: [1, 4]))
-                        .opacity(appearance.dividerBrightness).frame(height: 1)
+                        .opacity(appearance.dividerLength == 0 ? 0 : appearance.dividerBrightness)
+                        .frame(width: max(0, geometry.size.width - 24) * appearance.dividerLength, height: 1)
+                        .frame(maxWidth: .infinity, alignment: appearance.alignment.frame)
                     ViewThatFits(in: .vertical) {
                         ForEach([1.0, 0.85, 0.7, 0.55, 0.4, 0.3, 0.2], id: \.self) { scale in
                             VStack(alignment: appearance.alignment.horizontal, spacing: appearance.linkSpacing * scale) {
                                 ForEach(links) { shortcut in
                                     Link(destination: shortcut.widgetURL) {
-                                        ShortcutLabel(shortcut: shortcut, size: appearance.linkSize, scale: scale)
+                                        ShortcutLabel(shortcut: shortcut, size: appearance.linkSize, scale: scale, family: appearance.linkFontFamily, weight: appearance.linkWeight, iconSize: appearance.iconSize, iconGap: appearance.iconGap)
                                             .multilineTextAlignment(appearance.alignment.text)
                                             .contentShape(Rectangle())
                                     }
@@ -130,13 +136,17 @@ struct ShortcutLabel: View {
     let shortcut: ClockShortcut
     var size = 16.0
     var scale = 1.0
+    var family = "System"
+    var weight = 4
+    var iconSize = 16.0
+    var iconGap = 5.0
     var body: some View {
-        HStack(spacing: 5) {
+        HStack(spacing: iconGap * scale) {
             if shortcut.display != .text {
-                ServiceIconView(name: shortcut.icon).frame(width: size * scale, height: size * scale)
+                ServiceIconView(name: shortcut.icon).frame(width: iconSize * scale, height: iconSize * scale)
             }
             if shortcut.display != .icon {
-                Text(shortcut.title).font(.system(size: size * scale, weight: .medium))
+                Text(shortcut.title).font(ClockAppearance.typeface(family: family, weight: weight, size: size * scale))
                     .lineLimit(nil).fixedSize(horizontal: false, vertical: true)
             }
         }

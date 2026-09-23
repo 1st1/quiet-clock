@@ -153,13 +153,33 @@ struct AppearanceEditor: View {
                     }
                 }
                 Section("Shortcuts") {
+                    Picker("Link font", selection: $appearance.linkFontFamily) {
+                        ForEach(ClockAppearance.systemFamilies, id: \.self) { Text($0).tag($0) }
+                        Divider()
+                        ForEach(families, id: \.self) { Text($0).tag($0) }
+                    }
+                    Picker("Link weight", selection: $appearance.linkWeight) {
+                        ForEach(0..<ClockAppearance.weightNames.count, id: \.self) { Text(ClockAppearance.weightNames[$0]).tag($0) }
+                    }
                     HStack {
-                        Slider(value: $appearance.linkSize, in: ClockAppearance.linkSizeRange, step: 1) { Text("All link sizes") }
+                        Slider(value: $appearance.linkSize, in: ClockAppearance.linkSizeRange, step: 1) { Text("Link text size") }
                         Text("\(Int(appearance.linkSize)) pt").monospacedDigit().frame(width: 42)
+                    }
+                    HStack {
+                        Slider(value: $appearance.iconSize, in: ClockAppearance.iconSizeRange, step: 1) { Text("Icon size") }
+                        Text("\(Int(appearance.iconSize)) pt").monospacedDigit().frame(width: 42)
+                    }
+                    HStack {
+                        Slider(value: $appearance.iconGap, in: ClockAppearance.iconGapRange, step: 1) { Text("Icon–text gap") }
+                        Text("\(Int(appearance.iconGap)) pt").monospacedDigit().frame(width: 42)
                     }
                     HStack {
                         Slider(value: $appearance.linkSpacing, in: ClockAppearance.linkSpacingRange, step: 1) { Text("Link spacing") }
                         Text("\(Int(appearance.linkSpacing)) pt").monospacedDigit().frame(width: 42)
+                    }
+                    HStack {
+                        Slider(value: $appearance.dividerLength, in: 0...1, step: 0.05) { Text("Divider length") }
+                        Text("\(Int((appearance.dividerLength * 100).rounded()))%").monospacedDigit().frame(width: 42)
                     }
                     HStack {
                         Slider(value: $appearance.dividerBrightness, in: 0...1, step: 0.05) { Text("Divider brightness") }
@@ -169,6 +189,8 @@ struct AppearanceEditor: View {
                         .font(.caption).foregroundStyle(.secondary)
                     ForEach($appearance.shortcuts) { $shortcut in
                         ShortcutEditor(shortcut: $shortcut, linkSize: appearance.linkSize,
+                            linkFontFamily: appearance.linkFontFamily, linkWeight: appearance.linkWeight,
+                            iconSize: appearance.iconSize, iconGap: appearance.iconGap,
                             moveUp: { moveShortcut(shortcut.id, by: -1) },
                             moveDown: { moveShortcut(shortcut.id, by: 1) },
                             canMoveUp: appearance.shortcuts.first?.id != shortcut.id,
