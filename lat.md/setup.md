@@ -25,6 +25,12 @@ Choose clock and link fonts, weights, sizes, alignment, text color, line height,
 
 The background is always clear. A dashed outline appears only in move mode. Ordinary app windows cover the clock; it follows desktop Spaces, but is not intended to float above full-screen apps. Choose **Quit Quiet Clock** from the right-click menu to remove the clock. There is no menu-bar or Dock icon, and left-clicking the time does nothing.
 
+## Desktop corners
+
+Open settings and select **Desktop Corners** to add black rounded wallpaper corners independently to each connected display.
+
+Enable **Rounded corners** for a monitor and adjust **Corner radius** from 1–200 pt. Settings save automatically per physical monitor and return when it reconnects. New monitors start disabled with a 17 pt radius. Existing saved radii are preserved. Masks ignore clicks and remain behind application windows, the menu bar, and Dock. The radius uses points, so Retina displays scale naturally. Disable a monitor’s switch to remove its four masks. Clock appearance and Reset are independent of these settings; quitting Quiet Clock removes all masks.
+
 ## Validate
 
 Run automated checks before interactive desktop verification. The sandbox probe uses a disposable file and preserves your appearance.

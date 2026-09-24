@@ -17,3 +17,6 @@ build/DesktopGeometryTests
 xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
     Sources/Shared/ClockTime.swift Sources/Shared/ClockShortcut.swift Sources/Shared/ClockAppearance.swift Sources/Shared/ClockFace.swift Tests/ClockLayoutTests.swift -o build/ClockLayoutTests
 build/ClockLayoutTests
+xcrun swiftc -parse-as-library -module-cache-path "$PWD/build/module-cache" \
+    Sources/Shared/DesktopCorners.swift Tests/DesktopCornersTests.swift -o build/DesktopCornersTests
+build/DesktopCornersTests

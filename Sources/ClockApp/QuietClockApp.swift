@@ -20,6 +20,7 @@ struct QuietClockApp {
 final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
     private var editor: NSWindow?
     private let desktop = DesktopClockController()
+    private let corners = DesktopCornersController()
     @objc func openApplication(_ event: NSAppleEventDescriptor, withReplyEvent reply: NSAppleEventDescriptor) {
         showSettings()
     }
@@ -47,6 +48,7 @@ final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         desktop.openSettings = { [weak self] in self?.showSettings() }
         desktop.start()
+        corners.start()
         if notification.userInfo?[NSApplication.launchIsDefaultUserInfoKey] as? Bool == true {
             showSettings()
         }
@@ -71,7 +73,7 @@ final class ClockApplicationDelegate: NSObject, NSApplicationDelegate {
     }
     @objc private func showSettings() {
         if editor == nil {
-            let controller = NSHostingController(rootView: AppearanceEditor(desktop: desktop))
+            let controller = NSHostingController(rootView: ClockPreferences(desktop: desktop, corners: corners))
             let window = NSWindow(contentViewController: controller)
             window.title = "Quiet Clock"
             window.styleMask = [.titled, .closable, .miniaturizable]

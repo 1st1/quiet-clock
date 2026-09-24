@@ -12,7 +12,7 @@ python3 - "$APP" <<'PLIST'
 import pathlib, plistlib, sys
 info = dict(CFBundleExecutable='QuietClock', CFBundleIdentifier='local.quietclock.app',
             CFBundleName='Quiet Clock', CFBundleDisplayName='Quiet Clock',
-            CFBundlePackageType='APPL', CFBundleVersion='31',
+            CFBundlePackageType='APPL', CFBundleVersion='32',
             CFBundleShortVersionString='2.0', LSMinimumSystemVersion='14.0',
             CFBundleDevelopmentRegion='en', NSPrincipalClass='NSApplication', LSUIElement=True,
             CFBundleURLTypes=[dict(CFBundleURLName='local.quietclock.shortcuts', CFBundleURLSchemes=['quietclock'])])

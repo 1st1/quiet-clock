@@ -55,3 +55,9 @@ Check cold app launch, URL settings launch, and an already-running app. Shortcut
 Native SwiftUI measurements verify that line height adds space, larger fonts increase natural height, links wrap at fixed size, and hiding the divider removes its line and padding.
 
 [[Tests/ClockLayoutTests.swift#ClockLayoutTests#main|ClockLayoutTests]] uses AppKit hosting views through [test.sh](../scripts/test.sh). Manually change clock font size, line height, link size, width, and padding: the panel should resize downward without moving its top edge or scaling labels. Check auto-height after restoring monitor profiles and after changing divider visibility.
+
+## Desktop corner masks
+
+Tests verify four-corner placement, negative display coordinates, radius clamping, black outer corners with transparent interiors, per-monitor persistence, and invalid-setting rejection.
+
+[[Tests/DesktopCornersTests.swift#DesktopCornersTests#main|Corner tests]] run through [test.sh](../scripts/test.sh). Manually enable two monitors with different radii, check all four corners on each, disable one, and reconnect it to verify saved preferences. Confirm masks stay click-through and below app windows, preserve keyboard focus, follow display rearrangement and Retina scaling, and disappear when the app quits. Confirm the Clock tab preserves existing settings and its Reset does not reset corners.
