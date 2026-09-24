@@ -6,7 +6,7 @@ Automated checks cover time calculations, placement, persistence, URLs, icons, a
 
 Tests verify locale-aware hours/minutes, midnight rollover, and future minute boundaries, including an exact boundary and fractional seconds.
 
-[ClockTimeTests.swift](../Tests/ClockTimeTests.swift) runs through [test.sh](../scripts/test.sh). Runtime checks must also cover sleep/wake and changes to system time, locale, or time zone.
+[[Tests/ClockTimeTests.swift#ClockTimeTests#main|ClockTimeTests]] runs through [test.sh](../scripts/test.sh). Runtime checks must also cover sleep/wake and changes to system time, locale, or time zone.
 
 ## Native build
 
@@ -18,7 +18,7 @@ The build compiles one application, applies sandbox entitlements, verifies signi
 
 Tests cover persisted typography/layout/links, legacy defaults, divider visibility, numeric bounds, corrupt files, invalid-write preservation, and Reset.
 
-[AppearanceTests.swift](../Tests/AppearanceTests.swift) uses isolated storage. [AppearanceSandboxProbe.swift](../Tests/AppearanceSandboxProbe.swift) verifies signed app access to a disposable settings file through [test-sandbox.sh](../scripts/test-sandbox.sh).
+[[Tests/AppearanceTests.swift#AppearanceTests#main|AppearanceTests]] uses isolated storage. [[Tests/AppearanceSandboxProbe.swift#AppearanceSandboxProbe#main|AppearanceSandboxProbe]] verifies signed app access to a disposable settings file through [test-sandbox.sh](../scripts/test-sandbox.sh).
 
 ## Appearance interaction
 
@@ -30,13 +30,13 @@ Verify there are no previews, Apply buttons, or background controls. All setting
 
 Placement tests cover monitor-group persistence, order-independent identity, display rearrangement, disconnected-display recovery, oversized frames, and malformed sizes. Manual checks cover transparency and desktop interaction.
 
-[DesktopGeometryTests.swift](../Tests/DesktopGeometryTests.swift) runs through [test.sh](../scripts/test.sh). Verify moving, locking, resizing, position restoration after relaunch, and display changes. Save distinct placements with and without an external monitor, reconnect each group, and verify its previous position and width return while height follows current content. Change the primary display or arrangement and check that placement follows the same monitor. During connection changes, automatic OS window movement must not overwrite either group. Automated tests exercise independent profiles, reloading preferences, changed origins, same-count different-monitor groups, and resolution clamping. Normal app windows should cover the clock; desktop Spaces should show it. Only move mode should show an outline. Observe several minute boundaries for unwanted borders or animations. Check that closing settings keeps the clock running and Quit removes it.
+[[Tests/DesktopGeometryTests.swift#DesktopGeometryTests#main|DesktopGeometryTests]] runs through [test.sh](../scripts/test.sh). Verify moving, locking, resizing, position restoration after relaunch, and display changes. Save distinct placements with and without an external monitor, reconnect each group, and verify its previous position and width return while height follows current content. Change the primary display or arrangement and check that placement follows the same monitor. During connection changes, automatic OS window movement must not overwrite either group. Automated tests exercise independent profiles, reloading preferences, changed origins, same-count different-monitor groups, and resolution clamping. Normal app windows should cover the clock; desktop Spaces should show it. Only move mode should show an outline. Observe several minute boundaries for unwanted borders or animations. Check that closing settings keeps the clock running and Quit removes it.
 
 ## Shortcut links
 
 Tests cover website normalization, unsafe schemes, credentials, stable routing, duplicate IDs, draft persistence, and the six-link limit.
 
-[ShortcutTests.swift](../Tests/ShortcutTests.swift) runs through [test.sh](../scripts/test.sh). Manually check icon/text/both modes, all alignments, long wrapping labels, one link per row, divider visibility, and browser handoff. Move mode intentionally disables links until locked. With another app active, verify hovering links preserves keyboard focus and clicking still opens the browser. A hand cursor is not expected on the nonactivating desktop panel.
+[[Tests/ShortcutTests.swift#ShortcutTests#main|ShortcutTests]] runs through [test.sh](../scripts/test.sh). Manually check icon/text/both modes, all alignments, long wrapping labels, one link per row, divider visibility, and browser handoff. Move mode intentionally disables links until locked. With another app active, verify hovering links preserves keyboard focus and clicking still opens the browser. A hand cursor is not expected on the nonactivating desktop panel.
 
 ## Bundled service icons
 
@@ -54,4 +54,4 @@ Check cold app launch, URL settings launch, and an already-running app. Shortcut
 
 Native SwiftUI measurements verify that line height adds space, larger fonts increase natural height, links wrap at fixed size, and hiding the divider removes its line and padding.
 
-[ClockLayoutTests.swift](../Tests/ClockLayoutTests.swift) uses AppKit hosting views through [test.sh](../scripts/test.sh). Manually change clock font size, line height, link size, width, and padding: the panel should resize downward without moving its top edge or scaling labels. Check auto-height after restoring monitor profiles and after changing divider visibility.
+[[Tests/ClockLayoutTests.swift#ClockLayoutTests#main|ClockLayoutTests]] uses AppKit hosting views through [test.sh](../scripts/test.sh). Manually change clock font size, line height, link size, width, and padding: the panel should resize downward without moving its top edge or scaling labels. Check auto-height after restoring monitor profiles and after changing divider visibility.
